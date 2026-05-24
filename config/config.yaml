@@ -143,7 +143,7 @@ generator:
   llm_type: "openai"
   llm_model: "deepseek-chat"
   llm_api_base: "https://api.deepseek.com/v1"
-  llm_api_key: "sk-66f4d3e0bf8e421ba3a7e250f9bc3d2c"
+  llm_api_key: "sk-  "
   temperature: 0.1
   max_tokens: 2048
   
