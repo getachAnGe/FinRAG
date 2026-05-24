@@ -138,8 +138,7 @@ python scripts/compare_reranker.py
 | 方案 | Recall@5 | 回答准确率 |
 |------|----------|-----------|
 | 直接取 Top-5 | 50.0% | 55.0% |
-| Reranker + Top-5 | **65.7%** | **65.0%** |
-| QueryRewrite + Reranker | 62.9% | 65.0% |
+| Reranker + Top-5 | **85.7%** | **80.0%** |
 
 ## 主要优化策略
 
