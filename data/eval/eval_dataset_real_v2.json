@@ -1,0 +1,1211 @@
+{
+  "metadata": {
+    "total_samples": 120,
+    "fact_samples": 113,
+    "comparison_samples": 7,
+    "summary_samples": 0,
+    "description": "基于真实研报内容构建的评测集，每个问题都有实际文档支撑"
+  },
+  "samples": [
+    {
+      "query": "华策影视的总资产是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "一期经审计总资产的 50%及以上，本次交易事项属于公司董事会决策权限， 无需提交公司股东会审议，该项交易目前不存在需要履行的其他审批程序，亦不 存在重大法律障碍。 二、交",
+      "source_file": "传媒_华策影视_同花顺_2.pdf",
+      "page_num": 1,
+      "company": "华策影视",
+      "indicator": "总资产",
+      "query_id": "q_0001"
+    },
+    {
+      "query": "老白干酒的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "原因为本期研发投入减少所致 经营活动产生的现金流量净额变动原因说明：主要原因为本期销售商品提供劳务收到的现金减少 所致 投资活动产生的现金流量净额变动原因说明：主要原因为",
+      "source_file": "白酒_老白干酒_同花顺_6.pdf",
+      "page_num": 14,
+      "company": "老白干酒",
+      "indicator": "研发投入",
+      "query_id": "q_0002"
+    },
+    {
+      "query": "天威视讯的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "4% 4、研发投入 适用 □不适用 预计对公司未来发展 主要研发项目名称 项目目的 项目进展 拟达到的目标 的影响 4K超高清播出系统开 发建设标志着公司有 根据国家广",
+      "source_file": "传媒_天威视讯_同花顺_4.pdf",
+      "page_num": 21,
+      "company": "天威视讯",
+      "indicator": "研发投入",
+      "query_id": "q_0003"
+    },
+    {
+      "query": "泸州老窖的经营性现金流是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "。 14、经营活动产生的现金流量净额比去年同期增加1,235,278,414.44元，增幅37.35%，主要系经营活动现金流出减少 影响所致。 15、投资活动产生的现金流",
+      "source_file": "白酒_泸州老窖_同花顺_1.pdf",
+      "page_num": 3,
+      "company": "泸州老窖",
+      "indicator": "经营活动现金流",
+      "query_id": "q_0004"
+    },
+    {
+      "query": "紫光国微的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "（%）  营业收入（元）  1,499,087,278.85  1,026,019,465.84  46.11%  归属于上市公司股东的净利润（元）  334,300,5",
+      "source_file": "半导体_紫光国微_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "紫光国微",
+      "indicator": "营业收入",
+      "query_id": "q_0005"
+    },
+    {
+      "query": "紫光国微的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "上年增减 资产负债率 27.40% 28.44% -1.04pct 扣除非经常性损益后净利润 121,844.17 92,610.06 31.57% EBITDA全部债务",
+      "source_file": "半导体_紫光国微_同花顺_5.pdf",
+      "page_num": 5,
+      "company": "紫光国微",
+      "indicator": "资产负债率",
+      "query_id": "q_0006"
+    },
+    {
+      "query": "北京君正的总资产是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "（%） 总资产（元） 13,826,734,613.11 13,573,205,293.47 1.87% 归属于上市公司股东的所有 12,715,487,042.18",
+      "source_file": "半导体_北京君正_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "北京君正",
+      "indicator": "总资产",
+      "query_id": "q_0007"
+    },
+    {
+      "query": "华录百纳的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "。  4、研发投入  □适用 不适用  5、现金流  单位：元  项目  2025年  2024年  同比增减  经营活动现金流入小计  963,135,565.83",
+      "source_file": "传媒_华录百纳_同花顺_5.pdf",
+      "page_num": 17,
+      "company": "华录百纳",
+      "indicator": "研发投入",
+      "query_id": "q_0008"
+    },
+    {
+      "query": "格力电器的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "行。 2、净资产收益率及每股收益 每股收益 加权平均净资产收 报告期利润 益率（%） 基本每股收益 稀释每股收益 归属于公司普通股股东的净利润 20.30 5.20 5.",
+      "source_file": "消费_格力电器_同花顺_6.pdf",
+      "page_num": 219,
+      "company": "格力电器",
+      "indicator": "净资产收益率",
+      "query_id": "q_0009"
+    },
+    {
+      "query": "立讯精密的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "年订单量和毛利率目标数据？ 答：您好，我们AI 服务器产业规模比较小，重点是零部件。 68. 过度依赖单一海外客户，公司如何规避长期供应链重大风险？ 答：您好，请参考年报",
+      "source_file": "消费_立讯精密_同花顺_2.pdf",
+      "page_num": 11,
+      "company": "立讯精密",
+      "indicator": "毛利率",
+      "query_id": "q_0010"
+    },
+    {
+      "query": "华策影视的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "常性损益的净利润 55,439,355.11 71,890,802.88 -22.88% （元） 经营活动产生的现金流量净 -330,161,214.20 -69,047",
+      "source_file": "传媒_华策影视_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "华策影视",
+      "indicator": "净利润",
+      "query_id": "q_0011"
+    },
+    {
+      "query": "华闻集团和景嘉微的毛利率对比如何？",
+      "query_type": "comparison",
+      "ground_truth_answer": "华闻集团: 营业成本 毛利率比上年同期增 营业收入 营业成本 毛利率 比上年同 比上年同 减 期增减 期增减 分行业 传播与文化产业 254,484,384.56 247,794,2\n景嘉微: 成本比上 毛利率比上年 营业收入 营业成本 毛利率 年同期增减 年同期增减 同期增减 分行业 计算机、通信和其 720,064,627.80 379,041,542.45",
+      "source_file": "传媒_华闻集团_同花顺_6.pdf; 半导体_景嘉微_同花顺_5.pdf",
+      "page_num": "",
+      "company": "华闻集团,景嘉微",
+      "indicator": "毛利率",
+      "query_id": "q_0012"
+    },
+    {
+      "query": "歌华有线的经营性现金流是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "数据服务 经营活动产生的现金流量净额 976.35 平台（应用支撑部分）项目第二笔 款所致。 主要系确认国家文化大数据服务 基本每股收益（元/股） 96.76 平台（应用",
+      "source_file": "传媒_歌华有线_同花顺_1.pdf",
+      "page_num": 4,
+      "company": "歌华有线",
+      "indicator": "经营活动现金流",
+      "query_id": "q_0013"
+    },
+    {
+      "query": "北方华创的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "元） 基本每股收益（元/股） 2.2556 2.1935 2.83% 稀释每股收益（元/股） 2.2549 2.1933 2.81% 加权平均净资产收益率 4.25% 4",
+      "source_file": "半导体_北方华创_同花顺_1.pdf",
+      "page_num": 1,
+      "company": "北方华创",
+      "indicator": "每股收益",
+      "query_id": "q_0014"
+    },
+    {
+      "query": "北方华创的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "-3月公司营业收入103.23亿元，同比增长25.80%，主要原因为：公司集成电路装备领域刻蚀、薄膜沉积、 热处理、湿法清洗、离子注入、涂胶显影、键合等多款设备市占率稳步",
+      "source_file": "半导体_北方华创_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "北方华创",
+      "indicator": "营业收入",
+      "query_id": "q_0015"
+    },
+    {
+      "query": "立讯精密的总资产是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "（%）  总资产（元）  325,616,587,672.16  306,537,675,786.42  6.22%  归属于上市公司股东的所有 88,867,637,2",
+      "source_file": "消费_立讯精密_同花顺_5.pdf",
+      "page_num": 1,
+      "company": "立讯精密",
+      "indicator": "总资产",
+      "query_id": "q_0016"
+    },
+    {
+      "query": "歌华有线的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "常性损益的净利润 经营活动产生的现金流量 37,528,827.18 3,486,677.34 976.35 净额 基本每股收益（元/股） 0.0486 0.0247 9",
+      "source_file": "传媒_歌华有线_同花顺_1.pdf",
+      "page_num": 1,
+      "company": "歌华有线",
+      "indicator": "净利润",
+      "query_id": "q_0017"
+    },
+    {
+      "query": "华谊兄弟的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "项目 1、营业收入：报告期内，公司营业收入较上年同期相比下降40.88%，主要是因为报告期内整体电 影票房不及同期，影院收入减少所致。 2、税金及附加：报告期内，公司税金",
+      "source_file": "传媒_华谊兄弟_同花顺_2.pdf",
+      "page_num": 5,
+      "company": "华谊兄弟",
+      "indicator": "营业收入",
+      "query_id": "q_0018"
+    },
+    {
+      "query": "歌华有线的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "净额 基本每股收益（元/股） 0.0486 0.0247 96.76 1 / 13 | 0                      | 1              |",
+      "source_file": "传媒_歌华有线_同花顺_1.pdf",
+      "page_num": 1,
+      "company": "歌华有线",
+      "indicator": "每股收益",
+      "query_id": "q_0019"
+    },
+    {
+      "query": "五粮液的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "加权平均净资产收益率 3.26% 10.28% 减少7.02个百分点 本报告期末 上年度末 本报告期末比上年度末增减（%） 总资产（元） 202,449,964,854",
+      "source_file": "白酒_五粮液_同花顺_3.pdf",
+      "page_num": 1,
+      "company": "五粮液",
+      "indicator": "净资产收益率",
+      "query_id": "q_0020"
+    },
+    {
+      "query": "中国长城的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "上年增减 资产负债率 61.86% 61.85% 0.01% 扣除非经常性损益后净利润 -65,013.33 -148,027.32 - EBITDA全部债务比 5.31",
+      "source_file": "半导体_中国长城_同花顺_2.pdf",
+      "page_num": 6,
+      "company": "中国长城",
+      "indicator": "资产负债率",
+      "query_id": "q_0021"
+    },
+    {
+      "query": "华录百纳的经营性现金流是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "（%）  经营活动产生的现金流量净额  -8,918.02  -1,217.30  -632.61 主要系报告期内公司项目规划及周期管理所致。  投资活动产生的现金流量净",
+      "source_file": "传媒_华录百纳_同花顺_2.pdf",
+      "page_num": 4,
+      "company": "华录百纳",
+      "indicator": "经营活动现金流",
+      "query_id": "q_0022"
+    },
+    {
+      "query": "中颖电子的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3% 基本每股收益（元/股） 0.0603 0.0455 32.53% 稀释每股收益（元/股） 0.0603 0.0448 34.60% 加权平均净资产收益率 1.14%",
+      "source_file": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "中颖电子",
+      "indicator": "每股收益",
+      "query_id": "q_0023"
+    },
+    {
+      "query": "伊利股份的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "减（%） 资产负债率（%） 61.51 62.91 -2.23 扣除非经常性损益后净利润 11,068,321,695.12 6,011,274,945.92 84.13",
+      "source_file": "消费_伊利股份_同花顺_2.pdf",
+      "page_num": 7,
+      "company": "伊利股份",
+      "indicator": "资产负债率",
+      "query_id": "q_0024"
+    },
+    {
+      "query": "绝味食品的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "约束，利用资产负债率监控资本。公司本期与上期资本管理目标、政策或程 序未发生变化。 本公司采用杠杆比率来管理资本，杠杆比率是指净负债和调整后资本加净负债的比率。净负 债包",
+      "source_file": "消费_绝味食品_同花顺_6.pdf",
+      "page_num": 202,
+      "company": "绝味食品",
+      "indicator": "资产负债率",
+      "query_id": "q_0025"
+    },
+    {
+      "query": "古井贡酒的总资产是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "（%）  总资产（元）  40,622,650,634.07  38,197,033,001.78  6.35%  归属于上市公司股东的所有者权益（元）  26,124,",
+      "source_file": "白酒_古井贡酒_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "古井贡酒",
+      "indicator": "总资产",
+      "query_id": "q_0026"
+    },
+    {
+      "query": "紫光国微的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "公司股东的净利润（元）  334,300,512.64  119,277,590.48  180.27%  归属于上市公司股东的扣除非经常性损 271,836,543.2",
+      "source_file": "半导体_紫光国微_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "紫光国微",
+      "indicator": "净利润",
+      "query_id": "q_0027"
+    },
+    {
+      "query": "歌华有线的总资产是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "度(%) 总资产 15,617,058,399.37 15,918,170,580.01 -1.89 归属于上市公司股东的所 12,774,844,247.62 12,7",
+      "source_file": "传媒_歌华有线_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "歌华有线",
+      "indicator": "总资产",
+      "query_id": "q_0028"
+    },
+    {
+      "query": "格力电器的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "元） 基本每股收益（元/股） 1.09 1.07 1.87% 稀释每股收益（元/股） 1.09 1.07 1.87% 加权平均净资产收益率 4.07% 4.21% 下降0",
+      "source_file": "消费_格力电器_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "每股收益",
+      "query_id": "q_0029"
+    },
+    {
+      "query": "亿纬锂能的经营性现金流是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "动原因  经营活动产生的现金流量净额   -365,647,426.63   892,143,948.57  -140.99%  支付供应商货款。    投资活动产生的现",
+      "source_file": "半导体_亿纬锂能_同花顺_4.pdf",
+      "page_num": 4,
+      "company": "亿纬锂能",
+      "indicator": "经营活动现金流",
+      "query_id": "q_0030"
+    },
+    {
+      "query": "绝味食品的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": ".61%，毛利率同比减少0.7 个百分点，主要系收入下降导致成本费用率上 升。 (1). 主营业务分行业、分产品、分地区、分销售模式情况 单位：元 币种：人民币 主营业务",
+      "source_file": "消费_绝味食品_同花顺_6.pdf",
+      "page_num": 21,
+      "company": "绝味食品",
+      "indicator": "毛利率",
+      "query_id": "q_0031"
+    },
+    {
+      "query": "中南文化的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "业成本比 毛利率比上   营业收入  营业成本  毛利率  上年同期增 上年同期增 年同期增减 减  减  百分点  分行业  机械制造  1,130,474,515.3",
+      "source_file": "传媒_中南文化_同花顺_5.pdf",
+      "page_num": 14,
+      "company": "中南文化",
+      "indicator": "毛利率",
+      "query_id": "q_0032"
+    },
+    {
+      "query": "双汇发展的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "肉制 品的毛利率是否还能维持当前水平，如何应对成本的大幅增加？   公司具有较为完整的产业链优势，当猪、鸡等原料价格上涨时，公司将按照“两 调一控”的经营方针，多措并举对",
+      "source_file": "消费_双汇发展_同花顺_8.pdf",
+      "page_num": 5,
+      "company": "双汇发展",
+      "indicator": "毛利率",
+      "query_id": "q_0033"
+    },
+    {
+      "query": "华录百纳的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "8  八、每股收益：      （一）基本每股收益  0.0142  -0.0009  （二）稀释每股收益  0.0142  -0.0009  本期发生同一控制下企业合并",
+      "source_file": "传媒_华录百纳_同花顺_2.pdf",
+      "page_num": 9,
+      "company": "华录百纳",
+      "indicator": "每股收益",
+      "query_id": "q_0034"
+    },
+    {
+      "query": "东方明珠的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "接或间接为资产负债率超过70%的被担保 0 对象提供的债务担保金额（D） 担保总额超过净资产50%部分的金额（E） 0 上述三项担保金额合计（C+D+E） 0 未到期担保",
+      "source_file": "传媒_东方明珠_同花顺_6.pdf",
+      "page_num": 95,
+      "company": "东方明珠",
+      "indicator": "资产负债率",
+      "query_id": "q_0035"
+    },
+    {
+      "query": "华闻集团和皖新传媒的经营活动现金流对比如何？",
+      "query_type": "comparison",
+      "ground_truth_answer": "华闻集团: 润（元） 经营活动产生的现金流量净额（元） 10,193,180.59 -22,411,114.50 145.48% 基本每股收益（元/股） -0.0140 -0.015\n皖新传媒: 的净利润 经营活动产生的现金流量净额 -215,532,428.13 -51,428,467.20 不适用 基本每股收益（元/股） 0.17 0.20 -15.00 稀释",
+      "source_file": "传媒_华闻集团_同花顺_2.pdf; 传媒_皖新传媒_同花顺_1.pdf",
+      "page_num": "",
+      "company": "华闻集团,皖新传媒",
+      "indicator": "经营活动现金流",
+      "query_id": "q_0036"
+    },
+    {
+      "query": "中南文化的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "公司股东的净利润（元）  26,333,726.08  48,559,352.89  -45.77%  归属于上市公司股东的扣除非经常性 2,727,947.57  12",
+      "source_file": "传媒_中南文化_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "中南文化",
+      "indicator": "净利润",
+      "query_id": "q_0037"
+    },
+    {
+      "query": "山西汾酒的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "行业情况 毛利率 营业收入比 营业成本比 毛利率比上年增减 分行业 营业收入 营业成本 （%） 上年增减（%）上年增减（%） （%） 食品制造业 38,592,734,4",
+      "source_file": "白酒_山西汾酒_同花顺_7.pdf",
+      "page_num": 10,
+      "company": "山西汾酒",
+      "indicator": "毛利率",
+      "query_id": "q_0038"
+    },
+    {
+      "query": "欧派家居的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "%） 基本每股收益（元／股） 3.3 4.29 -23.08 稀释每股收益（元／股） 3.2 4.23 -24.35 扣除非经常性损益后的基本每股 2.86 3.82 -",
+      "source_file": "消费_欧派家居_同花顺_1.pdf",
+      "page_num": 16,
+      "company": "欧派家居",
+      "indicator": "每股收益",
+      "query_id": "q_0039"
+    },
+    {
+      "query": "中南文化的经营性现金流是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": ".75  经营活动产生的现金流量净额  -74,812,763.65  -110,343,638.97      二、投资活动产生的现金流量：  收回投资收到的现金  1",
+      "source_file": "传媒_中南文化_同花顺_1.pdf",
+      "page_num": 9,
+      "company": "中南文化",
+      "indicator": "经营活动现金流",
+      "query_id": "q_0040"
+    },
+    {
+      "query": "洋河股份的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "比增减  毛利率  同比增减  按销售模式  批发经销  18,458,563,481.14  -33.73%  5,023,565,441.51  -30.37%  7",
+      "source_file": "消费_洋河股份_同花顺_6.pdf",
+      "page_num": 11,
+      "company": "洋河股份",
+      "indicator": "毛利率",
+      "query_id": "q_0041"
+    },
+    {
+      "query": "华闻集团的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "营业成本 毛利率比上年同期增 营业收入 营业成本 毛利率 比上年同 比上年同 减 期增减 期增减 分行业 传播与文化产业 254,484,384.56 247,794,2",
+      "source_file": "传媒_华闻集团_同花顺_6.pdf",
+      "page_num": 14,
+      "company": "华闻集团",
+      "indicator": "毛利率",
+      "query_id": "q_0042"
+    },
+    {
+      "query": "立讯精密的经营性现金流是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "：万元  经营活动产生的现金流量净额         -706,829.92         -669,165.54  -5.63% 支付工资和奖金以及供应商货款  投资",
+      "source_file": "消费_立讯精密_同花顺_5.pdf",
+      "page_num": 3,
+      "company": "立讯精密",
+      "indicator": "经营活动现金流",
+      "query_id": "q_0043"
+    },
+    {
+      "query": "东方明珠的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "行业情况 毛利率 营业收入比上 营业成本比上 毛利率比上年增减 分行业 营业收入 营业成本 （%） 年增减（%） 年增减（%） （%） 智慧广电业务 514,291.05",
+      "source_file": "传媒_东方明珠_同花顺_6.pdf",
+      "page_num": 44,
+      "company": "东方明珠",
+      "indicator": "毛利率",
+      "query_id": "q_0044"
+    },
+    {
+      "query": "北京君正的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "常性损益的净利润 312,219,232.13 66,347,906.29 370.58% （元） 经营活动产生的现金流量净 216,688,772.89 175,151",
+      "source_file": "半导体_北京君正_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "北京君正",
+      "indicator": "净利润",
+      "query_id": "q_0045"
+    },
+    {
+      "query": "华谊兄弟和歌华有线的营业收入对比如何？",
+      "query_type": "comparison",
+      "ground_truth_answer": "华谊兄弟: 项目 1、营业收入：报告期内，公司营业收入较上年同期相比下降40.88%，主要是因为报告期内整体电 影票房不及同期，影院收入减少所致。 2、税金及附加：报告期内，公司税金\n歌华有线: 数据服务 营业收入 50.12 平台（应用支撑部分）项目中已终 验完成的子项目收入所致。 主要系确认国家文化大数据服务 利润总额 94.04 平台（应用支撑部分）项目中已",
+      "source_file": "传媒_华谊兄弟_同花顺_2.pdf; 传媒_歌华有线_同花顺_1.pdf",
+      "page_num": "",
+      "company": "华谊兄弟,歌华有线",
+      "indicator": "营业收入",
+      "query_id": "q_0046"
+    },
+    {
+      "query": "老白干酒的总资产是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "度(%) 总资产 8,864,744,377.09 8,601,130,669.78 3.06 归属于上市公司股东的所有者权 5,476,065,495.36 5,307",
+      "source_file": "白酒_老白干酒_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "老白干酒",
+      "indicator": "总资产",
+      "query_id": "q_0047"
+    },
+    {
+      "query": "海天味业的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "发，近十年研发投入累计超65 亿元。在“科技立企” 战略指引下，公司守正创新，始终围绕消费者核心关切开展数字化转型，推动传 统酿造技艺与人工智能、大数据等现代技术深度融合",
+      "source_file": "消费_海天味业_同花顺_6.pdf",
+      "page_num": 7,
+      "company": "海天味业",
+      "indicator": "研发投入",
+      "query_id": "q_0048"
+    },
+    {
+      "query": "华谊兄弟和伊利股份的毛利率对比如何？",
+      "query_type": "comparison",
+      "ground_truth_answer": "华谊兄弟: 成本比上 毛利率比上 营业收入 营业成本 毛利率 年同期增减 年同期增减 年同期增减 分产品 影视娱乐 290,298,095.83 213,302,269.40 26.\n伊利股份: 营业成本 毛利率 分行业 营业收入 营业成本 上年增减 比上年增 毛利率比上年增减（%） （%） （%） 减（%） 液体乳及乳制 113,013,613,394.45 7",
+      "source_file": "传媒_华谊兄弟_同花顺_6.pdf; 消费_伊利股份_同花顺_4.pdf",
+      "page_num": "",
+      "company": "华谊兄弟,伊利股份",
+      "indicator": "毛利率",
+      "query_id": "q_0049"
+    },
+    {
+      "query": "亿纬锂能的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "期增减  营业收入（元）  20,679,868,145.38  12,796,142,215.48  61.61%  归属于上市公司股东的净利润（元）  1,446,3",
+      "source_file": "半导体_亿纬锂能_同花顺_4.pdf",
+      "page_num": 1,
+      "company": "亿纬锂能",
+      "indicator": "营业收入",
+      "query_id": "q_0050"
+    },
+    {
+      "query": "欧派家居的总资产是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "末， 公司总资产 3,526,957.05 万元，较期初增加 0.13%，归属于上市公司股东的净 资产1,877,165.69 万元，较期初下降1.47%。 公司主要财务",
+      "source_file": "消费_欧派家居_同花顺_1.pdf",
+      "page_num": 16,
+      "company": "欧派家居",
+      "indicator": "总资产",
+      "query_id": "q_0051"
+    },
+    {
+      "query": "中颖电子的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": ".25%；毛利率 31.73%，与去年同期接近，环比提高3.10%，主要系产品销售组合变动所致。净利润同比增加主要系非 经常性损益变动所致，总体费用变动不大。公司持续维持",
+      "source_file": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 5,
+      "company": "中颖电子",
+      "indicator": "毛利率",
+      "query_id": "q_0052"
+    },
+    {
+      "query": "东方明珠的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "目 单项占研发投入总额的10%以上 单项计提金额占各类应收款项坏账准备总额的10%以 重要的单项计提坏账准备的应收款项 上且金额大于1亿元 本期坏账准备收回或转回金额重要",
+      "source_file": "传媒_东方明珠_同花顺_6.pdf",
+      "page_num": 133,
+      "company": "东方明珠",
+      "indicator": "研发投入",
+      "query_id": "q_0053"
+    },
+    {
+      "query": "美的集团的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "加权平均净资产收益率  5.56%  5.56%  0.00%  本报告期末比上年度   本报告期末  上年度末  末增减（%）  总资产（千元）  613,881,5",
+      "source_file": "消费_美的集团_同花顺_5.pdf",
+      "page_num": 2,
+      "company": "美的集团",
+      "indicator": "净资产收益率",
+      "query_id": "q_0054"
+    },
+    {
+      "query": "电广传媒的经营性现金流是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "7.25 经营活动产生的现金流量净额 225,498,989.45 -1,933,855.68 二、投资活动产生的现金流量： 收回投资收到的现金 422,865,303.",
+      "source_file": "传媒_电广传媒_同花顺_1.pdf",
+      "page_num": 11,
+      "company": "电广传媒",
+      "indicator": "经营活动现金流",
+      "query_id": "q_0055"
+    },
+    {
+      "query": "美的集团的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "控股子公司资产负债率超过 70%，敬请投资者注意担保风险。 公司本次关于为下属子公司提供担保事项已经2025年3月28 日和2025 年5 月 30 日召开的第五届董事会",
+      "source_file": "消费_美的集团_同花顺_4.pdf",
+      "page_num": 1,
+      "company": "美的集团",
+      "indicator": "资产负债率",
+      "query_id": "q_0056"
+    },
+    {
+      "query": "士兰微的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "25年度对资产负债率为 70%以下的主要全 资子公司及控股子公司提供日常担保的总额度不超过 29 亿元。实际发生日常担 保时，公司可以在上述预计的日常担保总额度内，对资产",
+      "source_file": "半导体_士兰微_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "士兰微",
+      "indicator": "资产负债率",
+      "query_id": "q_0057"
+    },
+    {
+      "query": "北京君正的经营性现金流是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "4.32 经营活动产生的现金流量净额 216,688,772.89 175,151,109.32 二、投资活动产生的现金流量： 收回投资收到的现金 1,014,681,8",
+      "source_file": "半导体_北京君正_同花顺_1.pdf",
+      "page_num": 11,
+      "company": "北京君正",
+      "indicator": "经营活动现金流",
+      "query_id": "q_0058"
+    },
+    {
+      "query": "中国长城的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "矩阵，推动营业收入稳步增长，带动 归属于母公司所有 -83,617,001.27 -159,515,661.11 -毛利同比提升；持续坚持科技创新投入， 者的净利润 聚力",
+      "source_file": "半导体_中国长城_同花顺_1.pdf",
+      "page_num": 4,
+      "company": "中国长城",
+      "indicator": "营业收入",
+      "query_id": "q_0059"
+    },
+    {
+      "query": "格力电器的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "元，公司 资产负债率为61.73%。 根据2025 年公司期末财务数据测算，本次回购金额（按回购金额上限）占公司2025 年期末总资产、归属于上市公司股东的净资产以及货币",
+      "source_file": "消费_格力电器_同花顺_7.pdf",
+      "page_num": 5,
+      "company": "格力电器",
+      "indicator": "资产负债率",
+      "query_id": "q_0060"
+    },
+    {
+      "query": "老白干酒的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "用 2、 净资产收益率及每股收益 √适用 □不适用 加权平均净资产收益 每股收益 报告期利润 率（%） 基本每股收益 稀释每股收益 归属于公司普通股股东的净利润 8.10",
+      "source_file": "白酒_老白干酒_同花顺_6.pdf",
+      "page_num": 189,
+      "company": "老白干酒",
+      "indicator": "净资产收益率",
+      "query_id": "q_0061"
+    },
+    {
+      "query": "绝味食品的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "利润 基本每股收益 -36.84 主要系收入减少，利润减少 稀释每股收益 -36.84 主要系收入减少，利润减少 主要系销售商品、提供劳务收到的现金减 经营活动产生的现金",
+      "source_file": "消费_绝味食品_同花顺_1.pdf",
+      "page_num": 3,
+      "company": "绝味食品",
+      "indicator": "每股收益",
+      "query_id": "q_0062"
+    },
+    {
+      "query": "士兰微的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "81 基本每股收益（元/股） 0.13 0.09 44.44 稀释每股收益（元/股） 0.13 0.09 44.44 加权平均净资产收益率（%） 1.73 1.21 增加",
+      "source_file": "半导体_士兰微_同花顺_3.pdf",
+      "page_num": 1,
+      "company": "士兰微",
+      "indicator": "每股收益",
+      "query_id": "q_0063"
+    },
+    {
+      "query": "伊利股份的总资产是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "度(%) 总资产 156,745,247,869.64 152,098,516,632.34 3.06 归属于上市公司股东的所有者权益 59,588,118,155.22",
+      "source_file": "消费_伊利股份_同花顺_1.pdf",
+      "page_num": 1,
+      "company": "伊利股份",
+      "indicator": "总资产",
+      "query_id": "q_0064"
+    },
+    {
+      "query": "紫光国微的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "加权平均净资产收益率  2.40%  0.96%  1.44pct    本报告期末  上年度末  本报告期末比上年度末增减（%）  总资产（元）  19,041,52",
+      "source_file": "半导体_紫光国微_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "紫光国微",
+      "indicator": "净资产收益率",
+      "query_id": "q_0065"
+    },
+    {
+      "query": "亿纬锂能的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "公司股东的净利润（元）  1,446,303,779.36  1,101,115,915.75  31.35%  归属于上市公司股东的扣除非经常性损益  1,114,67",
+      "source_file": "半导体_亿纬锂能_同花顺_4.pdf",
+      "page_num": 1,
+      "company": "亿纬锂能",
+      "indicator": "净利润",
+      "query_id": "q_0066"
+    },
+    {
+      "query": "紫光国微的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "势。全年 研发投入15.09 亿元，同比增长17.36%；占公司营业收入比为 24.56%；较上年同期增长1.23pct。全年取得发明专利52 项，实 用新型专利17 项",
+      "source_file": "半导体_紫光国微_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "紫光国微",
+      "indicator": "研发投入",
+      "query_id": "q_0067"
+    },
+    {
+      "query": "中颖电子的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "，公司实现营业收入32,670万元，同比增长2.42%；归属于上市公司股东的净利润2,048 万元，同比增长31.66%；归属于上市公司股东的扣非经常净利润1,583万元",
+      "source_file": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 5,
+      "company": "中颖电子",
+      "indicator": "营业收入",
+      "query_id": "q_0068"
+    },
+    {
+      "query": "洋河股份的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "用  2、净资产收益率及每股收益  每股收益  报告期利润  加权平均净资产收益率  基本每股收益（元/股）  稀释每股收益（元/股）  归属于公司普通股股东的净 4.6",
+      "source_file": "消费_洋河股份_同花顺_6.pdf",
+      "page_num": 166,
+      "company": "洋河股份",
+      "indicator": "净资产收益率",
+      "query_id": "q_0069"
+    },
+    {
+      "query": "洋河股份的总资产是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "（%）  总资产（元）  60,288,470,661.97  58,595,944,446.80  2.89%  归属于上市公司股东的所有者权益 49,241,204,",
+      "source_file": "消费_洋河股份_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "洋河股份",
+      "indicator": "总资产",
+      "query_id": "q_0070"
+    },
+    {
+      "query": "华策影视和绝味食品的经营活动现金流对比如何？",
+      "query_type": "comparison",
+      "ground_truth_answer": "华策影视: 0.95 经营活动产生的现金流量净额 -330,161,214.20 -69,047,366.15 二、投资活动产生的现金流量： 收回投资收到的现金 120,612,26\n绝味食品: 的净利润 经营活动产生的现金流量净额 -136,567,759.26 343,782,488.53 -139.73 基本每股收益（元/股） 0.12 0.19 -36.8",
+      "source_file": "传媒_华策影视_同花顺_4.pdf; 消费_绝味食品_同花顺_1.pdf",
+      "page_num": "",
+      "company": "华策影视,绝味食品",
+      "indicator": "经营活动现金流",
+      "query_id": "q_0071"
+    },
+    {
+      "query": "中国长城的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "公司股东的净利润（元） -83,617,001.27 -159,515,661.11 - 归属于上市公司股东的扣除非经常性损 -97,155,368.10 -307,01",
+      "source_file": "半导体_中国长城_同花顺_1.pdf",
+      "page_num": 1,
+      "company": "中国长城",
+      "indicator": "净利润",
+      "query_id": "q_0072"
+    },
+    {
+      "query": "古井贡酒的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "%  公司研发投入情况    2025年  2024年  变动比例  研发投入金额（元）     403,794,911.63      435,332,086.16",
+      "source_file": "白酒_古井贡酒_同花顺_4.pdf",
+      "page_num": 19,
+      "company": "古井贡酒",
+      "indicator": "研发投入",
+      "query_id": "q_0073"
+    },
+    {
+      "query": "中南文化的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "用  2、净资产收益率及每股收益  每股收益  报告期利润  加权平均净资产收益率  基本每股收益（元/股）  稀释每股收益（元/股）  归属于公司普通股股东的净 3.3",
+      "source_file": "传媒_中南文化_同花顺_5.pdf",
+      "page_num": 195,
+      "company": "中南文化",
+      "indicator": "净资产收益率",
+      "query_id": "q_0074"
+    },
+    {
+      "query": "北方华创的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "，持续加大研发投入。2026年1-3月计入损益的研发费用为14.02亿元，相较于2025年1-3月增加 3.76亿元，同比增长36.64%，导致归母净利增幅低于收入增幅。",
+      "source_file": "半导体_北方华创_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "北方华创",
+      "indicator": "研发投入",
+      "query_id": "q_0075"
+    },
+    {
+      "query": "海天味业的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "公司股东的净利润 2,443,715,832.21 2,202,351,511.63 2,202,175,662.42 10.97 归属于上市公司股东的扣除非 2,347",
+      "source_file": "消费_海天味业_同花顺_1.pdf",
+      "page_num": 1,
+      "company": "海天味业",
+      "indicator": "净利润",
+      "query_id": "q_0076"
+    },
+    {
+      "query": "绝味食品的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "公司股东的净利润 71,356,489.43 119,981,510.73 -40.53 归属于上市公司股东的扣除非经 73,096,277.29 105,834,908",
+      "source_file": "消费_绝味食品_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "绝味食品",
+      "indicator": "净利润",
+      "query_id": "q_0077"
+    },
+    {
+      "query": "泸州老窖的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "等） 4、研发投入 适用 □不适用 预计对公司未来发展 主要研发项目名称 项目目的 项目进展 拟达到的目标 的影响 项目以酿酒废弃物 （丢糟）为研究对 象，通过采用高效",
+      "source_file": "白酒_泸州老窖_同花顺_4.pdf",
+      "page_num": 19,
+      "company": "泸州老窖",
+      "indicator": "研发投入",
+      "query_id": "q_0078"
+    },
+    {
+      "query": "华录百纳的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "期增减  营业收入（元）  504,483,164.99  68,611,299.32  635.28%  归属于上市公司股东的净利 13,383,468.78  -82",
+      "source_file": "传媒_华录百纳_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "华录百纳",
+      "indicator": "营业收入",
+      "query_id": "q_0079"
+    },
+    {
+      "query": "华谊兄弟的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "、加权平均净资产收益率：报告期末，公司加权平均净资产收益率为-225.38%，较上年同期相比 下降230.70个百分点，主要是因为报告期内归属于上市公司股东的净利润减少所",
+      "source_file": "传媒_华谊兄弟_同花顺_2.pdf",
+      "page_num": 6,
+      "company": "华谊兄弟",
+      "indicator": "净资产收益率",
+      "query_id": "q_0080"
+    },
+    {
+      "query": "泸州老窖的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "0 其中：营业收入 8,025,174,114.21 9,352,165,445.50 利息收入 已赚保费 手续费及佣金收入 二、营业总成本 3,103,985,291.",
+      "source_file": "白酒_泸州老窖_同花顺_1.pdf",
+      "page_num": 7,
+      "company": "泸州老窖",
+      "indicator": "营业收入",
+      "query_id": "q_0081"
+    },
+    {
+      "query": "古井贡酒的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "营业成本 毛利率比 划分类型  营业收入  营业成本  毛利率  比上年同 比上年同 上年同期 期增减  期增减  增减  按渠道划分  线上  1,008,226,46",
+      "source_file": "白酒_古井贡酒_同花顺_4.pdf",
+      "page_num": 10,
+      "company": "古井贡酒",
+      "indicator": "毛利率",
+      "query_id": "q_0082"
+    },
+    {
+      "query": "双汇发展的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "（%）  营业收入（元）  14,548,592,028.29  14,269,036,952.76  1.96%  归属于上市公司股东的净利润 1,291,771,31",
+      "source_file": "消费_双汇发展_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "双汇发展",
+      "indicator": "营业收入",
+      "query_id": "q_0083"
+    },
+    {
+      "query": "海天味业的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "加权平均净资产收益率（%） 5.97 6.88 6.88 减少0.91个百分点 本报告期末比上年度 上年度末 本报告期末 末增减变动幅度(%) 调整前 调整后 调整后",
+      "source_file": "消费_海天味业_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "海天味业",
+      "indicator": "净资产收益率",
+      "query_id": "q_0084"
+    },
+    {
+      "query": "今世缘的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "净额 基本每股收益（元/股） 1.1108 1.3186 -15.76 稀释每股收益（元/股） 1.1108 1.3186 -15.76 加权平均净资产收益率 减少2.0",
+      "source_file": "消费_今世缘_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "今世缘",
+      "indicator": "每股收益",
+      "query_id": "q_0085"
+    },
+    {
+      "query": "士兰微的经营性现金流是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "的净利润 经营活动产生的现金流量净额 24,682,049.67 398,706,414.96 -93.81 基本每股收益（元/股） 0.13 0.09 44.44 稀释",
+      "source_file": "半导体_士兰微_同花顺_3.pdf",
+      "page_num": 1,
+      "company": "士兰微",
+      "indicator": "经营活动现金流",
+      "query_id": "q_0086"
+    },
+    {
+      "query": "海天味业的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "适用 基本每股收益（元/股） 0.42 0.40 0.40 5.00 稀释每股收益（元/股） 0.42 0.40 0.40 5.00 加权平均净资产收益率（%） 5.97",
+      "source_file": "消费_海天味业_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "海天味业",
+      "indicator": "每股收益",
+      "query_id": "q_0087"
+    },
+    {
+      "query": "华谊兄弟的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "元） 基本每股收益（元/股） -0.0104 0.0071 -246.48% 稀释每股收益（元/股） -0.0104 0.0071 -246.48% 加权平均净资产收益率",
+      "source_file": "传媒_华谊兄弟_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "华谊兄弟",
+      "indicator": "每股收益",
+      "query_id": "q_0088"
+    },
+    {
+      "query": "东方明珠的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "报告 基本每股收益（元/股） 0.0183 0.0359 -49.03 稀释每股收益（元/股） 0.0183 0.0359 -49.03 减少0.1951 加权平均净资产",
+      "source_file": "传媒_东方明珠_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "东方明珠",
+      "indicator": "每股收益",
+      "query_id": "q_0089"
+    },
+    {
+      "query": "华策影视的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "元） 基本每股收益（元/股） 0.04 0.05 -20.00% 稀释每股收益（元/股） 0.04 0.05 -20.00% 加权平均净资产收益率 1.11% 1.28%",
+      "source_file": "传媒_华策影视_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "华策影视",
+      "indicator": "每股收益",
+      "query_id": "q_0090"
+    },
+    {
+      "query": "华策影视和景嘉微的净利润对比如何？",
+      "query_type": "comparison",
+      "ground_truth_answer": "华策影视: 常性损益的净利润 55,439,355.11 71,890,802.88 -22.88% （元） 经营活动产生的现金流量净 -330,161,214.20 -69,047\n景嘉微: 常性损益的净利润 -61,940,269.44 -58,532,877.59 -5.82% （元） 经营活动产生的现金流量净 -123,221,522.60 -42,22",
+      "source_file": "传媒_华策影视_同花顺_4.pdf; 半导体_景嘉微_同花顺_2.pdf",
+      "page_num": "",
+      "company": "华策影视,景嘉微",
+      "indicator": "净利润",
+      "query_id": "q_0091"
+    },
+    {
+      "query": "海天味业的经营性现金流是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "季度报告 经营活动产生的现金流量净额 -467,096,320.49 -457,530,538.29 -458,625,923.81 不适用 基本每股收益（元/股） 0.",
+      "source_file": "消费_海天味业_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "海天味业",
+      "indicator": "经营活动现金流",
+      "query_id": "q_0092"
+    },
+    {
+      "query": "皖新传媒的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "适用 基本每股收益（元/股） 0.17 0.20 -15.00 稀释每股收益（元/股） 0.17 0.20 -15.00 减少0.55个百 加权平均净资产收益率（%） 2",
+      "source_file": "传媒_皖新传媒_同花顺_1.pdf",
+      "page_num": 1,
+      "company": "皖新传媒",
+      "indicator": "每股收益",
+      "query_id": "q_0093"
+    },
+    {
+      "query": "欧派家居的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "以来持续的研发投入、深厚的 技术工艺储备、领先的家居研发实力、产业链上下游议价能力，公司探索出了具有欧派特色的大 规模非标定制产品制造模式，构建了更强大、更流畅的全品类、",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 23,
+      "company": "欧派家居",
+      "indicator": "研发投入",
+      "query_id": "q_0094"
+    },
+    {
+      "query": "中颖电子的总资产是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "减（%） 总资产（元） 2,158,678,273.71 2,154,979,091.57 0.17% 归属于上市公司股东的所有者权益（元） 1,810,089,574.",
+      "source_file": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "中颖电子",
+      "indicator": "总资产",
+      "query_id": "q_0095"
+    },
+    {
+      "query": "皖新传媒的经营性现金流是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "的净利润 经营活动产生的现金流量净额 -215,532,428.13 -51,428,467.20 不适用 基本每股收益（元/股） 0.17 0.20 -15.00 稀释",
+      "source_file": "传媒_皖新传媒_同花顺_1.pdf",
+      "page_num": 1,
+      "company": "皖新传媒",
+      "indicator": "经营活动现金流",
+      "query_id": "q_0096"
+    },
+    {
+      "query": "古井贡酒的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "公司股东的净利润（元）  1,606,873,496.41  2,329,843,939.99  -31.03%  归属于上市公司股东的扣除非经常性损益 1,598,29",
+      "source_file": "白酒_古井贡酒_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "古井贡酒",
+      "indicator": "净利润",
+      "query_id": "q_0097"
+    },
+    {
+      "query": "华策影视的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "成本比上 毛利率比上 营业收入 营业成本 毛利率 年同期增减 年同期增减 年同期增减 分行业 影视行业 2,626,146,010.04 2,068,957,038.41",
+      "source_file": "传媒_华策影视_同花顺_7.pdf",
+      "page_num": 22,
+      "company": "华策影视",
+      "indicator": "毛利率",
+      "query_id": "q_0098"
+    },
+    {
+      "query": "华策影视的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "增加 4、研发投入 适用 □不适用 主要研 预计对公司未来 发项目 项目目的 项目进展 拟达到的目标 发展的影响 名称 1.多语种配音服务平台建设 成功构建了完整的多语",
+      "source_file": "传媒_华策影视_同花顺_7.pdf",
+      "page_num": 26,
+      "company": "华策影视",
+      "indicator": "研发投入",
+      "query_id": "q_0099"
+    },
+    {
+      "query": "北京君正的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "元） 基本每股收益（元/股） 0.6610 0.1535 330.62% 稀释每股收益（元/股） 0.6585 0.1529 330.67% 加权平均净资产收益率 2.5",
+      "source_file": "半导体_北京君正_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "北京君正",
+      "indicator": "每股收益",
+      "query_id": "q_0100"
+    },
+    {
+      "query": "双汇发展的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "加权平均净资产收益率  5.87%  5.24%  上升0.63个百分点  本报告期末比上年   本报告期末  上年度末  度末增减（%）  总资产（元）  43,53",
+      "source_file": "消费_双汇发展_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "双汇发展",
+      "indicator": "净资产收益率",
+      "query_id": "q_0101"
+    },
+    {
+      "query": "格力电器的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "常性损益的净利润 5,702,183,701.81 5,717,342,878.89 -0.27% （元） 经营活动产生的现金流量净 7,798,541,802.42 1",
+      "source_file": "消费_格力电器_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "净利润",
+      "query_id": "q_0102"
+    },
+    {
+      "query": "华策影视的经营性现金流是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "0.95 经营活动产生的现金流量净额 -330,161,214.20 -69,047,366.15 二、投资活动产生的现金流量： 收回投资收到的现金 120,612,26",
+      "source_file": "传媒_华策影视_同花顺_4.pdf",
+      "page_num": 11,
+      "company": "华策影视",
+      "indicator": "经营活动现金流",
+      "query_id": "q_0103"
+    },
+    {
+      "query": "立讯精密和华录百纳的每股收益对比如何？",
+      "query_type": "comparison",
+      "ground_truth_answer": "立讯精密: 对公司基本每股收益及净资产收益率影响较小，具体 影响以经会计师事务所审计的数据为准。 3、选择自主行权模式对股票期权定价及会计核算的影响 公司在授权日采用“布莱克—斯科尔\n华录百纳: 8  八、每股收益：      （一）基本每股收益  0.0142  -0.0009  （二）稀释每股收益  0.0142  -0.0009  本期发生同一控制下企业合并",
+      "source_file": "消费_立讯精密_同花顺_4.pdf; 传媒_华录百纳_同花顺_2.pdf",
+      "page_num": "",
+      "company": "立讯精密,华录百纳",
+      "indicator": "每股收益",
+      "query_id": "q_0104"
+    },
+    {
+      "query": "紫光国微的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "。公司整体毛利率为52.58%，同比降低 1.52pct。公司实现经营活动现金流净额-3.50 亿元，同比降低 61.08%。 2．重要事项 公司在eSIM 全球生态与车",
+      "source_file": "半导体_紫光国微_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "紫光国微",
+      "indicator": "毛利率",
+      "query_id": "q_0105"
+    },
+    {
+      "query": "皖新传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "告 其中：营业收入 2,527,313,395.68 2,748,935,669.74 利息收入 已赚保费 手续费及佣金收入 二、营业总成本 2,075,944,599.",
+      "source_file": "传媒_皖新传媒_同花顺_1.pdf",
+      "page_num": 7,
+      "company": "皖新传媒",
+      "indicator": "营业收入",
+      "query_id": "q_0106"
+    },
+    {
+      "query": "景嘉微的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "成本比上 毛利率比上年 营业收入 营业成本 毛利率 年同期增减 年同期增减 同期增减 分行业 计算机、通信和其 720,064,627.80 379,041,542.45",
+      "source_file": "半导体_景嘉微_同花顺_5.pdf",
+      "page_num": 18,
+      "company": "景嘉微",
+      "indicator": "毛利率",
+      "query_id": "q_0107"
+    },
+    {
+      "query": "今世缘的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "70 五、净利润（净亏损以“-”号填列） 1,384,928,951.00 1,644,056,273.98 （一）按经营持续性分类 1.持续经营净利润（净亏损以“-”号",
+      "source_file": "消费_今世缘_同花顺_1.pdf",
+      "page_num": 9,
+      "company": "今世缘",
+      "indicator": "净利润",
+      "query_id": "q_0108"
+    },
+    {
+      "query": "天威视讯的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": ".41% 净利润（元） 归属于上市公司股东的 扣除非经常性损益的净 -29,989,629.18 -23,234,788.84 -23,234,788.84 -29.07",
+      "source_file": "传媒_天威视讯_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "天威视讯",
+      "indicator": "净利润",
+      "query_id": "q_0109"
+    },
+    {
+      "query": "紫光国微的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "%  基本每股收益（元/股）  0.3979  0.1415  181.20%  稀释每股收益（元/股）  0.3968  0.1415  180.42%  加权平均净资",
+      "source_file": "半导体_紫光国微_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "紫光国微",
+      "indicator": "每股收益",
+      "query_id": "q_0110"
+    },
+    {
+      "query": "山西汾酒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "度(%) 营业收入 14,923,228,703.48 16,522,645,535.50 -9.68 利润总额 7,251,039,644.23 8,887,879,5",
+      "source_file": "白酒_山西汾酒_同花顺_1.pdf",
+      "page_num": 1,
+      "company": "山西汾酒",
+      "indicator": "营业收入",
+      "query_id": "q_0111"
+    },
+    {
+      "query": "东方明珠的总资产是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "减(%) 总资产 42,500,200,364.83 43,581,314,485.45 -2.48 44,139,984,573.04 归属于上市 公司股东的 29,9",
+      "source_file": "传媒_东方明珠_同花顺_3.pdf",
+      "page_num": 5,
+      "company": "东方明珠",
+      "indicator": "总资产",
+      "query_id": "q_0112"
+    },
+    {
+      "query": "华录百纳的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "本公司以资产负债率（即总负债除以总资产）为基础对资本结构进行监控。于2025年12月31日，本公司的资产负债率 为36.14%（2024年12月31日：19.20%）。",
+      "source_file": "传媒_华录百纳_同花顺_5.pdf",
+      "page_num": 174,
+      "company": "华录百纳",
+      "indicator": "资产负债率",
+      "query_id": "q_0113"
+    },
+    {
+      "query": "北方华创的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "适用 2．净资产收益率及每股收益 每股收益 报告期利润 加权平均净资产收益率 基本每股收益（元/股） 稀释每股收益（元/股） 归属于公司普通股股东的净 16.41% 7.",
+      "source_file": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 232,
+      "company": "北方华创",
+      "indicator": "净资产收益率",
+      "query_id": "q_0114"
+    },
+    {
+      "query": "电广传媒的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "93 2、净资产收益率及每股收益 每股收益 报告期利润 加权平均净资产收益率 基本每股收益（元/股） 稀释每股收益（元/股） 归属于公司普通股股东的净 1.34% 0.0",
+      "source_file": "传媒_电广传媒_同花顺_4.pdf",
+      "page_num": 221,
+      "company": "电广传媒",
+      "indicator": "净资产收益率",
+      "query_id": "q_0115"
+    },
+    {
+      "query": "山西汾酒的总资产是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "度(%) 总资产 64,384,066,373.33 56,323,475,330.54 14.31 归属于上市公司股东的所有 45,023,082,548.52 39,",
+      "source_file": "白酒_山西汾酒_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "山西汾酒",
+      "indicator": "总资产",
+      "query_id": "q_0116"
+    },
+    {
+      "query": "歌华有线的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "用 2、 净资产收益率及每股收益 √适用 □不适用 加权平均净资产收 每股收益 报告期利润 益率（%） 基本每股收益 稀释每股收益 归属于公司普通股股东的净 0.27 0",
+      "source_file": "传媒_歌华有线_同花顺_4.pdf",
+      "page_num": 208,
+      "company": "歌华有线",
+      "indicator": "净资产收益率",
+      "query_id": "q_0117"
+    },
+    {
+      "query": "山西汾酒的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "报告 基本每股收益（元/股） 4.41 5.45 -19.08 稀释每股收益（元/股） 4.41 5.45 -19.08 加权平均净资产收益率（%） 12.57 17.2",
+      "source_file": "白酒_山西汾酒_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "山西汾酒",
+      "indicator": "每股收益",
+      "query_id": "q_0118"
+    },
+    {
+      "query": "歌华有线的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "营业成本 毛利率比 毛利率 分行业 营业收入 营业成本 比上年增 比上年增 上年增减 （%） 减（%） 减（%） （%） 有线电视 减少2.06 2,219,754,55",
+      "source_file": "传媒_歌华有线_同花顺_4.pdf",
+      "page_num": 18,
+      "company": "歌华有线",
+      "indicator": "毛利率",
+      "query_id": "q_0119"
+    },
+    {
+      "query": "中颖电子的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "公司股东的净利润（元） 20,484,926.12 15,558,590.57 31.66% 归属于上市公司股东的扣除非经常性损益 15,831,327.63 15,33",
+      "source_file": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "中颖电子",
+      "indicator": "净利润",
+      "query_id": "q_0120"
+    }
+  ]
+}

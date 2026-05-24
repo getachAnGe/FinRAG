@@ -1,0 +1,500 @@
+{
+  "metadata": {
+    "total_samples": 49,
+    "fact_samples": 32,
+    "comparison_samples": 0,
+    "summary_samples": 17
+  },
+  "samples": [
+    {
+      "query": "在半导体_北方华创_同花顺_5第11页中，北方华创2025年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "393.53亿元",
+      "ground_truth_chunk_id": "chunk_12704",
+      "source_file": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 11,
+      "company": "北方华创",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_北方华创_同花顺_5第11页中，北方华创2025年归属于上市公司股东的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "55.22亿元",
+      "ground_truth_chunk_id": "chunk_12704",
+      "source_file": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 11,
+      "company": "北方华创",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在白酒_泸州老窖_同花顺_2第2页中，泸州老窖2025年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "257.31亿元",
+      "ground_truth_chunk_id": "chunk_25530",
+      "source_file": "白酒_泸州老窖_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "泸州老窖",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_泸州老窖_同花顺_2第2页中，泸州老窖2025年归属于上市公司股东的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "108.31亿元",
+      "ground_truth_chunk_id": "chunk_25530",
+      "source_file": "白酒_泸州老窖_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "泸州老窖",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在白酒_泸州老窖_同花顺_4第28页中，泸州老窖2025年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "257.31亿元",
+      "ground_truth_chunk_id": "chunk_25674",
+      "source_file": "白酒_泸州老窖_同花顺_4.pdf",
+      "page_num": 28,
+      "company": "泸州老窖",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_古井贡酒_同花顺_2第2页中，古井贡酒的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "14.28%",
+      "ground_truth_chunk_id": "chunk_23931",
+      "source_file": "白酒_古井贡酒_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "古井贡酒",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在白酒_古井贡酒_同花顺_1第2页中，古井贡酒的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "6.30%",
+      "ground_truth_chunk_id": "chunk_23881",
+      "source_file": "白酒_古井贡酒_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "古井贡酒",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在白酒_古井贡酒_同花顺_4第13页中，古井贡酒2025年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "188.32亿元",
+      "ground_truth_chunk_id": "chunk_23996",
+      "source_file": "白酒_古井贡酒_同花顺_4.pdf",
+      "page_num": 13,
+      "company": "古井贡酒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_五粮液_同花顺_3第1页中，五粮液的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3.26%",
+      "ground_truth_chunk_id": "chunk_22815",
+      "source_file": "白酒_五粮液_同花顺_3.pdf",
+      "page_num": 1,
+      "company": "五粮液",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在白酒_五粮液_同花顺_6第1页中，五粮液的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3.41%",
+      "ground_truth_chunk_id": "chunk_22941",
+      "source_file": "白酒_五粮液_同花顺_6.pdf",
+      "page_num": 1,
+      "company": "五粮液",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在白酒_五粮液_同花顺_4第1页中，五粮液的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "6.50%",
+      "ground_truth_chunk_id": "chunk_22858",
+      "source_file": "白酒_五粮液_同花顺_4.pdf",
+      "page_num": 1,
+      "company": "五粮液",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_4第35页中，伊利股份的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1,215亿元",
+      "ground_truth_chunk_id": "chunk_17036",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 35,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_4第14页中，伊利股份2025年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1,159.31亿元",
+      "ground_truth_chunk_id": "chunk_16950",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 14,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_4第14页中，伊利股份2025年的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "115.14亿元",
+      "ground_truth_chunk_id": "chunk_16950",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 14,
+      "company": "伊利股份",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_4第15页中，伊利股份2025年第四季度的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "327.69亿元",
+      "ground_truth_chunk_id": "chunk_16953",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 15,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_格力电器_同花顺_2第2页中，格力电器2025年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1,711.18亿元",
+      "ground_truth_chunk_id": "chunk_18186",
+      "source_file": "消费_格力电器_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_格力电器_同花顺_2第2页中，格力电器2025年的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "290.03亿元",
+      "ground_truth_chunk_id": "chunk_18186",
+      "source_file": "消费_格力电器_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_格力电器_同花顺_2第2页中，格力电器的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "20.30%",
+      "ground_truth_chunk_id": "chunk_18184",
+      "source_file": "消费_格力电器_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在消费_格力电器_同花顺_1第2页中，格力电器的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "4.07%",
+      "ground_truth_chunk_id": "chunk_18140",
+      "source_file": "消费_格力电器_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在消费_格力电器_同花顺_6第160页中，格力电器2025年的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "27.68%",
+      "ground_truth_chunk_id": "chunk_18884",
+      "source_file": "消费_格力电器_同花顺_6.pdf",
+      "page_num": 160,
+      "company": "格力电器",
+      "indicator": "毛利率"
+    },
+    {
+      "query": "在半导体_紫光国微_同花顺_7第68页中，紫光国微的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "27.40%",
+      "ground_truth_chunk_id": "chunk_15331",
+      "source_file": "半导体_紫光国微_同花顺_7.pdf",
+      "page_num": 68,
+      "company": "紫光国微",
+      "indicator": "资产负债率"
+    },
+    {
+      "query": "在消费_欧派家居_同花顺_7第16页中，欧派家居2025年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "172.32亿元",
+      "ground_truth_chunk_id": "chunk_19425",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 16,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_欧派家居_同花顺_7第16页中，欧派家居2025年的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "36.24%",
+      "ground_truth_chunk_id": "chunk_19425",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 16,
+      "company": "欧派家居",
+      "indicator": "毛利率"
+    },
+    {
+      "query": "在消费_欧派家居_同花顺_7第17页中，欧派家居2025年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "127.21亿元",
+      "ground_truth_chunk_id": "chunk_19430",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 17,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_海天味业_同花顺_4第2页中，海天味业2026年一季度的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "90.29亿元",
+      "ground_truth_chunk_id": "chunk_21293",
+      "source_file": "消费_海天味业_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "海天味业",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_海天味业_同花顺_4第2页中，海天味业2026年一季度的归母净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "24.44亿元",
+      "ground_truth_chunk_id": "chunk_21293",
+      "source_file": "消费_海天味业_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "海天味业",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_东方明珠_同花顺_3第9页中，东方明珠2025年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "74.89亿元",
+      "ground_truth_chunk_id": "chunk_83",
+      "source_file": "传媒_东方明珠_同花顺_3.pdf",
+      "page_num": 9,
+      "company": "东方明珠",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_东方明珠_同花顺_3第9页中，东方明珠归属于母公司股东净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "6.17亿元",
+      "ground_truth_chunk_id": "chunk_83",
+      "source_file": "传媒_东方明珠_同花顺_3.pdf",
+      "page_num": 9,
+      "company": "东方明珠",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_双汇发展_同花顺_8第1页中，双汇发展2025年的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "51亿元",
+      "ground_truth_chunk_id": "chunk_18120",
+      "source_file": "消费_双汇发展_同花顺_8.pdf",
+      "page_num": 1,
+      "company": "双汇发展",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在白酒_洋河股份_同花顺_2第2页中，洋河股份的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "5.09%",
+      "ground_truth_chunk_id": "chunk_26451",
+      "source_file": "白酒_洋河股份_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "洋河股份",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在半导体_北京君正_同花顺_1第3页中，北京君正的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "31,897.93万元",
+      "ground_truth_chunk_id": "chunk_12447",
+      "source_file": "半导体_北京君正_同花顺_1.pdf",
+      "page_num": 3,
+      "company": "北京君正",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_中国长城_同花顺_2第6页中，中国长城的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "61.86%",
+      "ground_truth_chunk_id": "chunk_11016",
+      "source_file": "半导体_中国长城_同花顺_2.pdf",
+      "page_num": 6,
+      "company": "中国长城",
+      "indicator": "资产负债率"
+    },
+    {
+      "query": "根据传媒_东方明珠_同花顺_6.pdf第58页的内容，2025年中国传媒行业媒体融合有哪些发展趋势？",
+      "query_type": "summary",
+      "ground_truth_answer": "媒体融合向纵深发展，文化与科技相结合驱动产业进一步发展",
+      "ground_truth_chunk_id": "chunk_418",
+      "source_file": "传媒_东方明珠_同花顺_6.pdf",
+      "page_num": 58,
+      "company": "东方明珠",
+      "indicator": "行业趋势"
+    },
+    {
+      "query": "根据传媒_东方明珠_同花顺_6.pdf第11页的内容，2025年中国广电5G业务的发展情况如何？",
+      "query_type": "summary",
+      "ground_truth_answer": "全国广电5G用户接近4000万户",
+      "ground_truth_chunk_id": "chunk_161",
+      "source_file": "传媒_东方明珠_同花顺_6.pdf",
+      "page_num": 11,
+      "company": "东方明珠",
+      "indicator": "行业数据"
+    },
+    {
+      "query": "根据传媒_东方明珠_同花顺_6.pdf第11页的内容，2025年中国网上零售的发展情况如何？",
+      "query_type": "summary",
+      "ground_truth_answer": "全年全国网上零售额达16万亿元，同比增长8.6%",
+      "ground_truth_chunk_id": "chunk_161",
+      "source_file": "传媒_东方明珠_同花顺_6.pdf",
+      "page_num": 11,
+      "company": "东方明珠",
+      "indicator": "消费趋势"
+    },
+    {
+      "query": "根据半导体_北京君正_同花顺_1.pdf第3页的内容，北京君正2026年第一季度业绩增长的主要驱动力是什么？",
+      "query_type": "summary",
+      "ground_truth_answer": "受益于存储大周期的推动，公司存储芯片和计算芯片产品线销售收入同比实现强劲增长",
+      "ground_truth_chunk_id": "chunk_12447",
+      "source_file": "半导体_北京君正_同花顺_1.pdf",
+      "page_num": 3,
+      "company": "北京君正",
+      "indicator": "业绩驱动"
+    },
+    {
+      "query": "根据传媒_中南文化_同花顺_5.pdf第10页的内容，中南文化的业务聚焦于哪些领域？",
+      "query_type": "summary",
+      "ground_truth_answer": "金属制品业、广播电视电影和影视录音制作业、电力热力生产和供应业三大领域",
+      "ground_truth_chunk_id": "chunk_1589",
+      "source_file": "传媒_中南文化_同花顺_5.pdf",
+      "page_num": 10,
+      "company": "中南文化",
+      "indicator": "业务概况"
+    },
+    {
+      "query": "根据传媒_东方明珠_同花顺_3.pdf第3页的内容，截至2025年末全国互联网电视用户规模如何？",
+      "query_type": "summary",
+      "ground_truth_answer": "全国互联网电视用户数达4.08亿户，全年净增59.1万户",
+      "ground_truth_chunk_id": "chunk_62",
+      "source_file": "传媒_东方明珠_同花顺_3.pdf",
+      "page_num": 3,
+      "company": "东方明珠",
+      "indicator": "行业数据"
+    },
+    {
+      "query": "根据传媒_中南文化_同花顺_5.pdf第11页的内容，2025年中国电影票房市场表现如何？",
+      "query_type": "summary",
+      "ground_truth_answer": "全年电影票房为518.32亿元，同比增长21.95%",
+      "ground_truth_chunk_id": "chunk_1591",
+      "source_file": "传媒_中南文化_同花顺_5.pdf",
+      "page_num": 11,
+      "company": "中南文化",
+      "indicator": "行业数据"
+    },
+    {
+      "query": "根据半导体_北方华创_同花顺_5.pdf第11页的内容，北方华创2025年净利润下降的原因是什么？",
+      "query_type": "summary",
+      "ground_truth_answer": "研发投入大幅提升，新增人员4747人，股权激励费用增加2.74亿元，毛利率下降",
+      "ground_truth_chunk_id": "chunk_12705",
+      "source_file": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 11,
+      "company": "北方华创",
+      "indicator": "业绩分析"
+    },
+    {
+      "query": "根据传媒_中南文化_同花顺_5.pdf第27页的内容，中南文化在新能源业务方面面临什么政策风险？",
+      "query_type": "summary",
+      "ground_truth_answer": "新能源行业受国家电价政策等影响较大，若政策调整可能影响业务收益",
+      "ground_truth_chunk_id": "chunk_1673",
+      "source_file": "传媒_中南文化_同花顺_5.pdf",
+      "page_num": 27,
+      "company": "中南文化",
+      "indicator": "风险因素"
+    },
+    {
+      "query": "根据消费_欧派家居_同花顺_7.pdf第19页的内容，欧派家居2025年大宗渠道营收和海外营收各是多少？",
+      "query_type": "summary",
+      "ground_truth_answer": "大宗渠道营收26.20亿元同比下降13.95%，海外营收4.71亿元同比增长9.66%",
+      "ground_truth_chunk_id": "chunk_19438",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 19,
+      "company": "欧派家居",
+      "indicator": "业绩分析"
+    },
+    {
+      "query": "根据传媒_中南文化_同花顺_5.pdf第11页的内容，全球压力容器市场规模预测如何？",
+      "query_type": "summary",
+      "ground_truth_answer": "预计到2030年全球压力容器市场规模将达到2,677亿美元",
+      "ground_truth_chunk_id": "chunk_1591",
+      "source_file": "传媒_中南文化_同花顺_5.pdf",
+      "page_num": 11,
+      "company": "中南文化",
+      "indicator": "行业数据"
+    },
+    {
+      "query": "根据传媒_东方明珠_同花顺_6.pdf第12页的内容，东方明珠拥有哪些业务牌照优势？",
+      "query_type": "summary",
+      "ground_truth_answer": "经上海广播电视台授权，公司拥有IPTV全国内容服务牌照、全国互联网电视集成播控牌照与内容服务牌照",
+      "ground_truth_chunk_id": "chunk_168",
+      "source_file": "传媒_东方明珠_同花顺_6.pdf",
+      "page_num": 12,
+      "company": "东方明珠",
+      "indicator": "竞争优势"
+    },
+    {
+      "query": "根据消费_海天味业_同花顺_4第2页的内容，海天味业2026年一季度的经营情况如何？",
+      "query_type": "summary",
+      "ground_truth_answer": "营收90.29亿元同比增长8.57%，归母净利润24.44亿元同比增长10.97%",
+      "ground_truth_chunk_id": "chunk_21293",
+      "source_file": "消费_海天味业_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "海天味业",
+      "indicator": "业绩分析"
+    },
+    {
+      "query": "根据半导体_中国长城_同花顺_4第12页的内容，2025年中国信息技术应用创新产业的发展态势如何？",
+      "query_type": "summary",
+      "ground_truth_answer": "在市场牵引、政策护航与技术迭代的多重驱动下，保持稳健向好的发展态势",
+      "ground_truth_chunk_id": "chunk_11055",
+      "source_file": "半导体_中国长城_同花顺_4.pdf",
+      "page_num": 12,
+      "company": "中国长城",
+      "indicator": "行业趋势"
+    },
+    {
+      "query": "根据消费_伊利股份_同花顺_4第14页的内容，伊利股份2025年的经营情况如何？",
+      "query_type": "summary",
+      "ground_truth_answer": "营收1,159.31亿元，净利润115.14亿元",
+      "ground_truth_chunk_id": "chunk_16950",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 14,
+      "company": "伊利股份",
+      "indicator": "业绩分析"
+    },
+    {
+      "query": "根据半导体_亿纬锂能_同花顺_7第1页的内容，亿纬锂能2026年第一季度业绩如何？",
+      "query_type": "summary",
+      "ground_truth_answer": "营收206.80亿元同比增长61.6%，净利润14.46亿元",
+      "ground_truth_chunk_id": "chunk_12411",
+      "source_file": "半导体_亿纬锂能_同花顺_7.pdf",
+      "page_num": 1,
+      "company": "亿纬锂能",
+      "indicator": "业绩分析"
+    },
+    {
+      "query": "根据传媒_东方明珠_同花顺_6.pdf第10页的内容，东方明珠拥有哪些竞争优势？",
+      "query_type": "summary",
+      "ground_truth_answer": "拥有国内领先的全渠道视频集成与分发平台，运营上海地区广电5G网络服务，拥有上海地区独具特色的文化消费资源",
+      "ground_truth_chunk_id": "chunk_158",
+      "source_file": "传媒_东方明珠_同花顺_6.pdf",
+      "page_num": 10,
+      "company": "东方明珠",
+      "indicator": "竞争优势"
+    }
+  ]
+}

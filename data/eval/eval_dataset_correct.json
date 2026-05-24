@@ -1,0 +1,1009 @@
+{
+  "metadata": {
+    "total_samples": 104,
+    "fact_samples": 104,
+    "description": "从chunk中实际提取的评测集，确保答案真实存在"
+  },
+  "samples": [
+    {
+      "query": "在传媒_东方明珠_同花顺_3第9页中，东方明珠的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "74.89亿元",
+      "ground_truth_chunk_id": "chunk_1206",
+      "source_file": "传媒_东方明珠_同花顺_3.pdf",
+      "page_num": 9,
+      "company": "东方明珠",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_东方明珠_同花顺_3第9页中，东方明珠的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "6.17亿元",
+      "ground_truth_chunk_id": "chunk_1206",
+      "source_file": "传媒_东方明珠_同花顺_3.pdf",
+      "page_num": 9,
+      "company": "东方明珠",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_中南文化_同花顺_5第13页中，中南文化的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "116,680.26万元",
+      "ground_truth_chunk_id": "chunk_4094",
+      "source_file": "传媒_中南文化_同花顺_5.pdf",
+      "page_num": 13,
+      "company": "中南文化",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_中南文化_同花顺_5第13页中，中南文化的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "7,466.71万元",
+      "ground_truth_chunk_id": "chunk_4094",
+      "source_file": "传媒_中南文化_同花顺_5.pdf",
+      "page_num": 13,
+      "company": "中南文化",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_中南文化_同花顺_5第13页中，中南文化的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3,960.57万元",
+      "ground_truth_chunk_id": "chunk_4094",
+      "source_file": "传媒_中南文化_同花顺_5.pdf",
+      "page_num": 13,
+      "company": "中南文化",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_中南文化_同花顺_5第13页中，中南文化的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "924.19万元",
+      "ground_truth_chunk_id": "chunk_4095",
+      "source_file": "传媒_中南文化_同花顺_5.pdf",
+      "page_num": 13,
+      "company": "中南文化",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_中南文化_同花顺_5第13页中，中南文化的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "2,708.62万元",
+      "ground_truth_chunk_id": "chunk_4095",
+      "source_file": "传媒_中南文化_同花顺_5.pdf",
+      "page_num": 13,
+      "company": "中南文化",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_华录百纳_同花顺_3第2页中，华录百纳的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3,467.85万元",
+      "ground_truth_chunk_id": "chunk_6704",
+      "source_file": "传媒_华录百纳_同花顺_3.pdf",
+      "page_num": 2,
+      "company": "华录百纳",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_华录百纳_同花顺_3第2页中，华录百纳的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "20,758.04万元",
+      "ground_truth_chunk_id": "chunk_6705",
+      "source_file": "传媒_华录百纳_同花顺_3.pdf",
+      "page_num": 2,
+      "company": "华录百纳",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_华录百纳_同花顺_3第2页中，华录百纳的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "6,277.39万元",
+      "ground_truth_chunk_id": "chunk_6705",
+      "source_file": "传媒_华录百纳_同花顺_3.pdf",
+      "page_num": 2,
+      "company": "华录百纳",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_华录百纳_同花顺_8第3页中，华录百纳的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "30,739.14万元",
+      "ground_truth_chunk_id": "chunk_9555",
+      "source_file": "传媒_华录百纳_同花顺_8.pdf",
+      "page_num": 3,
+      "company": "华录百纳",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_华策影视_同花顺_5第2页中，华策影视的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "28.28亿元",
+      "ground_truth_chunk_id": "chunk_9737",
+      "source_file": "传媒_华策影视_同花顺_5.pdf",
+      "page_num": 2,
+      "company": "华策影视",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_华策影视_同花顺_5第2页中，华策影视的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.91亿元",
+      "ground_truth_chunk_id": "chunk_9737",
+      "source_file": "传媒_华策影视_同花顺_5.pdf",
+      "page_num": 2,
+      "company": "华策影视",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_华策影视_同花顺_6第1页中，华策影视的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "191,136,778.91元",
+      "ground_truth_chunk_id": "chunk_9809",
+      "source_file": "传媒_华策影视_同花顺_6.pdf",
+      "page_num": 1,
+      "company": "华策影视",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_华谊兄弟_同花顺_3第7页中，华谊兄弟的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "16.98万元",
+      "ground_truth_chunk_id": "chunk_11609",
+      "source_file": "传媒_华谊兄弟_同花顺_3.pdf",
+      "page_num": 7,
+      "company": "华谊兄弟",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_天威视讯_同花顺_4第2页中，天威视讯的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "135,000.00万元",
+      "ground_truth_chunk_id": "chunk_15691",
+      "source_file": "传媒_天威视讯_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "天威视讯",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_天威视讯_同花顺_4第17页中，天威视讯的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "129,170.31万元",
+      "ground_truth_chunk_id": "chunk_15769",
+      "source_file": "传媒_天威视讯_同花顺_4.pdf",
+      "page_num": 17,
+      "company": "天威视讯",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_天威视讯_同花顺_4第46页中，天威视讯的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "22.88万元",
+      "ground_truth_chunk_id": "chunk_16129",
+      "source_file": "传媒_天威视讯_同花顺_4.pdf",
+      "page_num": 46,
+      "company": "天威视讯",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_天威视讯_同花顺_4第47页中，天威视讯的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "8,482.29万元",
+      "ground_truth_chunk_id": "chunk_16136",
+      "source_file": "传媒_天威视讯_同花顺_4.pdf",
+      "page_num": 47,
+      "company": "天威视讯",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_歌华有线_同花顺_2第7页中，歌华有线的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "221,975.46万元",
+      "ground_truth_chunk_id": "chunk_18506",
+      "source_file": "传媒_歌华有线_同花顺_2.pdf",
+      "page_num": 7,
+      "company": "歌华有线",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_歌华有线_同花顺_2第7页中，歌华有线的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3,431.31万元",
+      "ground_truth_chunk_id": "chunk_18506",
+      "source_file": "传媒_歌华有线_同花顺_2.pdf",
+      "page_num": 7,
+      "company": "歌华有线",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_1第4页中，电广传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "10.76亿元",
+      "ground_truth_chunk_id": "chunk_19991",
+      "source_file": "传媒_电广传媒_同花顺_1.pdf",
+      "page_num": 4,
+      "company": "电广传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_2第8页中，电广传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "43.37亿元",
+      "ground_truth_chunk_id": "chunk_20144",
+      "source_file": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 8,
+      "company": "电广传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_2第8页中，电广传媒的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.38亿元",
+      "ground_truth_chunk_id": "chunk_20144",
+      "source_file": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 8,
+      "company": "电广传媒",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_2第9页中，电广传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.83亿元",
+      "ground_truth_chunk_id": "chunk_20146",
+      "source_file": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 9,
+      "company": "电广传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_2第9页中，电广传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.26亿元",
+      "ground_truth_chunk_id": "chunk_20146",
+      "source_file": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 9,
+      "company": "电广传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_2第10页中，电广传媒的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3.97亿元",
+      "ground_truth_chunk_id": "chunk_20151",
+      "source_file": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 10,
+      "company": "电广传媒",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_2第10页中，电广传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "28.80亿元",
+      "ground_truth_chunk_id": "chunk_20152",
+      "source_file": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 10,
+      "company": "电广传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_2第10页中，电广传媒的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.35亿元",
+      "ground_truth_chunk_id": "chunk_20152",
+      "source_file": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 10,
+      "company": "电广传媒",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_4第17页中，电广传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "5.47亿元",
+      "ground_truth_chunk_id": "chunk_20241",
+      "source_file": "传媒_电广传媒_同花顺_4.pdf",
+      "page_num": 17,
+      "company": "电广传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_皖新传媒_同花顺_2第6页中，皖新传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "80.02亿元",
+      "ground_truth_chunk_id": "chunk_22284",
+      "source_file": "传媒_皖新传媒_同花顺_2.pdf",
+      "page_num": 6,
+      "company": "皖新传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_皖新传媒_同花顺_2第6页中，皖新传媒的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "8.01亿元",
+      "ground_truth_chunk_id": "chunk_22284",
+      "source_file": "传媒_皖新传媒_同花顺_2.pdf",
+      "page_num": 6,
+      "company": "皖新传媒",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_皖新传媒_同花顺_2第6页中，皖新传媒的总资产是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "192.01亿元",
+      "ground_truth_chunk_id": "chunk_22284",
+      "source_file": "传媒_皖新传媒_同花顺_2.pdf",
+      "page_num": 6,
+      "company": "皖新传媒",
+      "indicator": "总资产"
+    },
+    {
+      "query": "在传媒_皖新传媒_同花顺_5第6页中，皖新传媒的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "5.92亿元",
+      "ground_truth_chunk_id": "chunk_22393",
+      "source_file": "传媒_皖新传媒_同花顺_5.pdf",
+      "page_num": 6,
+      "company": "皖新传媒",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_皖新传媒_同花顺_6第1页中，皖新传媒的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1,456,824,937.22元",
+      "ground_truth_chunk_id": "chunk_22395",
+      "source_file": "传媒_皖新传媒_同花顺_6.pdf",
+      "page_num": 1,
+      "company": "皖新传媒",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_皖新传媒_同花顺_7第18页中，皖新传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "15.96亿元",
+      "ground_truth_chunk_id": "chunk_22526",
+      "source_file": "传媒_皖新传媒_同花顺_7.pdf",
+      "page_num": 18,
+      "company": "皖新传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_皖新传媒_同花顺_7第18页中，皖新传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "37.11亿元",
+      "ground_truth_chunk_id": "chunk_22526",
+      "source_file": "传媒_皖新传媒_同花顺_7.pdf",
+      "page_num": 18,
+      "company": "皖新传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_中国长城_同花顺_4第76页中，中国长城的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "158.09亿元",
+      "ground_truth_chunk_id": "chunk_24696",
+      "source_file": "半导体_中国长城_同花顺_4.pdf",
+      "page_num": 76,
+      "company": "中国长城",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_中颖电子_同花顺_2第5页中，中颖电子的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "32,670万元",
+      "ground_truth_chunk_id": "chunk_25912",
+      "source_file": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 5,
+      "company": "中颖电子",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_中颖电子_同花顺_2第5页中，中颖电子的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "2,048万元",
+      "ground_truth_chunk_id": "chunk_25912",
+      "source_file": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 5,
+      "company": "中颖电子",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_中颖电子_同花顺_2第5页中，中颖电子的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1,583万元",
+      "ground_truth_chunk_id": "chunk_25912",
+      "source_file": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 5,
+      "company": "中颖电子",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_中颖电子_同花顺_2第5页中，中颖电子的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "7,503万元",
+      "ground_truth_chunk_id": "chunk_25913",
+      "source_file": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 5,
+      "company": "中颖电子",
+      "indicator": "研发投入"
+    },
+    {
+      "query": "在半导体_亿纬锂能_同花顺_7第1页中，亿纬锂能的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "206.80亿元",
+      "ground_truth_chunk_id": "chunk_26332",
+      "source_file": "半导体_亿纬锂能_同花顺_7.pdf",
+      "page_num": 1,
+      "company": "亿纬锂能",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_亿纬锂能_同花顺_7第1页中，亿纬锂能的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "14.46亿元",
+      "ground_truth_chunk_id": "chunk_26333",
+      "source_file": "半导体_亿纬锂能_同花顺_7.pdf",
+      "page_num": 1,
+      "company": "亿纬锂能",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_亿纬锂能_同花顺_7第1页中，亿纬锂能的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "11.15亿元",
+      "ground_truth_chunk_id": "chunk_26333",
+      "source_file": "半导体_亿纬锂能_同花顺_7.pdf",
+      "page_num": 1,
+      "company": "亿纬锂能",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_北京君正_同花顺_1第3页中，北京君正的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "155,976.69万元",
+      "ground_truth_chunk_id": "chunk_26376",
+      "source_file": "半导体_北京君正_同花顺_1.pdf",
+      "page_num": 3,
+      "company": "北京君正",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_北京君正_同花顺_1第3页中，北京君正的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "31,897.93万元",
+      "ground_truth_chunk_id": "chunk_26376",
+      "source_file": "半导体_北京君正_同花顺_1.pdf",
+      "page_num": 3,
+      "company": "北京君正",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_北方华创_同花顺_1第2页中，北方华创的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "103.23亿元",
+      "ground_truth_chunk_id": "chunk_26687",
+      "source_file": "半导体_北方华创_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "北方华创",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_北方华创_同花顺_1第2页中，北方华创的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "16.35亿元",
+      "ground_truth_chunk_id": "chunk_26687",
+      "source_file": "半导体_北方华创_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "北方华创",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_北方华创_同花顺_5第11页中，北方华创的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "393.53亿元",
+      "ground_truth_chunk_id": "chunk_26916",
+      "source_file": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 11,
+      "company": "北方华创",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_北方华创_同花顺_5第11页中，北方华创的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "55.22亿元",
+      "ground_truth_chunk_id": "chunk_26917",
+      "source_file": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 11,
+      "company": "北方华创",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_北方华创_同花顺_5第11页中，北方华创的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "54.35亿元",
+      "ground_truth_chunk_id": "chunk_26917",
+      "source_file": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 11,
+      "company": "北方华创",
+      "indicator": "研发投入"
+    },
+    {
+      "query": "在半导体_北方华创_同花顺_5第104页中，北方华创的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3,935,311.24万元",
+      "ground_truth_chunk_id": "chunk_27844",
+      "source_file": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 104,
+      "company": "北方华创",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_北方华创_同花顺_5第105页中，北方华创的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "543,544.54万元",
+      "ground_truth_chunk_id": "chunk_27845",
+      "source_file": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 105,
+      "company": "北方华创",
+      "indicator": "研发投入"
+    },
+    {
+      "query": "在半导体_北方华创_同花顺_6第2页中，北方华创的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "552,199.30万元",
+      "ground_truth_chunk_id": "chunk_28912",
+      "source_file": "半导体_北方华创_同花顺_6.pdf",
+      "page_num": 2,
+      "company": "北方华创",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_北方华创_同花顺_6第2页中，北方华创的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "533,595.25万元",
+      "ground_truth_chunk_id": "chunk_28912",
+      "source_file": "半导体_北方华创_同花顺_6.pdf",
+      "page_num": 2,
+      "company": "北方华创",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_景嘉微_同花顺_5第24页中，景嘉微的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "42,763.38万元",
+      "ground_truth_chunk_id": "chunk_29502",
+      "source_file": "半导体_景嘉微_同花顺_5.pdf",
+      "page_num": 24,
+      "company": "景嘉微",
+      "indicator": "研发投入"
+    },
+    {
+      "query": "在半导体_景嘉微_同花顺_5第34页中，景嘉微的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "103,951.57万元",
+      "ground_truth_chunk_id": "chunk_29612",
+      "source_file": "半导体_景嘉微_同花顺_5.pdf",
+      "page_num": 34,
+      "company": "景嘉微",
+      "indicator": "研发投入"
+    },
+    {
+      "query": "在半导体_紫光国微_同花顺_4第1页中，紫光国微的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "61.46亿元",
+      "ground_truth_chunk_id": "chunk_31296",
+      "source_file": "半导体_紫光国微_同花顺_4.pdf",
+      "page_num": 1,
+      "company": "紫光国微",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_紫光国微_同花顺_4第2页中，紫光国微的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "15.09亿元",
+      "ground_truth_chunk_id": "chunk_31300",
+      "source_file": "半导体_紫光国微_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "紫光国微",
+      "indicator": "研发投入"
+    },
+    {
+      "query": "在半导体_紫光国微_同花顺_4第2页中，紫光国微的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "14.99亿元",
+      "ground_truth_chunk_id": "chunk_31302",
+      "source_file": "半导体_紫光国微_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "紫光国微",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_紫光国微_同花顺_4第2页中，紫光国微的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3.34亿元",
+      "ground_truth_chunk_id": "chunk_31302",
+      "source_file": "半导体_紫光国微_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "紫光国微",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_紫光国微_同花顺_4第2页中，紫光国微的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "2.72亿元",
+      "ground_truth_chunk_id": "chunk_31302",
+      "source_file": "半导体_紫光国微_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "紫光国微",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_紫光国微_同花顺_6第1页中，紫光国微的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1,437,124,791.04元",
+      "ground_truth_chunk_id": "chunk_31439",
+      "source_file": "半导体_紫光国微_同花顺_6.pdf",
+      "page_num": 1,
+      "company": "紫光国微",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_紫光国微_同花顺_7第10页中，紫光国微的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "150,911.56万元",
+      "ground_truth_chunk_id": "chunk_31530",
+      "source_file": "半导体_紫光国微_同花顺_7.pdf",
+      "page_num": 10,
+      "company": "紫光国微",
+      "indicator": "研发投入"
+    },
+    {
+      "query": "在消费_今世缘_同花顺_2第6页中，今世缘的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "101.82亿元",
+      "ground_truth_chunk_id": "chunk_33400",
+      "source_file": "消费_今世缘_同花顺_2.pdf",
+      "page_num": 6,
+      "company": "今世缘",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_今世缘_同花顺_2第6页中，今世缘的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "25.95亿元",
+      "ground_truth_chunk_id": "chunk_33400",
+      "source_file": "消费_今世缘_同花顺_2.pdf",
+      "page_num": 6,
+      "company": "今世缘",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_2第2页中，伊利股份的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "11,200,348,776.89元",
+      "ground_truth_chunk_id": "chunk_34858",
+      "source_file": "消费_伊利股份_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "伊利股份",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_2第8页中，伊利股份的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1,159.31亿元",
+      "ground_truth_chunk_id": "chunk_34902",
+      "source_file": "消费_伊利股份_同花顺_2.pdf",
+      "page_num": 8,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_2第8页中，伊利股份的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "704.22亿元",
+      "ground_truth_chunk_id": "chunk_34902",
+      "source_file": "消费_伊利股份_同花顺_2.pdf",
+      "page_num": 8,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_2第8页中，伊利股份的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "115.14亿元",
+      "ground_truth_chunk_id": "chunk_34902",
+      "source_file": "消费_伊利股份_同花顺_2.pdf",
+      "page_num": 8,
+      "company": "伊利股份",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_2第9页中，伊利股份的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "327.69亿元",
+      "ground_truth_chunk_id": "chunk_34905",
+      "source_file": "消费_伊利股份_同花顺_2.pdf",
+      "page_num": 9,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_2第11页中，伊利股份的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "98.22亿元",
+      "ground_truth_chunk_id": "chunk_34912",
+      "source_file": "消费_伊利股份_同花顺_2.pdf",
+      "page_num": 11,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_4第35页中，伊利股份的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1,215亿元",
+      "ground_truth_chunk_id": "chunk_35155",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 35,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_双汇发展_同花顺_1第3页中，双汇发展的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "12.92亿元",
+      "ground_truth_chunk_id": "chunk_36709",
+      "source_file": "消费_双汇发展_同花顺_1.pdf",
+      "page_num": 3,
+      "company": "双汇发展",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_双汇发展_同花顺_3第1页中，双汇发展的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "12.9亿元",
+      "ground_truth_chunk_id": "chunk_36906",
+      "source_file": "消费_双汇发展_同花顺_3.pdf",
+      "page_num": 1,
+      "company": "双汇发展",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_双汇发展_同花顺_8第1页中，双汇发展的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "594.6亿元",
+      "ground_truth_chunk_id": "chunk_36992",
+      "source_file": "消费_双汇发展_同花顺_8.pdf",
+      "page_num": 1,
+      "company": "双汇发展",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_双汇发展_同花顺_8第1页中，双汇发展的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "51亿元",
+      "ground_truth_chunk_id": "chunk_36992",
+      "source_file": "消费_双汇发展_同花顺_8.pdf",
+      "page_num": 1,
+      "company": "双汇发展",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_格力电器_同花顺_2第2页中，格力电器的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1,711.18亿元",
+      "ground_truth_chunk_id": "chunk_37114",
+      "source_file": "消费_格力电器_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_格力电器_同花顺_2第2页中，格力电器的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "290.03亿元",
+      "ground_truth_chunk_id": "chunk_37114",
+      "source_file": "消费_格力电器_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_格力电器_同花顺_3第2页中，格力电器的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "25,918,580,296.90元",
+      "ground_truth_chunk_id": "chunk_37153",
+      "source_file": "消费_格力电器_同花顺_3.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_欧派家居_同花顺_1第16页中，欧派家居的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1,723,208.98万元",
+      "ground_truth_chunk_id": "chunk_38594",
+      "source_file": "消费_欧派家居_同花顺_1.pdf",
+      "page_num": 16,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_欧派家居_同花顺_1第16页中，欧派家居的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "199,676.21万元",
+      "ground_truth_chunk_id": "chunk_38594",
+      "source_file": "消费_欧派家居_同花顺_1.pdf",
+      "page_num": 16,
+      "company": "欧派家居",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_欧派家居_同花顺_5第8页中，欧派家居的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "172.32亿元",
+      "ground_truth_chunk_id": "chunk_38804",
+      "source_file": "消费_欧派家居_同花顺_5.pdf",
+      "page_num": 8,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_欧派家居_同花顺_7第17页中，欧派家居的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "127.21亿元",
+      "ground_truth_chunk_id": "chunk_38924",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 17,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_欧派家居_同花顺_7第19页中，欧派家居的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "26.20亿元",
+      "ground_truth_chunk_id": "chunk_38929",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 19,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_欧派家居_同花顺_7第19页中，欧派家居的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "4.71亿元",
+      "ground_truth_chunk_id": "chunk_38930",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 19,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_欧派家居_同花顺_7第19页中，欧派家居的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "7.75亿元",
+      "ground_truth_chunk_id": "chunk_38931",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 19,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_洋河股份_同花顺_6第40页中，洋河股份的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "4,159,953,786.74元",
+      "ground_truth_chunk_id": "chunk_41261",
+      "source_file": "消费_洋河股份_同花顺_6.pdf",
+      "page_num": 40,
+      "company": "洋河股份",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_海天味业_同花顺_4第2页中，海天味业的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "90.29亿元",
+      "ground_truth_chunk_id": "chunk_43214",
+      "source_file": "消费_海天味业_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "海天味业",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_海天味业_同花顺_4第2页中，海天味业的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "24.44亿元",
+      "ground_truth_chunk_id": "chunk_43214",
+      "source_file": "消费_海天味业_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "海天味业",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_海天味业_同花顺_4第2页中，海天味业的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "23.47亿元",
+      "ground_truth_chunk_id": "chunk_43214",
+      "source_file": "消费_海天味业_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "海天味业",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_海天味业_同花顺_6第6页中，海天味业的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "70.38亿元",
+      "ground_truth_chunk_id": "chunk_43248",
+      "source_file": "消费_海天味业_同花顺_6.pdf",
+      "page_num": 6,
+      "company": "海天味业",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_绝味食品_同花顺_6第56页中，绝味食品的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "723,625,147.14元",
+      "ground_truth_chunk_id": "chunk_44252",
+      "source_file": "消费_绝味食品_同花顺_6.pdf",
+      "page_num": 56,
+      "company": "绝味食品",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_古井贡酒_同花顺_4第13页中，古井贡酒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "188.32亿元",
+      "ground_truth_chunk_id": "chunk_48038",
+      "source_file": "白酒_古井贡酒_同花顺_4.pdf",
+      "page_num": 13,
+      "company": "古井贡酒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_古井贡酒_同花顺_4第13页中，古井贡酒的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "35.49亿元",
+      "ground_truth_chunk_id": "chunk_48038",
+      "source_file": "白酒_古井贡酒_同花顺_4.pdf",
+      "page_num": 13,
+      "company": "古井贡酒",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在白酒_山西汾酒_同花顺_6第1页中，山西汾酒的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "11,161,306,656.49元",
+      "ground_truth_chunk_id": "chunk_49700",
+      "source_file": "白酒_山西汾酒_同花顺_6.pdf",
+      "page_num": 1,
+      "company": "山西汾酒",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在白酒_泸州老窖_同花顺_2第2页中，泸州老窖的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "257.31亿元",
+      "ground_truth_chunk_id": "chunk_50902",
+      "source_file": "白酒_泸州老窖_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "泸州老窖",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_泸州老窖_同花顺_2第2页中，泸州老窖的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "108.31亿元",
+      "ground_truth_chunk_id": "chunk_50902",
+      "source_file": "白酒_泸州老窖_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "泸州老窖",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在白酒_老白干酒_同花顺_1第6页中，老白干酒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "4,121,473,456.04元",
+      "ground_truth_chunk_id": "chunk_55246",
+      "source_file": "白酒_老白干酒_同花顺_1.pdf",
+      "page_num": 6,
+      "company": "老白干酒",
+      "indicator": "营业收入"
+    }
+  ]
+}

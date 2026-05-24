@@ -1,0 +1,1819 @@
+{
+  "metadata": {
+    "total_samples": 120,
+    "fact_samples": 60,
+    "comparison_samples": 36,
+    "summary_samples": 24
+  },
+  "samples": [
+    {
+      "query_id": "q_0001",
+      "query": "阳光电源与五粮液的净利润率对比？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0156",
+        "doc_0048"
+      ],
+      "ground_truth_answer": "[待标注] 阳光电源与五粮液的净利润对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "阳光电源",
+        "五粮液",
+        "净利润"
+      ]
+    },
+    {
+      "query_id": "q_0002",
+      "query": "隆基绿能 2025年研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0196"
+      ],
+      "ground_truth_answer": "[待标注] 隆基绿能的ROE数据",
+      "difficulty": "easy",
+      "keywords": [
+        "隆基绿能",
+        "ROE"
+      ]
+    },
+    {
+      "query_id": "q_0003",
+      "query": "韦尔股份的ROE是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0024"
+      ],
+      "ground_truth_answer": "[待标注] 韦尔股份的ROE数据",
+      "difficulty": "medium",
+      "keywords": [
+        "韦尔股份",
+        "ROE"
+      ]
+    },
+    {
+      "query_id": "q_0004",
+      "query": "五粮液的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0151"
+      ],
+      "ground_truth_answer": "[待标注] 五粮液的净利润数据",
+      "difficulty": "hard",
+      "keywords": [
+        "五粮液",
+        "净利润"
+      ]
+    },
+    {
+      "query_id": "q_0005",
+      "query": "伊利股份的ROE是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0130"
+      ],
+      "ground_truth_answer": "[待标注] 伊利股份的营业收入数据",
+      "difficulty": "easy",
+      "keywords": [
+        "伊利股份",
+        "营业收入"
+      ]
+    },
+    {
+      "query_id": "q_0006",
+      "query": "兆易创新 2024年净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0139"
+      ],
+      "ground_truth_answer": "[待标注] 兆易创新的每股收益数据",
+      "difficulty": "hard",
+      "keywords": [
+        "兆易创新",
+        "每股收益"
+      ]
+    },
+    {
+      "query_id": "q_0007",
+      "query": "贵州茅台的ROE是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0062"
+      ],
+      "ground_truth_answer": "[待标注] 贵州茅台的资产负债率数据",
+      "difficulty": "hard",
+      "keywords": [
+        "贵州茅台",
+        "资产负债率"
+      ]
+    },
+    {
+      "query_id": "q_0008",
+      "query": "中芯国际和通威股份的净利率哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0048",
+        "doc_0066"
+      ],
+      "ground_truth_answer": "[待标注] 中芯国际与通威股份的净利率对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "中芯国际",
+        "通威股份",
+        "净利率"
+      ]
+    },
+    {
+      "query_id": "q_0009",
+      "query": "比亚迪与阳光电源的营收规模对比如何？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0024",
+        "doc_0128"
+      ],
+      "ground_truth_answer": "[待标注] 比亚迪与阳光电源的营业收入对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "比亚迪",
+        "阳光电源",
+        "营业收入"
+      ]
+    },
+    {
+      "query_id": "q_0010",
+      "query": "通威股份的ROE是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0181"
+      ],
+      "ground_truth_answer": "[待标注] 通威股份的ROA数据",
+      "difficulty": "easy",
+      "keywords": [
+        "通威股份",
+        "ROA"
+      ]
+    },
+    {
+      "query_id": "q_0011",
+      "query": "隆基绿能的ROE是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0189"
+      ],
+      "ground_truth_answer": "[待标注] 隆基绿能的研发投入占比数据",
+      "difficulty": "easy",
+      "keywords": [
+        "隆基绿能",
+        "研发投入占比"
+      ]
+    },
+    {
+      "query_id": "q_0012",
+      "query": "贵州茅台与阳光电源的净利润率对比？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0103",
+        "doc_0046"
+      ],
+      "ground_truth_answer": "[待标注] 贵州茅台与阳光电源的资产负债率对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "贵州茅台",
+        "阳光电源",
+        "资产负债率"
+      ]
+    },
+    {
+      "query_id": "q_0013",
+      "query": "医药行业的发展趋势如何？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0059",
+        "doc_0029",
+        "doc_0045",
+        "doc_0062",
+        "doc_0135"
+      ],
+      "ground_truth_answer": "[待标注] 医药行业2025年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "医药",
+        "2025"
+      ]
+    },
+    {
+      "query_id": "q_0014",
+      "query": "兆易创新 2023年净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0195"
+      ],
+      "ground_truth_answer": "[待标注] 兆易创新的ROA数据",
+      "difficulty": "medium",
+      "keywords": [
+        "兆易创新",
+        "ROA"
+      ]
+    },
+    {
+      "query_id": "q_0015",
+      "query": "医药行业的市场规模有多大？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0138",
+        "doc_0120",
+        "doc_0084",
+        "doc_0055",
+        "doc_0010"
+      ],
+      "ground_truth_answer": "[待标注] 医药行业2023年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "医药",
+        "2023"
+      ]
+    },
+    {
+      "query_id": "q_0016",
+      "query": "新能源行业的市场规模有多大？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0054",
+        "doc_0054",
+        "doc_0172",
+        "doc_0056",
+        "doc_0069"
+      ],
+      "ground_truth_answer": "[待标注] 新能源行业2023年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "新能源",
+        "2023"
+      ]
+    },
+    {
+      "query_id": "q_0017",
+      "query": "宁德时代的营业收入同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0007"
+      ],
+      "ground_truth_answer": "[待标注] 宁德时代的市盈率数据",
+      "difficulty": "medium",
+      "keywords": [
+        "宁德时代",
+        "市盈率"
+      ]
+    },
+    {
+      "query_id": "q_0018",
+      "query": "韦尔股份和宁德时代的研发投入占比谁更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0120",
+        "doc_0056"
+      ],
+      "ground_truth_answer": "[待标注] 韦尔股份与宁德时代的资产负债率对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "韦尔股份",
+        "宁德时代",
+        "资产负债率"
+      ]
+    },
+    {
+      "query_id": "q_0019",
+      "query": "美的集团的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0017"
+      ],
+      "ground_truth_answer": "[待标注] 美的集团的研发投入占比数据",
+      "difficulty": "hard",
+      "keywords": [
+        "美的集团",
+        "研发投入占比"
+      ]
+    },
+    {
+      "query_id": "q_0020",
+      "query": "伊利股份 2025年Q4营收是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0006"
+      ],
+      "ground_truth_answer": "[待标注] 伊利股份的每股收益数据",
+      "difficulty": "easy",
+      "keywords": [
+        "伊利股份",
+        "每股收益"
+      ]
+    },
+    {
+      "query_id": "q_0021",
+      "query": "金融行业2025年主要政策变化有哪些？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0027",
+        "doc_0134"
+      ],
+      "ground_truth_answer": "[待标注] 金融行业2025年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "金融",
+        "2025"
+      ]
+    },
+    {
+      "query_id": "q_0022",
+      "query": "海天味业的市盈率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0122"
+      ],
+      "ground_truth_answer": "[待标注] 海天味业的ROA数据",
+      "difficulty": "hard",
+      "keywords": [
+        "海天味业",
+        "ROA"
+      ]
+    },
+    {
+      "query_id": "q_0023",
+      "query": "金融行业的竞争格局如何？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0150",
+        "doc_0135"
+      ],
+      "ground_truth_answer": "[待标注] 金融行业2025年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "金融",
+        "2025"
+      ]
+    },
+    {
+      "query_id": "q_0024",
+      "query": "半导体行业的市场规模有多大？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0177",
+        "doc_0059",
+        "doc_0047"
+      ],
+      "ground_truth_answer": "[待标注] 半导体行业2024年分析",
+      "difficulty": "hard",
+      "keywords": [
+        "半导体",
+        "2024"
+      ]
+    },
+    {
+      "query_id": "q_0025",
+      "query": "海天味业与阳光电源的营收规模对比如何？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0018",
+        "doc_0011"
+      ],
+      "ground_truth_answer": "[待标注] 海天味业与阳光电源的市盈率对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "海天味业",
+        "阳光电源",
+        "市盈率"
+      ]
+    },
+    {
+      "query_id": "q_0026",
+      "query": "新能源行业的市场规模有多大？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0181",
+        "doc_0132"
+      ],
+      "ground_truth_answer": "[待标注] 新能源行业2024年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "新能源",
+        "2024"
+      ]
+    },
+    {
+      "query_id": "q_0027",
+      "query": "半导体行业2025年主要政策变化有哪些？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0027",
+        "doc_0011",
+        "doc_0005"
+      ],
+      "ground_truth_answer": "[待标注] 半导体行业2025年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "半导体",
+        "2025"
+      ]
+    },
+    {
+      "query_id": "q_0028",
+      "query": "医药行业的发展趋势如何？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0071",
+        "doc_0046",
+        "doc_0139",
+        "doc_0157"
+      ],
+      "ground_truth_answer": "[待标注] 医药行业2023年分析",
+      "difficulty": "hard",
+      "keywords": [
+        "医药",
+        "2023"
+      ]
+    },
+    {
+      "query_id": "q_0029",
+      "query": "伊利股份和韦尔股份的研发投入占比谁更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0026",
+        "doc_0043"
+      ],
+      "ground_truth_answer": "[待标注] 伊利股份与韦尔股份的净利率对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "伊利股份",
+        "韦尔股份",
+        "净利率"
+      ]
+    },
+    {
+      "query_id": "q_0030",
+      "query": "宁德时代与海天味业的净利润率对比？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0125",
+        "doc_0093"
+      ],
+      "ground_truth_answer": "[待标注] 宁德时代与海天味业的研发投入占比对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "宁德时代",
+        "海天味业",
+        "研发投入占比"
+      ]
+    },
+    {
+      "query_id": "q_0031",
+      "query": "北方华创的ROE是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0077"
+      ],
+      "ground_truth_answer": "[待标注] 北方华创的ROE数据",
+      "difficulty": "hard",
+      "keywords": [
+        "北方华创",
+        "ROE"
+      ]
+    },
+    {
+      "query_id": "q_0032",
+      "query": "五粮液的营业收入同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0146"
+      ],
+      "ground_truth_answer": "[待标注] 五粮液的毛利率数据",
+      "difficulty": "medium",
+      "keywords": [
+        "五粮液",
+        "毛利率"
+      ]
+    },
+    {
+      "query_id": "q_0033",
+      "query": "中芯国际和海天味业哪个毛利率更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0169",
+        "doc_0066"
+      ],
+      "ground_truth_answer": "[待标注] 中芯国际与海天味业的资产负债率对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "中芯国际",
+        "海天味业",
+        "资产负债率"
+      ]
+    },
+    {
+      "query_id": "q_0034",
+      "query": "贵州茅台和北方华创的ROE哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0183",
+        "doc_0048"
+      ],
+      "ground_truth_answer": "[待标注] 贵州茅台与北方华创的ROE对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "贵州茅台",
+        "北方华创",
+        "ROE"
+      ]
+    },
+    {
+      "query_id": "q_0035",
+      "query": "通威股份的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0149"
+      ],
+      "ground_truth_answer": "[待标注] 通威股份的每股收益数据",
+      "difficulty": "medium",
+      "keywords": [
+        "通威股份",
+        "每股收益"
+      ]
+    },
+    {
+      "query_id": "q_0036",
+      "query": "伊利股份的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0123"
+      ],
+      "ground_truth_answer": "[待标注] 伊利股份的毛利率数据",
+      "difficulty": "easy",
+      "keywords": [
+        "伊利股份",
+        "毛利率"
+      ]
+    },
+    {
+      "query_id": "q_0037",
+      "query": "医药行业2024年主要政策变化有哪些？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0190",
+        "doc_0181"
+      ],
+      "ground_truth_answer": "[待标注] 医药行业2024年分析",
+      "difficulty": "hard",
+      "keywords": [
+        "医药",
+        "2024"
+      ]
+    },
+    {
+      "query_id": "q_0038",
+      "query": "比亚迪和兆易创新的ROA哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0063",
+        "doc_0145"
+      ],
+      "ground_truth_answer": "[待标注] 比亚迪与兆易创新的ROA对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "比亚迪",
+        "兆易创新",
+        "ROA"
+      ]
+    },
+    {
+      "query_id": "q_0039",
+      "query": "美的集团和五粮液哪个毛利率更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0034",
+        "doc_0042"
+      ],
+      "ground_truth_answer": "[待标注] 美的集团与五粮液的毛利率对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "美的集团",
+        "五粮液",
+        "毛利率"
+      ]
+    },
+    {
+      "query_id": "q_0040",
+      "query": "贵州茅台和比亚迪哪个毛利率更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0182",
+        "doc_0186"
+      ],
+      "ground_truth_answer": "[待标注] 贵州茅台与比亚迪的ROE对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "贵州茅台",
+        "比亚迪",
+        "ROE"
+      ]
+    },
+    {
+      "query_id": "q_0041",
+      "query": "韦尔股份和隆基绿能的市盈率哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0001",
+        "doc_0001"
+      ],
+      "ground_truth_answer": "[待标注] 韦尔股份与隆基绿能的市盈率对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "韦尔股份",
+        "隆基绿能",
+        "市盈率"
+      ]
+    },
+    {
+      "query_id": "q_0042",
+      "query": "隆基绿能与五粮液的营收规模对比如何？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0121",
+        "doc_0069"
+      ],
+      "ground_truth_answer": "[待标注] 隆基绿能与五粮液的ROA对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "隆基绿能",
+        "五粮液",
+        "ROA"
+      ]
+    },
+    {
+      "query_id": "q_0043",
+      "query": "医药行业2024年主要政策变化有哪些？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0021",
+        "doc_0040",
+        "doc_0063",
+        "doc_0134"
+      ],
+      "ground_truth_answer": "[待标注] 医药行业2024年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "医药",
+        "2024"
+      ]
+    },
+    {
+      "query_id": "q_0044",
+      "query": "伊利股份和海天味业哪个毛利率更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0004",
+        "doc_0090"
+      ],
+      "ground_truth_answer": "[待标注] 伊利股份与海天味业的资产负债率对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "伊利股份",
+        "海天味业",
+        "资产负债率"
+      ]
+    },
+    {
+      "query_id": "q_0045",
+      "query": "比亚迪与伊利股份的净利润率对比？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0033",
+        "doc_0093"
+      ],
+      "ground_truth_answer": "[待标注] 比亚迪与伊利股份的营业收入对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "比亚迪",
+        "伊利股份",
+        "营业收入"
+      ]
+    },
+    {
+      "query_id": "q_0046",
+      "query": "通威股份的市盈率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0187"
+      ],
+      "ground_truth_answer": "[待标注] 通威股份的ROA数据",
+      "difficulty": "hard",
+      "keywords": [
+        "通威股份",
+        "ROA"
+      ]
+    },
+    {
+      "query_id": "q_0047",
+      "query": "五粮液与阳光电源的净利润率对比？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0008",
+        "doc_0079"
+      ],
+      "ground_truth_answer": "[待标注] 五粮液与阳光电源的资产负债率对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "五粮液",
+        "阳光电源",
+        "资产负债率"
+      ]
+    },
+    {
+      "query_id": "q_0048",
+      "query": "消费行业的竞争格局如何？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0020",
+        "doc_0158",
+        "doc_0099"
+      ],
+      "ground_truth_answer": "[待标注] 消费行业2025年分析",
+      "difficulty": "hard",
+      "keywords": [
+        "消费",
+        "2025"
+      ]
+    },
+    {
+      "query_id": "q_0049",
+      "query": "比亚迪与海天味业的净利润率对比？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0033",
+        "doc_0074"
+      ],
+      "ground_truth_answer": "[待标注] 比亚迪与海天味业的ROA对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "比亚迪",
+        "海天味业",
+        "ROA"
+      ]
+    },
+    {
+      "query_id": "q_0050",
+      "query": "医药行业2023年主要政策变化有哪些？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0137",
+        "doc_0123",
+        "doc_0001",
+        "doc_0055"
+      ],
+      "ground_truth_answer": "[待标注] 医药行业2023年分析",
+      "difficulty": "hard",
+      "keywords": [
+        "医药",
+        "2023"
+      ]
+    },
+    {
+      "query_id": "q_0051",
+      "query": "兆易创新的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0166"
+      ],
+      "ground_truth_answer": "[待标注] 兆易创新的营业收入数据",
+      "difficulty": "easy",
+      "keywords": [
+        "兆易创新",
+        "营业收入"
+      ]
+    },
+    {
+      "query_id": "q_0052",
+      "query": "伊利股份的市盈率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0021"
+      ],
+      "ground_truth_answer": "[待标注] 伊利股份的每股收益数据",
+      "difficulty": "easy",
+      "keywords": [
+        "伊利股份",
+        "每股收益"
+      ]
+    },
+    {
+      "query_id": "q_0053",
+      "query": "宁德时代的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0184"
+      ],
+      "ground_truth_answer": "[待标注] 宁德时代的研发投入占比数据",
+      "difficulty": "medium",
+      "keywords": [
+        "宁德时代",
+        "研发投入占比"
+      ]
+    },
+    {
+      "query_id": "q_0054",
+      "query": "美的集团和宁德时代的研发投入占比哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0197",
+        "doc_0009"
+      ],
+      "ground_truth_answer": "[待标注] 美的集团与宁德时代的研发投入占比对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "美的集团",
+        "宁德时代",
+        "研发投入占比"
+      ]
+    },
+    {
+      "query_id": "q_0055",
+      "query": "比亚迪 2025年研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0043"
+      ],
+      "ground_truth_answer": "[待标注] 比亚迪的研发投入占比数据",
+      "difficulty": "easy",
+      "keywords": [
+        "比亚迪",
+        "研发投入占比"
+      ]
+    },
+    {
+      "query_id": "q_0056",
+      "query": "紫光国微与比亚迪的净利润率对比？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0150",
+        "doc_0129"
+      ],
+      "ground_truth_answer": "[待标注] 紫光国微与比亚迪的净利润对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "紫光国微",
+        "比亚迪",
+        "净利润"
+      ]
+    },
+    {
+      "query_id": "q_0057",
+      "query": "金融行业面临的主要风险是什么？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0098",
+        "doc_0131"
+      ],
+      "ground_truth_answer": "[待标注] 金融行业2023年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "金融",
+        "2023"
+      ]
+    },
+    {
+      "query_id": "q_0058",
+      "query": "比亚迪的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0085"
+      ],
+      "ground_truth_answer": "[待标注] 比亚迪的市盈率数据",
+      "difficulty": "easy",
+      "keywords": [
+        "比亚迪",
+        "市盈率"
+      ]
+    },
+    {
+      "query_id": "q_0059",
+      "query": "新能源行业面临的主要风险是什么？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0135",
+        "doc_0157",
+        "doc_0173",
+        "doc_0023"
+      ],
+      "ground_truth_answer": "[待标注] 新能源行业2025年分析",
+      "difficulty": "hard",
+      "keywords": [
+        "新能源",
+        "2025"
+      ]
+    },
+    {
+      "query_id": "q_0060",
+      "query": "通威股份和伊利股份哪个毛利率更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0079",
+        "doc_0190"
+      ],
+      "ground_truth_answer": "[待标注] 通威股份与伊利股份的营业收入对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "通威股份",
+        "伊利股份",
+        "营业收入"
+      ]
+    },
+    {
+      "query_id": "q_0061",
+      "query": "阳光电源和通威股份的研发投入占比谁更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0175",
+        "doc_0155"
+      ],
+      "ground_truth_answer": "[待标注] 阳光电源与通威股份的ROA对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "阳光电源",
+        "通威股份",
+        "ROA"
+      ]
+    },
+    {
+      "query_id": "q_0062",
+      "query": "海天味业和兆易创新的研发投入占比谁更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0158",
+        "doc_0191"
+      ],
+      "ground_truth_answer": "[待标注] 海天味业与兆易创新的毛利率对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "海天味业",
+        "兆易创新",
+        "毛利率"
+      ]
+    },
+    {
+      "query_id": "q_0063",
+      "query": "海天味业 2024年净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0172"
+      ],
+      "ground_truth_answer": "[待标注] 海天味业的净利润数据",
+      "difficulty": "easy",
+      "keywords": [
+        "海天味业",
+        "净利润"
+      ]
+    },
+    {
+      "query_id": "q_0064",
+      "query": "中芯国际的市盈率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0039"
+      ],
+      "ground_truth_answer": "[待标注] 中芯国际的市盈率数据",
+      "difficulty": "hard",
+      "keywords": [
+        "中芯国际",
+        "市盈率"
+      ]
+    },
+    {
+      "query_id": "q_0065",
+      "query": "半导体行业的竞争格局如何？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0030",
+        "doc_0142",
+        "doc_0124",
+        "doc_0082"
+      ],
+      "ground_truth_answer": "[待标注] 半导体行业2025年分析",
+      "difficulty": "hard",
+      "keywords": [
+        "半导体",
+        "2025"
+      ]
+    },
+    {
+      "query_id": "q_0066",
+      "query": "消费行业的市场规模有多大？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0101",
+        "doc_0131"
+      ],
+      "ground_truth_answer": "[待标注] 消费行业2023年分析",
+      "difficulty": "hard",
+      "keywords": [
+        "消费",
+        "2023"
+      ]
+    },
+    {
+      "query_id": "q_0067",
+      "query": "海天味业和贵州茅台哪个毛利率更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0161",
+        "doc_0086"
+      ],
+      "ground_truth_answer": "[待标注] 海天味业与贵州茅台的净利润对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "海天味业",
+        "贵州茅台",
+        "净利润"
+      ]
+    },
+    {
+      "query_id": "q_0068",
+      "query": "消费行业面临的主要风险是什么？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0131",
+        "doc_0109",
+        "doc_0030",
+        "doc_0041",
+        "doc_0189"
+      ],
+      "ground_truth_answer": "[待标注] 消费行业2024年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "消费",
+        "2024"
+      ]
+    },
+    {
+      "query_id": "q_0069",
+      "query": "中芯国际的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0159"
+      ],
+      "ground_truth_answer": "[待标注] 中芯国际的毛利率数据",
+      "difficulty": "hard",
+      "keywords": [
+        "中芯国际",
+        "毛利率"
+      ]
+    },
+    {
+      "query_id": "q_0070",
+      "query": "贵州茅台 2023年Q4营收是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0014"
+      ],
+      "ground_truth_answer": "[待标注] 贵州茅台的市盈率数据",
+      "difficulty": "easy",
+      "keywords": [
+        "贵州茅台",
+        "市盈率"
+      ]
+    },
+    {
+      "query_id": "q_0071",
+      "query": "北方华创和海天味业的每股收益哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0187",
+        "doc_0193"
+      ],
+      "ground_truth_answer": "[待标注] 北方华创与海天味业的每股收益对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "北方华创",
+        "海天味业",
+        "每股收益"
+      ]
+    },
+    {
+      "query_id": "q_0072",
+      "query": "伊利股份 2023年Q4营收是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0089"
+      ],
+      "ground_truth_answer": "[待标注] 伊利股份的营业收入数据",
+      "difficulty": "easy",
+      "keywords": [
+        "伊利股份",
+        "营业收入"
+      ]
+    },
+    {
+      "query_id": "q_0073",
+      "query": "中芯国际 2024年Q3营收是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0069"
+      ],
+      "ground_truth_answer": "[待标注] 中芯国际的营业收入数据",
+      "difficulty": "hard",
+      "keywords": [
+        "中芯国际",
+        "营业收入"
+      ]
+    },
+    {
+      "query_id": "q_0074",
+      "query": "新能源行业2023年主要政策变化有哪些？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0115",
+        "doc_0159",
+        "doc_0095",
+        "doc_0107"
+      ],
+      "ground_truth_answer": "[待标注] 新能源行业2023年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "新能源",
+        "2023"
+      ]
+    },
+    {
+      "query_id": "q_0075",
+      "query": "中芯国际的营业收入同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0070"
+      ],
+      "ground_truth_answer": "[待标注] 中芯国际的毛利率数据",
+      "difficulty": "medium",
+      "keywords": [
+        "中芯国际",
+        "毛利率"
+      ]
+    },
+    {
+      "query_id": "q_0076",
+      "query": "韦尔股份和比亚迪的研发投入占比谁更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0173",
+        "doc_0172"
+      ],
+      "ground_truth_answer": "[待标注] 韦尔股份与比亚迪的资产负债率对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "韦尔股份",
+        "比亚迪",
+        "资产负债率"
+      ]
+    },
+    {
+      "query_id": "q_0077",
+      "query": "通威股份的ROE是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0185"
+      ],
+      "ground_truth_answer": "[待标注] 通威股份的净利润数据",
+      "difficulty": "medium",
+      "keywords": [
+        "通威股份",
+        "净利润"
+      ]
+    },
+    {
+      "query_id": "q_0078",
+      "query": "紫光国微的营业收入同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0160"
+      ],
+      "ground_truth_answer": "[待标注] 紫光国微的每股收益数据",
+      "difficulty": "easy",
+      "keywords": [
+        "紫光国微",
+        "每股收益"
+      ]
+    },
+    {
+      "query_id": "q_0079",
+      "query": "中芯国际的市盈率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0113"
+      ],
+      "ground_truth_answer": "[待标注] 中芯国际的市盈率数据",
+      "difficulty": "easy",
+      "keywords": [
+        "中芯国际",
+        "市盈率"
+      ]
+    },
+    {
+      "query_id": "q_0080",
+      "query": "韦尔股份的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0039"
+      ],
+      "ground_truth_answer": "[待标注] 韦尔股份的营业收入数据",
+      "difficulty": "hard",
+      "keywords": [
+        "韦尔股份",
+        "营业收入"
+      ]
+    },
+    {
+      "query_id": "q_0081",
+      "query": "北方华创的市盈率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0052"
+      ],
+      "ground_truth_answer": "[待标注] 北方华创的每股收益数据",
+      "difficulty": "medium",
+      "keywords": [
+        "北方华创",
+        "每股收益"
+      ]
+    },
+    {
+      "query_id": "q_0082",
+      "query": "五粮液 2023年研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0007"
+      ],
+      "ground_truth_answer": "[待标注] 五粮液的净利润数据",
+      "difficulty": "easy",
+      "keywords": [
+        "五粮液",
+        "净利润"
+      ]
+    },
+    {
+      "query_id": "q_0083",
+      "query": "隆基绿能和比亚迪哪个毛利率更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0088",
+        "doc_0108"
+      ],
+      "ground_truth_answer": "[待标注] 隆基绿能与比亚迪的资产负债率对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "隆基绿能",
+        "比亚迪",
+        "资产负债率"
+      ]
+    },
+    {
+      "query_id": "q_0084",
+      "query": "医药行业的竞争格局如何？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0050",
+        "doc_0042"
+      ],
+      "ground_truth_answer": "[待标注] 医药行业2023年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "医药",
+        "2023"
+      ]
+    },
+    {
+      "query_id": "q_0085",
+      "query": "新能源行业的市场规模有多大？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0071",
+        "doc_0161"
+      ],
+      "ground_truth_answer": "[待标注] 新能源行业2024年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "新能源",
+        "2024"
+      ]
+    },
+    {
+      "query_id": "q_0086",
+      "query": "紫光国微的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0048"
+      ],
+      "ground_truth_answer": "[待标注] 紫光国微的资产负债率数据",
+      "difficulty": "medium",
+      "keywords": [
+        "紫光国微",
+        "资产负债率"
+      ]
+    },
+    {
+      "query_id": "q_0087",
+      "query": "隆基绿能的ROE是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0041"
+      ],
+      "ground_truth_answer": "[待标注] 隆基绿能的ROE数据",
+      "difficulty": "easy",
+      "keywords": [
+        "隆基绿能",
+        "ROE"
+      ]
+    },
+    {
+      "query_id": "q_0088",
+      "query": "海天味业 2023年净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0144"
+      ],
+      "ground_truth_answer": "[待标注] 海天味业的资产负债率数据",
+      "difficulty": "hard",
+      "keywords": [
+        "海天味业",
+        "资产负债率"
+      ]
+    },
+    {
+      "query_id": "q_0089",
+      "query": "五粮液的ROE是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0196"
+      ],
+      "ground_truth_answer": "[待标注] 五粮液的净利率数据",
+      "difficulty": "medium",
+      "keywords": [
+        "五粮液",
+        "净利率"
+      ]
+    },
+    {
+      "query_id": "q_0090",
+      "query": "韦尔股份的营业收入同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0088"
+      ],
+      "ground_truth_answer": "[待标注] 韦尔股份的净利率数据",
+      "difficulty": "easy",
+      "keywords": [
+        "韦尔股份",
+        "净利率"
+      ]
+    },
+    {
+      "query_id": "q_0091",
+      "query": "宁德时代 2023年Q4营收是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0182"
+      ],
+      "ground_truth_answer": "[待标注] 宁德时代的毛利率数据",
+      "difficulty": "easy",
+      "keywords": [
+        "宁德时代",
+        "毛利率"
+      ]
+    },
+    {
+      "query_id": "q_0092",
+      "query": "紫光国微的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0002"
+      ],
+      "ground_truth_answer": "[待标注] 紫光国微的市盈率数据",
+      "difficulty": "hard",
+      "keywords": [
+        "紫光国微",
+        "市盈率"
+      ]
+    },
+    {
+      "query_id": "q_0093",
+      "query": "半导体行业的竞争格局如何？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0104",
+        "doc_0152",
+        "doc_0164",
+        "doc_0110",
+        "doc_0191"
+      ],
+      "ground_truth_answer": "[待标注] 半导体行业2023年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "半导体",
+        "2023"
+      ]
+    },
+    {
+      "query_id": "q_0094",
+      "query": "隆基绿能 2025年净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0072"
+      ],
+      "ground_truth_answer": "[待标注] 隆基绿能的营业收入数据",
+      "difficulty": "medium",
+      "keywords": [
+        "隆基绿能",
+        "营业收入"
+      ]
+    },
+    {
+      "query_id": "q_0095",
+      "query": "比亚迪的ROE是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0095"
+      ],
+      "ground_truth_answer": "[待标注] 比亚迪的ROE数据",
+      "difficulty": "hard",
+      "keywords": [
+        "比亚迪",
+        "ROE"
+      ]
+    },
+    {
+      "query_id": "q_0096",
+      "query": "紫光国微 2025年净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0172"
+      ],
+      "ground_truth_answer": "[待标注] 紫光国微的ROA数据",
+      "difficulty": "hard",
+      "keywords": [
+        "紫光国微",
+        "ROA"
+      ]
+    },
+    {
+      "query_id": "q_0097",
+      "query": "贵州茅台的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0066"
+      ],
+      "ground_truth_answer": "[待标注] 贵州茅台的市盈率数据",
+      "difficulty": "easy",
+      "keywords": [
+        "贵州茅台",
+        "市盈率"
+      ]
+    },
+    {
+      "query_id": "q_0098",
+      "query": "医药行业的竞争格局如何？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0056",
+        "doc_0104",
+        "doc_0097"
+      ],
+      "ground_truth_answer": "[待标注] 医药行业2023年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "医药",
+        "2023"
+      ]
+    },
+    {
+      "query_id": "q_0099",
+      "query": "半导体行业的发展趋势如何？",
+      "query_type": "summary",
+      "ground_truth_doc_ids": [
+        "doc_0169",
+        "doc_0123",
+        "doc_0054",
+        "doc_0080"
+      ],
+      "ground_truth_answer": "[待标注] 半导体行业2023年分析",
+      "difficulty": "medium",
+      "keywords": [
+        "半导体",
+        "2023"
+      ]
+    },
+    {
+      "query_id": "q_0100",
+      "query": "阳光电源的营业收入同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0026"
+      ],
+      "ground_truth_answer": "[待标注] 阳光电源的净利润数据",
+      "difficulty": "hard",
+      "keywords": [
+        "阳光电源",
+        "净利润"
+      ]
+    },
+    {
+      "query_id": "q_0101",
+      "query": "贵州茅台和比亚迪哪个毛利率更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0064",
+        "doc_0135"
+      ],
+      "ground_truth_answer": "[待标注] 贵州茅台与比亚迪的毛利率对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "贵州茅台",
+        "比亚迪",
+        "毛利率"
+      ]
+    },
+    {
+      "query_id": "q_0102",
+      "query": "伊利股份和紫光国微哪个毛利率更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0200",
+        "doc_0131"
+      ],
+      "ground_truth_answer": "[待标注] 伊利股份与紫光国微的净利率对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "伊利股份",
+        "紫光国微",
+        "净利率"
+      ]
+    },
+    {
+      "query_id": "q_0103",
+      "query": "宁德时代的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0132"
+      ],
+      "ground_truth_answer": "[待标注] 宁德时代的研发投入占比数据",
+      "difficulty": "easy",
+      "keywords": [
+        "宁德时代",
+        "研发投入占比"
+      ]
+    },
+    {
+      "query_id": "q_0104",
+      "query": "紫光国微的营业收入同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0020"
+      ],
+      "ground_truth_answer": "[待标注] 紫光国微的净利率数据",
+      "difficulty": "medium",
+      "keywords": [
+        "紫光国微",
+        "净利率"
+      ]
+    },
+    {
+      "query_id": "q_0105",
+      "query": "隆基绿能 2023年Q4营收是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0021"
+      ],
+      "ground_truth_answer": "[待标注] 隆基绿能的市盈率数据",
+      "difficulty": "hard",
+      "keywords": [
+        "隆基绿能",
+        "市盈率"
+      ]
+    },
+    {
+      "query_id": "q_0106",
+      "query": "隆基绿能 2023年净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0042"
+      ],
+      "ground_truth_answer": "[待标注] 隆基绿能的市盈率数据",
+      "difficulty": "easy",
+      "keywords": [
+        "隆基绿能",
+        "市盈率"
+      ]
+    },
+    {
+      "query_id": "q_0107",
+      "query": "通威股份的市盈率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0052"
+      ],
+      "ground_truth_answer": "[待标注] 通威股份的净利润数据",
+      "difficulty": "hard",
+      "keywords": [
+        "通威股份",
+        "净利润"
+      ]
+    },
+    {
+      "query_id": "q_0108",
+      "query": "阳光电源 2024年Q4营收是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0099"
+      ],
+      "ground_truth_answer": "[待标注] 阳光电源的净利率数据",
+      "difficulty": "hard",
+      "keywords": [
+        "阳光电源",
+        "净利率"
+      ]
+    },
+    {
+      "query_id": "q_0109",
+      "query": "五粮液的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0166"
+      ],
+      "ground_truth_answer": "[待标注] 五粮液的每股收益数据",
+      "difficulty": "easy",
+      "keywords": [
+        "五粮液",
+        "每股收益"
+      ]
+    },
+    {
+      "query_id": "q_0110",
+      "query": "海天味业与美的集团的净利润率对比？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0076",
+        "doc_0081"
+      ],
+      "ground_truth_answer": "[待标注] 海天味业与美的集团的每股收益对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "海天味业",
+        "美的集团",
+        "每股收益"
+      ]
+    },
+    {
+      "query_id": "q_0111",
+      "query": "韦尔股份和伊利股份的ROE哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0137",
+        "doc_0009"
+      ],
+      "ground_truth_answer": "[待标注] 韦尔股份与伊利股份的ROE对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "韦尔股份",
+        "伊利股份",
+        "ROE"
+      ]
+    },
+    {
+      "query_id": "q_0112",
+      "query": "贵州茅台 2025年Q4营收是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0128"
+      ],
+      "ground_truth_answer": "[待标注] 贵州茅台的市盈率数据",
+      "difficulty": "medium",
+      "keywords": [
+        "贵州茅台",
+        "市盈率"
+      ]
+    },
+    {
+      "query_id": "q_0113",
+      "query": "通威股份的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0026"
+      ],
+      "ground_truth_answer": "[待标注] 通威股份的营业收入数据",
+      "difficulty": "hard",
+      "keywords": [
+        "通威股份",
+        "营业收入"
+      ]
+    },
+    {
+      "query_id": "q_0114",
+      "query": "美的集团的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0059"
+      ],
+      "ground_truth_answer": "[待标注] 美的集团的市盈率数据",
+      "difficulty": "hard",
+      "keywords": [
+        "美的集团",
+        "市盈率"
+      ]
+    },
+    {
+      "query_id": "q_0115",
+      "query": "中芯国际的营业收入同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0003"
+      ],
+      "ground_truth_answer": "[待标注] 中芯国际的净利润数据",
+      "difficulty": "medium",
+      "keywords": [
+        "中芯国际",
+        "净利润"
+      ]
+    },
+    {
+      "query_id": "q_0116",
+      "query": "北方华创与紫光国微的营收规模对比如何？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0175",
+        "doc_0144"
+      ],
+      "ground_truth_answer": "[待标注] 北方华创与紫光国微的净利率对比分析",
+      "difficulty": "hard",
+      "keywords": [
+        "北方华创",
+        "紫光国微",
+        "净利率"
+      ]
+    },
+    {
+      "query_id": "q_0117",
+      "query": "贵州茅台的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_doc_ids": [
+        "doc_0161"
+      ],
+      "ground_truth_answer": "[待标注] 贵州茅台的净利润数据",
+      "difficulty": "easy",
+      "keywords": [
+        "贵州茅台",
+        "净利润"
+      ]
+    },
+    {
+      "query_id": "q_0118",
+      "query": "宁德时代与紫光国微的营收规模对比如何？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0114",
+        "doc_0138"
+      ],
+      "ground_truth_answer": "[待标注] 宁德时代与紫光国微的净利润对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "宁德时代",
+        "紫光国微",
+        "净利润"
+      ]
+    },
+    {
+      "query_id": "q_0119",
+      "query": "中芯国际和美的集团哪个毛利率更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0061",
+        "doc_0113"
+      ],
+      "ground_truth_answer": "[待标注] 中芯国际与美的集团的毛利率对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "中芯国际",
+        "美的集团",
+        "毛利率"
+      ]
+    },
+    {
+      "query_id": "q_0120",
+      "query": "宁德时代和伊利股份的研发投入占比哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_doc_ids": [
+        "doc_0143",
+        "doc_0008"
+      ],
+      "ground_truth_answer": "[待标注] 宁德时代与伊利股份的研发投入占比对比分析",
+      "difficulty": "medium",
+      "keywords": [
+        "宁德时代",
+        "伊利股份",
+        "研发投入占比"
+      ]
+    }
+  ]
+}

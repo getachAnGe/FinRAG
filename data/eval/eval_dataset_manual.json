@@ -1,0 +1,839 @@
+{
+  "metadata": {
+    "total_samples": 83,
+    "fact_samples": 83,
+    "description": "手动验证评测集，83条，28家公司"
+  },
+  "samples": [
+    {
+      "query": "在半导体_北方华创_同花顺_5第11页中，北方华创2025年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "393.53亿元",
+      "ground_truth_chunk_id": "chunk_26916",
+      "source_file": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 11,
+      "company": "北方华创",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_北方华创_同花顺_5第11页中，北方华创2025年归属于上市公司股东的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "55.22亿元",
+      "ground_truth_chunk_id": "chunk_26917",
+      "source_file": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 11,
+      "company": "北方华创",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_北方华创_同花顺_5第11页中，北方华创2025年计入当期损益的研发费用是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "54.35亿元",
+      "ground_truth_chunk_id": "chunk_26917",
+      "source_file": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 11,
+      "company": "北方华创",
+      "indicator": "研发投入"
+    },
+    {
+      "query": "在半导体_北方华创_同花顺_1第2页中，北方华创的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "103.23亿元",
+      "ground_truth_chunk_id": "chunk_26687",
+      "source_file": "半导体_北方华创_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "北方华创",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_北方华创_同花顺_1第2页中，北方华创的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "16.35亿元",
+      "ground_truth_chunk_id": "chunk_26687",
+      "source_file": "半导体_北方华创_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "北方华创",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_北方华创_同花顺_1第1页中，北方华创的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "4.25%",
+      "ground_truth_chunk_id": "chunk_26681",
+      "source_file": "半导体_北方华创_同花顺_1.pdf",
+      "page_num": 1,
+      "company": "北方华创",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在白酒_泸州老窖_同花顺_2第2页中，泸州老窖2025年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "257.31亿元",
+      "ground_truth_chunk_id": "chunk_50902",
+      "source_file": "白酒_泸州老窖_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "泸州老窖",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_泸州老窖_同花顺_2第2页中，泸州老窖2025年归属于上市公司股东的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "108.31亿元",
+      "ground_truth_chunk_id": "chunk_50902",
+      "source_file": "白酒_泸州老窖_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "泸州老窖",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在白酒_泸州老窖_同花顺_4第28页中，泸州老窖2025年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "257.31亿元",
+      "ground_truth_chunk_id": "chunk_51165",
+      "source_file": "白酒_泸州老窖_同花顺_4.pdf",
+      "page_num": 28,
+      "company": "泸州老窖",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_泸州老窖_同花顺_4第28页中，泸州老窖2025年归属于上市公司股东的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "108.31亿元",
+      "ground_truth_chunk_id": "chunk_51165",
+      "source_file": "白酒_泸州老窖_同花顺_4.pdf",
+      "page_num": 28,
+      "company": "泸州老窖",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在白酒_泸州老窖_同花顺_1第2页中，泸州老窖的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "7.32%",
+      "ground_truth_chunk_id": "chunk_50784",
+      "source_file": "白酒_泸州老窖_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "泸州老窖",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在白酒_泸州老窖_同花顺_4第70页中，泸州老窖的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "23.00%",
+      "ground_truth_chunk_id": "chunk_51592",
+      "source_file": "白酒_泸州老窖_同花顺_4.pdf",
+      "page_num": 70,
+      "company": "泸州老窖",
+      "indicator": "资产负债率"
+    },
+    {
+      "query": "在白酒_古井贡酒_同花顺_2第2页中，古井贡酒的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "14.28%",
+      "ground_truth_chunk_id": "chunk_47923",
+      "source_file": "白酒_古井贡酒_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "古井贡酒",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在白酒_古井贡酒_同花顺_1第2页中，古井贡酒的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "6.30%",
+      "ground_truth_chunk_id": "chunk_47726",
+      "source_file": "白酒_古井贡酒_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "古井贡酒",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在白酒_古井贡酒_同花顺_4第13页中，古井贡酒2025年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "188.32亿元",
+      "ground_truth_chunk_id": "chunk_48038",
+      "source_file": "白酒_古井贡酒_同花顺_4.pdf",
+      "page_num": 13,
+      "company": "古井贡酒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_古井贡酒_同花顺_4第13页中，古井贡酒2025年的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "35.49亿元",
+      "ground_truth_chunk_id": "chunk_48038",
+      "source_file": "白酒_古井贡酒_同花顺_4.pdf",
+      "page_num": 13,
+      "company": "古井贡酒",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在白酒_五粮液_同花顺_3第1页中，五粮液的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3.26%",
+      "ground_truth_chunk_id": "chunk_45819",
+      "source_file": "白酒_五粮液_同花顺_3.pdf",
+      "page_num": 1,
+      "company": "五粮液",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在白酒_五粮液_同花顺_6第1页中，五粮液的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3.41%",
+      "ground_truth_chunk_id": "chunk_46199",
+      "source_file": "白酒_五粮液_同花顺_6.pdf",
+      "page_num": 1,
+      "company": "五粮液",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在白酒_五粮液_同花顺_4第1页中，五粮液的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "6.50%",
+      "ground_truth_chunk_id": "chunk_45925",
+      "source_file": "白酒_五粮液_同花顺_4.pdf",
+      "page_num": 1,
+      "company": "五粮液",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在白酒_五粮液_同花顺_5第1页中，五粮液的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.31%",
+      "ground_truth_chunk_id": "chunk_46092",
+      "source_file": "白酒_五粮液_同花顺_5.pdf",
+      "page_num": 1,
+      "company": "五粮液",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在白酒_五粮液_同花顺_7第3页中，五粮液的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "6.89%",
+      "ground_truth_chunk_id": "chunk_46234",
+      "source_file": "白酒_五粮液_同花顺_7.pdf",
+      "page_num": 3,
+      "company": "五粮液",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_4第35页中，伊利股份的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1,215亿元",
+      "ground_truth_chunk_id": "chunk_35155",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 35,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_4第14页中，伊利股份的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1,159.31亿元",
+      "ground_truth_chunk_id": "chunk_35000",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 14,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_4第14页中，伊利股份的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "115.14亿元",
+      "ground_truth_chunk_id": "chunk_35000",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 14,
+      "company": "伊利股份",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_4第15页中，伊利股份的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "327.69亿元",
+      "ground_truth_chunk_id": "chunk_35004",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 15,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_4第17页中，伊利股份的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "98.22亿元",
+      "ground_truth_chunk_id": "chunk_35010",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 17,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_格力电器_同花顺_2第2页中，格力电器的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1,711.18亿元",
+      "ground_truth_chunk_id": "chunk_37114",
+      "source_file": "消费_格力电器_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_格力电器_同花顺_2第2页中，格力电器的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "290.03亿元",
+      "ground_truth_chunk_id": "chunk_37114",
+      "source_file": "消费_格力电器_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_格力电器_同花顺_2第2页中，格力电器的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "20.30%",
+      "ground_truth_chunk_id": "chunk_37120",
+      "source_file": "消费_格力电器_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在消费_格力电器_同花顺_1第2页中，格力电器的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "4.07%",
+      "ground_truth_chunk_id": "chunk_37023",
+      "source_file": "消费_格力电器_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在消费_格力电器_同花顺_6第10页中，格力电器的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1,711.18亿元",
+      "ground_truth_chunk_id": "chunk_37232",
+      "source_file": "消费_格力电器_同花顺_6.pdf",
+      "page_num": 10,
+      "company": "格力电器",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_紫光国微_同花顺_7第68页中，紫光国微的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "27.40%",
+      "ground_truth_chunk_id": "chunk_32391",
+      "source_file": "半导体_紫光国微_同花顺_7.pdf",
+      "page_num": 68,
+      "company": "紫光国微",
+      "indicator": "资产负债率"
+    },
+    {
+      "query": "在半导体_紫光国微_同花顺_5第2页中，紫光国微的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "11.10%",
+      "ground_truth_chunk_id": "chunk_31374",
+      "source_file": "半导体_紫光国微_同花顺_5.pdf",
+      "page_num": 2,
+      "company": "紫光国微",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在半导体_紫光国微_同花顺_1第2页中，紫光国微的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "2.40%",
+      "ground_truth_chunk_id": "chunk_31095",
+      "source_file": "半导体_紫光国微_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "紫光国微",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在半导体_紫光国微_同花顺_5第5页中，紫光国微的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "27.40%",
+      "ground_truth_chunk_id": "chunk_31410",
+      "source_file": "半导体_紫光国微_同花顺_5.pdf",
+      "page_num": 5,
+      "company": "紫光国微",
+      "indicator": "资产负债率"
+    },
+    {
+      "query": "在消费_欧派家居_同花顺_7第16页中，欧派家居的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "172.32亿元",
+      "ground_truth_chunk_id": "chunk_38919",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 16,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_欧派家居_同花顺_7第16页中，欧派家居的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "36.24%",
+      "ground_truth_chunk_id": "chunk_38919",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 16,
+      "company": "欧派家居",
+      "indicator": "毛利率"
+    },
+    {
+      "query": "在消费_欧派家居_同花顺_7第17页中，欧派家居的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "127.21亿元",
+      "ground_truth_chunk_id": "chunk_38924",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 17,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_欧派家居_同花顺_7第19页中，欧派家居的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "26.20亿元",
+      "ground_truth_chunk_id": "chunk_38929",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 19,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_亿纬锂能_同花顺_4第1页中，亿纬锂能的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3.35%",
+      "ground_truth_chunk_id": "chunk_26150",
+      "source_file": "半导体_亿纬锂能_同花顺_4.pdf",
+      "page_num": 1,
+      "company": "亿纬锂能",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在消费_海天味业_同花顺_4第2页中，海天味业的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "90.29亿元",
+      "ground_truth_chunk_id": "chunk_43214",
+      "source_file": "消费_海天味业_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "海天味业",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_海天味业_同花顺_4第2页中，海天味业的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "24.44亿元",
+      "ground_truth_chunk_id": "chunk_43214",
+      "source_file": "消费_海天味业_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "海天味业",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_海天味业_同花顺_6第6页中，海天味业的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "70.38亿元",
+      "ground_truth_chunk_id": "chunk_43248",
+      "source_file": "消费_海天味业_同花顺_6.pdf",
+      "page_num": 6,
+      "company": "海天味业",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_双汇发展_同花顺_8第1页中，双汇发展的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "51亿元",
+      "ground_truth_chunk_id": "chunk_36992",
+      "source_file": "消费_双汇发展_同花顺_8.pdf",
+      "page_num": 1,
+      "company": "双汇发展",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_双汇发展_同花顺_1第3页中，双汇发展的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "12.92亿元",
+      "ground_truth_chunk_id": "chunk_36709",
+      "source_file": "消费_双汇发展_同花顺_1.pdf",
+      "page_num": 3,
+      "company": "双汇发展",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在白酒_今世缘_同花顺_4第11页中，今世缘的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "101.82亿元",
+      "ground_truth_chunk_id": "chunk_46486",
+      "source_file": "白酒_今世缘_同花顺_4.pdf",
+      "page_num": 11,
+      "company": "今世缘",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_东方明珠_同花顺_3第9页中，东方明珠的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "74.89亿元",
+      "ground_truth_chunk_id": "chunk_1206",
+      "source_file": "传媒_东方明珠_同花顺_3.pdf",
+      "page_num": 9,
+      "company": "东方明珠",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_东方明珠_同花顺_3第9页中，东方明珠的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "6.17亿元",
+      "ground_truth_chunk_id": "chunk_1206",
+      "source_file": "传媒_东方明珠_同花顺_3.pdf",
+      "page_num": 9,
+      "company": "东方明珠",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在白酒_洋河股份_同花顺_2第2页中，洋河股份的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "5.09%",
+      "ground_truth_chunk_id": "chunk_52693",
+      "source_file": "白酒_洋河股份_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "洋河股份",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在传媒_皖新传媒_同花顺_2第6页中，皖新传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "80.02亿元",
+      "ground_truth_chunk_id": "chunk_22393",
+      "source_file": "传媒_皖新传媒_同花顺_5.pdf",
+      "page_num": 6,
+      "company": "皖新传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_皖新传媒_同花顺_2第6页中，皖新传媒的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "8.01亿元",
+      "ground_truth_chunk_id": "chunk_22393",
+      "source_file": "传媒_皖新传媒_同花顺_5.pdf",
+      "page_num": 6,
+      "company": "皖新传媒",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_绝味食品_同花顺_6第146页中，绝味食品的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "25.93%",
+      "ground_truth_chunk_id": "chunk_44866",
+      "source_file": "消费_绝味食品_同花顺_6.pdf",
+      "page_num": 146,
+      "company": "绝味食品",
+      "indicator": "毛利率"
+    },
+    {
+      "query": "在传媒_华策影视_同花顺_7第10页中，华策影视的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "28.28亿元",
+      "ground_truth_chunk_id": "chunk_9859",
+      "source_file": "传媒_华策影视_同花顺_7.pdf",
+      "page_num": 10,
+      "company": "华策影视",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_华策影视_同花顺_7第10页中，华策影视的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.91亿元",
+      "ground_truth_chunk_id": "chunk_9859",
+      "source_file": "传媒_华策影视_同花顺_7.pdf",
+      "page_num": 10,
+      "company": "华策影视",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_中颖电子_同花顺_2第2页中，中颖电子的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.14%",
+      "ground_truth_chunk_id": "chunk_25867",
+      "source_file": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "中颖电子",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在半导体_中颖电子_同花顺_2第5页中，中颖电子的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "31.73%",
+      "ground_truth_chunk_id": "chunk_25912",
+      "source_file": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 5,
+      "company": "中颖电子",
+      "indicator": "毛利率"
+    },
+    {
+      "query": "在半导体_景嘉微_同花顺_5第34页中，景嘉微的研发投入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "103,951.57万元",
+      "ground_truth_chunk_id": "chunk_29612",
+      "source_file": "半导体_景嘉微_同花顺_5.pdf",
+      "page_num": 34,
+      "company": "景嘉微",
+      "indicator": "研发投入"
+    },
+    {
+      "query": "在消费_美的集团_同花顺_5第2页中，美的集团的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "5.56%",
+      "ground_truth_chunk_id": "chunk_45568",
+      "source_file": "消费_美的集团_同花顺_5.pdf",
+      "page_num": 2,
+      "company": "美的集团",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在半导体_中国长城_同花顺_2第6页中，中国长城的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "61.86%",
+      "ground_truth_chunk_id": "chunk_23866",
+      "source_file": "半导体_中国长城_同花顺_2.pdf",
+      "page_num": 6,
+      "company": "中国长城",
+      "indicator": "资产负债率"
+    },
+    {
+      "query": "在半导体_北京君正_同花顺_1第3页中，北京君正的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "31,897.93万元",
+      "ground_truth_chunk_id": "chunk_26376",
+      "source_file": "半导体_北京君正_同花顺_1.pdf",
+      "page_num": 3,
+      "company": "北京君正",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_天威视讯_同花顺_4第17页中，天威视讯的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "129,170.31万元",
+      "ground_truth_chunk_id": "chunk_15769",
+      "source_file": "传媒_天威视讯_同花顺_4.pdf",
+      "page_num": 17,
+      "company": "天威视讯",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_2第8页中，电广传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "43.37亿元",
+      "ground_truth_chunk_id": "chunk_20144",
+      "source_file": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 8,
+      "company": "电广传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_4第17页中，电广传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "5.47亿元",
+      "ground_truth_chunk_id": "chunk_20241",
+      "source_file": "传媒_电广传媒_同花顺_4.pdf",
+      "page_num": 17,
+      "company": "电广传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_中南文化_同花顺_5第13页中，中南文化的每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "0.03元",
+      "ground_truth_chunk_id": "chunk_4094",
+      "source_file": "传媒_中南文化_同花顺_5.pdf",
+      "page_num": 13,
+      "company": "中南文化",
+      "indicator": "每股收益"
+    },
+    {
+      "query": "在半导体_北京君正_同花顺_1第3页中，北京君正的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "155,976.69万元",
+      "ground_truth_chunk_id": "chunk_26376",
+      "source_file": "半导体_北京君正_同花顺_1.pdf",
+      "page_num": "3",
+      "company": "北京君正",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_2第8页中，伊利股份2025年上半年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "704.22亿元",
+      "ground_truth_chunk_id": "chunk_34902",
+      "source_file": "消费_伊利股份_同花顺_2.pdf",
+      "page_num": "8",
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_伊利股份_同花顺_2第9页中，伊利股份2025年第三季度的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "327.69亿元",
+      "ground_truth_chunk_id": "chunk_34905",
+      "source_file": "消费_伊利股份_同花顺_2.pdf",
+      "page_num": "9",
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_欧派家居_同花顺_7第19页中，欧派家居大宗渠道2025年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "26.20亿元",
+      "ground_truth_chunk_id": "chunk_38930",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": "19",
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_古井贡酒_同花顺_4第13页中，古井贡酒2025年的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "188.32亿元",
+      "ground_truth_chunk_id": "chunk_48038",
+      "source_file": "白酒_古井贡酒_同花顺_4.pdf",
+      "page_num": "13",
+      "company": "古井贡酒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_海天味业_同花顺_6第6页中，海天味业2025年的归母净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "70.38亿元",
+      "ground_truth_chunk_id": "chunk_43248",
+      "source_file": "消费_海天味业_同花顺_6.pdf",
+      "page_num": "6",
+      "company": "海天味业",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_美的集团_同花顺_5第2页中，美的集团的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "5.56%",
+      "ground_truth_chunk_id": "chunk_45569",
+      "source_file": "消费_美的集团_同花顺_5.pdf",
+      "page_num": "2",
+      "company": "美的集团",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在传媒_中南文化_同花顺_1第2页中，中南文化的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.16%",
+      "ground_truth_chunk_id": "chunk_3780",
+      "source_file": "传媒_中南文化_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "中南文化",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在传媒_华录百纳_同花顺_2第2页中，华录百纳的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "0.66%",
+      "ground_truth_chunk_id": "chunk_6542",
+      "source_file": "传媒_华录百纳_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "华录百纳",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在传媒_华策影视_同花顺_4第2页中，华策影视的净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.11%",
+      "ground_truth_chunk_id": "chunk_9614",
+      "source_file": "传媒_华策影视_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "华策影视",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在传媒_华谊兄弟_同花顺_6第109页中，华谊兄弟的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "96.11%",
+      "ground_truth_chunk_id": "chunk_12525",
+      "source_file": "传媒_华谊兄弟_同花顺_6.pdf",
+      "page_num": 109,
+      "company": "华谊兄弟",
+      "indicator": "资产负债率"
+    },
+    {
+      "query": "在传媒_华闻集团_同花顺_3第6页中，华闻集团的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "83.72%",
+      "ground_truth_chunk_id": "chunk_13649",
+      "source_file": "传媒_华闻集团_同花顺_3.pdf",
+      "page_num": 6,
+      "company": "华闻集团",
+      "indicator": "资产负债率"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_1第4页中，电广传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "10.76亿元",
+      "ground_truth_chunk_id": "chunk_19991",
+      "source_file": "传媒_电广传媒_同花顺_1.pdf",
+      "page_num": 4,
+      "company": "电广传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_2第8页中，电广传媒的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.38亿元",
+      "ground_truth_chunk_id": "chunk_20144",
+      "source_file": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 8,
+      "company": "电广传媒",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_2第9页中，电广传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.83亿元",
+      "ground_truth_chunk_id": "chunk_20146",
+      "source_file": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 9,
+      "company": "电广传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_2第10页中，电广传媒的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3.97亿元",
+      "ground_truth_chunk_id": "chunk_20151",
+      "source_file": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 10,
+      "company": "电广传媒",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_电广传媒_同花顺_4第71页中，电广传媒的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "32.75%",
+      "ground_truth_chunk_id": "chunk_20798",
+      "source_file": "传媒_电广传媒_同花顺_4.pdf",
+      "page_num": 71,
+      "company": "电广传媒",
+      "indicator": "资产负债率"
+    },
+    {
+      "query": "在传媒_皖新传媒_同花顺_7第18页中，皖新传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "15.96亿元",
+      "ground_truth_chunk_id": "chunk_22526",
+      "source_file": "传媒_皖新传媒_同花顺_7.pdf",
+      "page_num": 18,
+      "company": "皖新传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_皖新传媒_同花顺_7第18页中，皖新传媒的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "37.11亿元",
+      "ground_truth_chunk_id": "chunk_22527",
+      "source_file": "传媒_皖新传媒_同花顺_7.pdf",
+      "page_num": 18,
+      "company": "皖新传媒",
+      "indicator": "营业收入"
+    }
+  ]
+}

@@ -1,0 +1,918 @@
+{
+  "metadata": {
+    "total_samples": 92,
+    "fact_samples": 80,
+    "comparison_samples": 12,
+    "description": "精准评测集：问题指向文档中唯一答案"
+  },
+  "samples": [
+    {
+      "query": "在半导体_北方华创 5第11页中，北方华创的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "393.53亿元",
+      "ground_truth_chunk_id": "chunk_25892",
+      "source_file": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 11,
+      "company": "北方华创",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_中颖电子 2第2页中，中颖电子的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.14%",
+      "ground_truth_chunk_id": "chunk_24845",
+      "source_file": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "中颖电子",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在消费_绝味食品 6第56页中，绝味食品的营业收入是多少？（单位：元）",
+      "query_type": "fact",
+      "ground_truth_answer": "723,625,147.14元",
+      "ground_truth_chunk_id": "chunk_43228",
+      "source_file": "消费_绝味食品_同花顺_6.pdf",
+      "page_num": 56,
+      "company": "绝味食品",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_景嘉微 5第34页中，景嘉微的研发投入是多少？（单位：万元）",
+      "query_type": "fact",
+      "ground_truth_answer": "103,951.57万元",
+      "ground_truth_chunk_id": "chunk_28588",
+      "source_file": "半导体_景嘉微_同花顺_5.pdf",
+      "page_num": 34,
+      "company": "景嘉微",
+      "indicator": "研发投入"
+    },
+    {
+      "query": "在消费_伊利股份 4第35页中，伊利股份的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "1,215亿元",
+      "ground_truth_chunk_id": "chunk_34131",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 35,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_古井贡酒 2第2页中，古井贡酒的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "14.28%",
+      "ground_truth_chunk_id": "chunk_46900",
+      "source_file": "白酒_古井贡酒_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "古井贡酒",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在半导体_紫光国微 7第68页中，紫光国微的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "27.40%",
+      "ground_truth_chunk_id": "chunk_31370",
+      "source_file": "半导体_紫光国微_同花顺_7.pdf",
+      "page_num": 68,
+      "company": "紫光国微",
+      "indicator": "资产负债率"
+    },
+    {
+      "query": "在白酒_五粮液 6第1页中，五粮液的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3.41%",
+      "ground_truth_chunk_id": "chunk_45176",
+      "source_file": "白酒_五粮液_同花顺_6.pdf",
+      "page_num": 1,
+      "company": "五粮液",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "根据研报数据，中颖电子和五粮液的营业收入哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_answer": "需要分别找出中颖电子和五粮液的营业收入数据进行比较",
+      "source_file": "",
+      "page_num": "",
+      "company": "中颖电子,五粮液",
+      "indicator": "对比"
+    },
+    {
+      "query": "在消费_格力电器 2第2页中，格力电器的净利润是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "290.03亿元",
+      "ground_truth_chunk_id": "chunk_36090",
+      "source_file": "消费_格力电器_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_欧派家居 7第17页中，欧派家居的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "127.21亿元",
+      "ground_truth_chunk_id": "chunk_37900",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 17,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_中颖电子 2第5页中，中颖电子的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "31.73%",
+      "ground_truth_chunk_id": "chunk_24888",
+      "source_file": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 5,
+      "company": "中颖电子",
+      "indicator": "毛利率"
+    },
+    {
+      "query": "在白酒_古井贡酒 1第2页中，古井贡酒的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "6.30%",
+      "ground_truth_chunk_id": "chunk_46703",
+      "source_file": "白酒_古井贡酒_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "古井贡酒",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "根据研报数据，电广传媒和皖新传媒的营业收入哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_answer": "需要分别找出电广传媒和皖新传媒的营业收入数据进行比较",
+      "source_file": "",
+      "page_num": "",
+      "company": "电广传媒,皖新传媒",
+      "indicator": "对比"
+    },
+    {
+      "query": "根据研报数据，欧派家居和歌华有线的营业收入哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_answer": "需要分别找出欧派家居和歌华有线的营业收入数据进行比较",
+      "source_file": "",
+      "page_num": "",
+      "company": "欧派家居,歌华有线",
+      "indicator": "对比"
+    },
+    {
+      "query": "在传媒_皖新传媒 5第6页中，皖新传媒的总资产是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "192.01\n亿元",
+      "ground_truth_chunk_id": "chunk_21369",
+      "source_file": "传媒_皖新传媒_同花顺_5.pdf",
+      "page_num": 6,
+      "company": "皖新传媒",
+      "indicator": "总资产"
+    },
+    {
+      "query": "在白酒_五粮液 3第1页中，五粮液的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3.26%",
+      "ground_truth_chunk_id": "chunk_44796",
+      "source_file": "白酒_五粮液_同花顺_3.pdf",
+      "page_num": 1,
+      "company": "五粮液",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在传媒_电广传媒 4第15页中，电广传媒的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "43.37亿元",
+      "ground_truth_chunk_id": "chunk_19210",
+      "source_file": "传媒_电广传媒_同花顺_4.pdf",
+      "page_num": 15,
+      "company": "电广传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_天威视讯 4第17页中，天威视讯的营业收入是多少？（单位：万元）",
+      "query_type": "fact",
+      "ground_truth_answer": "129,170.31万元",
+      "ground_truth_chunk_id": "chunk_14745",
+      "source_file": "传媒_天威视讯_同花顺_4.pdf",
+      "page_num": 17,
+      "company": "天威视讯",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_泸州老窖 4第70页中，泸州老窖的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "23.00%",
+      "ground_truth_chunk_id": "chunk_50569",
+      "source_file": "白酒_泸州老窖_同花顺_4.pdf",
+      "page_num": 70,
+      "company": "泸州老窖",
+      "indicator": "资产负债率"
+    },
+    {
+      "query": "在传媒_皖新传媒 7第12页中，皖新传媒的总资产是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "192.01\n亿元",
+      "ground_truth_chunk_id": "chunk_21450",
+      "source_file": "传媒_皖新传媒_同花顺_7.pdf",
+      "page_num": 12,
+      "company": "皖新传媒",
+      "indicator": "总资产"
+    },
+    {
+      "query": "在白酒_老白干酒 3第7页中，老白干酒的营业收入是多少？（单位：元）",
+      "query_type": "fact",
+      "ground_truth_answer": "4,121,473,456.04\n元",
+      "ground_truth_chunk_id": "chunk_54405",
+      "source_file": "白酒_老白干酒_同花顺_3.pdf",
+      "page_num": 7,
+      "company": "老白干酒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_皖新传媒 7第12页中，皖新传媒的净利润是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "8.01亿元",
+      "ground_truth_chunk_id": "chunk_21450",
+      "source_file": "传媒_皖新传媒_同花顺_7.pdf",
+      "page_num": 12,
+      "company": "皖新传媒",
+      "indicator": "净利润"
+    },
+    {
+      "query": "根据研报数据，紫光国微和绝味食品的营业收入哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_answer": "需要分别找出紫光国微和绝味食品的营业收入数据进行比较",
+      "source_file": "",
+      "page_num": "",
+      "company": "紫光国微,绝味食品",
+      "indicator": "对比"
+    },
+    {
+      "query": "在传媒_皖新传媒 7第12页中，皖新传媒的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "80.02亿元",
+      "ground_truth_chunk_id": "chunk_21450",
+      "source_file": "传媒_皖新传媒_同花顺_7.pdf",
+      "page_num": 12,
+      "company": "皖新传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_老白干酒 1第6页中，老白干酒的营业收入是多少？（单位：元）",
+      "query_type": "fact",
+      "ground_truth_answer": "4,121,473,456.04\n元",
+      "ground_truth_chunk_id": "chunk_54222",
+      "source_file": "白酒_老白干酒_同花顺_1.pdf",
+      "page_num": 6,
+      "company": "老白干酒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_紫光国微 6第3页中，紫光国微的研发投入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "15.09\n亿元",
+      "ground_truth_chunk_id": "chunk_30424",
+      "source_file": "半导体_紫光国微_同花顺_6.pdf",
+      "page_num": 3,
+      "company": "紫光国微",
+      "indicator": "研发投入"
+    },
+    {
+      "query": "根据研报数据，东方明珠和中南文化的营业收入哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_answer": "需要分别找出东方明珠和中南文化的营业收入数据进行比较",
+      "source_file": "",
+      "page_num": "",
+      "company": "东方明珠,中南文化",
+      "indicator": "对比"
+    },
+    {
+      "query": "在白酒_泸州老窖 4第28页中，泸州老窖的净利润是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "108.31亿元",
+      "ground_truth_chunk_id": "chunk_50141",
+      "source_file": "白酒_泸州老窖_同花顺_4.pdf",
+      "page_num": 28,
+      "company": "泸州老窖",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_天威视讯 4第2页中，天威视讯的营业收入是多少？（单位：万元）",
+      "query_type": "fact",
+      "ground_truth_answer": "135,000.00\n万元",
+      "ground_truth_chunk_id": "chunk_14667",
+      "source_file": "传媒_天威视讯_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "天威视讯",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_伊利股份 4第37页中，伊利股份的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "1,159.31亿元",
+      "ground_truth_chunk_id": "chunk_34134",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 37,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "根据研报数据，泸州老窖和洋河股份的营业收入哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_answer": "需要分别找出泸州老窖和洋河股份的营业收入数据进行比较",
+      "source_file": "",
+      "page_num": "",
+      "company": "泸州老窖,洋河股份",
+      "indicator": "对比"
+    },
+    {
+      "query": "在传媒_歌华有线 4第18页中，歌华有线的营业收入是多少？（单位：万元）",
+      "query_type": "fact",
+      "ground_truth_answer": "221,975.46万元",
+      "ground_truth_chunk_id": "chunk_17585",
+      "source_file": "传媒_歌华有线_同花顺_4.pdf",
+      "page_num": 18,
+      "company": "歌华有线",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_欧派家居 7第13页中，欧派家居的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "172.32亿元",
+      "ground_truth_chunk_id": "chunk_37887",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 13,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "根据研报数据，景嘉微和格力电器的营业收入哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_answer": "需要分别找出景嘉微和格力电器的营业收入数据进行比较",
+      "source_file": "",
+      "page_num": "",
+      "company": "景嘉微,格力电器",
+      "indicator": "对比"
+    },
+    {
+      "query": "在传媒_电广传媒 2第10页中，电广传媒的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "28.80\n亿元",
+      "ground_truth_chunk_id": "chunk_19128",
+      "source_file": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 10,
+      "company": "电广传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_今世缘 2第6页中，今世缘的净利润是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "25.95\n亿元",
+      "ground_truth_chunk_id": "chunk_45384",
+      "source_file": "白酒_今世缘_同花顺_2.pdf",
+      "page_num": 6,
+      "company": "今世缘",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在白酒_五粮液 5第1页中，五粮液的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.31%",
+      "ground_truth_chunk_id": "chunk_45070",
+      "source_file": "白酒_五粮液_同花顺_5.pdf",
+      "page_num": 1,
+      "company": "五粮液",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在传媒_东方明珠 6第41页中，东方明珠的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "74.89亿元",
+      "ground_truth_chunk_id": "chunk_644",
+      "source_file": "传媒_东方明珠_同花顺_6.pdf",
+      "page_num": 41,
+      "company": "东方明珠",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_中颖电子 2第5页中，中颖电子的研发投入是多少？（单位：万元）",
+      "query_type": "fact",
+      "ground_truth_answer": "7,503\n万元",
+      "ground_truth_chunk_id": "chunk_24889",
+      "source_file": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 5,
+      "company": "中颖电子",
+      "indicator": "研发投入"
+    },
+    {
+      "query": "在传媒_电广传媒 4第17页中，电广传媒的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "5.47亿元",
+      "ground_truth_chunk_id": "chunk_19217",
+      "source_file": "传媒_电广传媒_同花顺_4.pdf",
+      "page_num": 17,
+      "company": "电广传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_华谊兄弟 6第109页中，华谊兄弟的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "96.11%",
+      "ground_truth_chunk_id": "chunk_11501",
+      "source_file": "传媒_华谊兄弟_同花顺_6.pdf",
+      "page_num": 109,
+      "company": "华谊兄弟",
+      "indicator": "资产负债率"
+    },
+    {
+      "query": "在半导体_中颖电子 2第5页中，中颖电子的净利润是多少？（单位：万元）",
+      "query_type": "fact",
+      "ground_truth_answer": "2,048\n万元",
+      "ground_truth_chunk_id": "chunk_24888",
+      "source_file": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 5,
+      "company": "中颖电子",
+      "indicator": "净利润"
+    },
+    {
+      "query": "根据研报数据，伊利股份和北京君正的营业收入哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_answer": "需要分别找出伊利股份和北京君正的营业收入数据进行比较",
+      "source_file": "",
+      "page_num": "",
+      "company": "伊利股份,北京君正",
+      "indicator": "对比"
+    },
+    {
+      "query": "在半导体_北方华创 5第104页中，北方华创的营业收入是多少？（单位：万元）",
+      "query_type": "fact",
+      "ground_truth_answer": "3,935,311.24万元",
+      "ground_truth_chunk_id": "chunk_26820",
+      "source_file": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 104,
+      "company": "北方华创",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_格力电器 2第2页中，格力电器的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "20.30%",
+      "ground_truth_chunk_id": "chunk_36097",
+      "source_file": "消费_格力电器_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在半导体_北方华创 5第11页中，北方华创的净利润是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "55.22亿元",
+      "ground_truth_chunk_id": "chunk_25893",
+      "source_file": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 11,
+      "company": "北方华创",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_紫光国微 5第5页中，紫光国微的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "27.40%",
+      "ground_truth_chunk_id": "chunk_30387",
+      "source_file": "半导体_紫光国微_同花顺_5.pdf",
+      "page_num": 5,
+      "company": "紫光国微",
+      "indicator": "资产负债率"
+    },
+    {
+      "query": "在传媒_华闻集团 6第86页中，华闻集团的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "83.72%",
+      "ground_truth_chunk_id": "chunk_13409",
+      "source_file": "传媒_华闻集团_同花顺_6.pdf",
+      "page_num": 86,
+      "company": "华闻集团",
+      "indicator": "资产负债率"
+    },
+    {
+      "query": "在白酒_今世缘 4第11页中，今世缘的净利润是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "25.95\n亿元",
+      "ground_truth_chunk_id": "chunk_45462",
+      "source_file": "白酒_今世缘_同花顺_4.pdf",
+      "page_num": 11,
+      "company": "今世缘",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在传媒_皖新传媒 2第6页中，皖新传媒的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "80.02\n亿元",
+      "ground_truth_chunk_id": "chunk_21260",
+      "source_file": "传媒_皖新传媒_同花顺_2.pdf",
+      "page_num": 6,
+      "company": "皖新传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_华策影视 4第2页中，华策影视的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.11%",
+      "ground_truth_chunk_id": "chunk_8590",
+      "source_file": "传媒_华策影视_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "华策影视",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在消费_欧派家居 1第16页中，欧派家居的净利润是多少？（单位：万元）",
+      "query_type": "fact",
+      "ground_truth_answer": "199,676.21\n万元",
+      "ground_truth_chunk_id": "chunk_37570",
+      "source_file": "消费_欧派家居_同花顺_1.pdf",
+      "page_num": 16,
+      "company": "欧派家居",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_洋河股份 2第2页中，洋河股份的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "5.09%",
+      "ground_truth_chunk_id": "chunk_39552",
+      "source_file": "消费_洋河股份_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "洋河股份",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在半导体_紫光国微 1第2页中，紫光国微的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "2.40%",
+      "ground_truth_chunk_id": "chunk_30073",
+      "source_file": "半导体_紫光国微_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "紫光国微",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在消费_伊利股份 2第8页中，伊利股份的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "1,159.31亿元",
+      "ground_truth_chunk_id": "chunk_33878",
+      "source_file": "消费_伊利股份_同花顺_2.pdf",
+      "page_num": 8,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_中南文化 5第13页中，中南文化的基本每股收益是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "0.03元",
+      "ground_truth_chunk_id": "chunk_3070",
+      "source_file": "传媒_中南文化_同花顺_5.pdf",
+      "page_num": 13,
+      "company": "中南文化",
+      "indicator": "每股收益"
+    },
+    {
+      "query": "在传媒_皖新传媒 2第6页中，皖新传媒的总资产是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "192.01\n亿元",
+      "ground_truth_chunk_id": "chunk_21260",
+      "source_file": "传媒_皖新传媒_同花顺_2.pdf",
+      "page_num": 6,
+      "company": "皖新传媒",
+      "indicator": "总资产"
+    },
+    {
+      "query": "在消费_欧派家居 5第8页中，欧派家居的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "172.32亿元",
+      "ground_truth_chunk_id": "chunk_37780",
+      "source_file": "消费_欧派家居_同花顺_5.pdf",
+      "page_num": 8,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "根据研报数据，古井贡酒和天威视讯的营业收入哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_answer": "需要分别找出古井贡酒和天威视讯的营业收入数据进行比较",
+      "source_file": "",
+      "page_num": "",
+      "company": "古井贡酒,天威视讯",
+      "indicator": "对比"
+    },
+    {
+      "query": "在白酒_今世缘 4第11页中，今世缘的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "101.82亿元",
+      "ground_truth_chunk_id": "chunk_45462",
+      "source_file": "白酒_今世缘_同花顺_4.pdf",
+      "page_num": 11,
+      "company": "今世缘",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "根据研报数据，北方华创和华策影视的营业收入哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_answer": "需要分别找出北方华创和华策影视的营业收入数据进行比较",
+      "source_file": "",
+      "page_num": "",
+      "company": "北方华创,华策影视",
+      "indicator": "对比"
+    },
+    {
+      "query": "在白酒_泸州老窖 4第28页中，泸州老窖的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "257.31亿元",
+      "ground_truth_chunk_id": "chunk_50141",
+      "source_file": "白酒_泸州老窖_同花顺_4.pdf",
+      "page_num": 28,
+      "company": "泸州老窖",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_电广传媒 2第9页中，电广传媒的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "1.83亿元",
+      "ground_truth_chunk_id": "chunk_19122",
+      "source_file": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 9,
+      "company": "电广传媒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_泸州老窖 4第10页中，泸州老窖的净利润是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "108.31亿元",
+      "ground_truth_chunk_id": "chunk_49990",
+      "source_file": "白酒_泸州老窖_同花顺_4.pdf",
+      "page_num": 10,
+      "company": "泸州老窖",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_今世缘 2第6页中，今世缘的净利润是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "25.95\n亿元",
+      "ground_truth_chunk_id": "chunk_32376",
+      "source_file": "消费_今世缘_同花顺_2.pdf",
+      "page_num": 6,
+      "company": "今世缘",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在半导体_景嘉微 5第24页中，景嘉微的研发投入是多少？（单位：万元）",
+      "query_type": "fact",
+      "ground_truth_answer": "42,763.38万元",
+      "ground_truth_chunk_id": "chunk_28478",
+      "source_file": "半导体_景嘉微_同花顺_5.pdf",
+      "page_num": 24,
+      "company": "景嘉微",
+      "indicator": "研发投入"
+    },
+    {
+      "query": "在半导体_亿纬锂能 4第1页中，亿纬锂能的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "3.35%",
+      "ground_truth_chunk_id": "chunk_25129",
+      "source_file": "半导体_亿纬锂能_同花顺_4.pdf",
+      "page_num": 1,
+      "company": "亿纬锂能",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在消费_格力电器 6第10页中，格力电器的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "1,711.18亿元",
+      "ground_truth_chunk_id": "chunk_36208",
+      "source_file": "消费_格力电器_同花顺_6.pdf",
+      "page_num": 10,
+      "company": "格力电器",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_中南文化 1第2页中，中南文化的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "1.16%",
+      "ground_truth_chunk_id": "chunk_2756",
+      "source_file": "传媒_中南文化_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "中南文化",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在白酒_泸州老窖 2第2页中，泸州老窖的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "257.31亿元",
+      "ground_truth_chunk_id": "chunk_49878",
+      "source_file": "白酒_泸州老窖_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "泸州老窖",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_伊利股份 4第15页中，伊利股份的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "327.69亿元",
+      "ground_truth_chunk_id": "chunk_33980",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 15,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_泸州老窖 4第10页中，泸州老窖的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "257.31亿元",
+      "ground_truth_chunk_id": "chunk_49990",
+      "source_file": "白酒_泸州老窖_同花顺_4.pdf",
+      "page_num": 10,
+      "company": "泸州老窖",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_格力电器 6第7页中，格力电器的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "20.30%",
+      "ground_truth_chunk_id": "chunk_36195",
+      "source_file": "消费_格力电器_同花顺_6.pdf",
+      "page_num": 7,
+      "company": "格力电器",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在消费_格力电器 6第160页中，格力电器的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "27.68%",
+      "ground_truth_chunk_id": "chunk_37191",
+      "source_file": "消费_格力电器_同花顺_6.pdf",
+      "page_num": 160,
+      "company": "格力电器",
+      "indicator": "毛利率"
+    },
+    {
+      "query": "在白酒_泸州老窖 2第2页中，泸州老窖的净利润是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "108.31亿元",
+      "ground_truth_chunk_id": "chunk_49878",
+      "source_file": "白酒_泸州老窖_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "泸州老窖",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_欧派家居 1第16页中，欧派家居的营业收入是多少？（单位：万元）",
+      "query_type": "fact",
+      "ground_truth_answer": "1,723,208.98\n万元",
+      "ground_truth_chunk_id": "chunk_37570",
+      "source_file": "消费_欧派家居_同花顺_1.pdf",
+      "page_num": 16,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_歌华有线 2第7页中，歌华有线的营业收入是多少？（单位：万元）",
+      "query_type": "fact",
+      "ground_truth_answer": "221,975.46\n万元",
+      "ground_truth_chunk_id": "chunk_17482",
+      "source_file": "传媒_歌华有线_同花顺_2.pdf",
+      "page_num": 7,
+      "company": "歌华有线",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在传媒_皖新传媒 5第6页中，皖新传媒的净利润是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "8.01亿元",
+      "ground_truth_chunk_id": "chunk_21369",
+      "source_file": "传媒_皖新传媒_同花顺_5.pdf",
+      "page_num": 6,
+      "company": "皖新传媒",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在白酒_五粮液 4第1页中，五粮液的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "6.50%",
+      "ground_truth_chunk_id": "chunk_44904",
+      "source_file": "白酒_五粮液_同花顺_4.pdf",
+      "page_num": 1,
+      "company": "五粮液",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "根据研报数据，华谊兄弟和华闻集团的营业收入哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_answer": "需要分别找出华谊兄弟和华闻集团的营业收入数据进行比较",
+      "source_file": "",
+      "page_num": "",
+      "company": "华谊兄弟,华闻集团",
+      "indicator": "对比"
+    },
+    {
+      "query": "在白酒_五粮液 7第3页中，五粮液的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "6.89%",
+      "ground_truth_chunk_id": "chunk_45211",
+      "source_file": "白酒_五粮液_同花顺_7.pdf",
+      "page_num": 3,
+      "company": "五粮液",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "根据研报数据，亿纬锂能和今世缘的营业收入哪个更高？",
+      "query_type": "comparison",
+      "ground_truth_answer": "需要分别找出亿纬锂能和今世缘的营业收入数据进行比较",
+      "source_file": "",
+      "page_num": "",
+      "company": "亿纬锂能,今世缘",
+      "indicator": "对比"
+    },
+    {
+      "query": "在半导体_北京君正 1第3页中，北京君正的净利润是多少？（单位：万元）",
+      "query_type": "fact",
+      "ground_truth_answer": "31,897.93万元",
+      "ground_truth_chunk_id": "chunk_25352",
+      "source_file": "半导体_北京君正_同花顺_1.pdf",
+      "page_num": 3,
+      "company": "北京君正",
+      "indicator": "净利润"
+    },
+    {
+      "query": "在消费_欧派家居 7第19页中，欧派家居的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "26.20亿元",
+      "ground_truth_chunk_id": "chunk_37905",
+      "source_file": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 19,
+      "company": "欧派家居",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_古井贡酒 4第13页中，古井贡酒的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "188.32亿元",
+      "ground_truth_chunk_id": "chunk_47014",
+      "source_file": "白酒_古井贡酒_同花顺_4.pdf",
+      "page_num": 13,
+      "company": "古井贡酒",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_伊利股份 4第14页中，伊利股份的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "1,159.31亿元",
+      "ground_truth_chunk_id": "chunk_33976",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 14,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在消费_伊利股份 4第17页中，伊利股份的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "98.22亿元",
+      "ground_truth_chunk_id": "chunk_33986",
+      "source_file": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 17,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在半导体_紫光国微 7第10页中，紫光国微的研发投入是多少？（单位：万元）",
+      "query_type": "fact",
+      "ground_truth_answer": "150,911.56万元",
+      "ground_truth_chunk_id": "chunk_30506",
+      "source_file": "半导体_紫光国微_同花顺_7.pdf",
+      "page_num": 10,
+      "company": "紫光国微",
+      "indicator": "研发投入"
+    },
+    {
+      "query": "在消费_伊利股份 2第9页中，伊利股份的营业收入是多少？（单位：亿元）",
+      "query_type": "fact",
+      "ground_truth_answer": "327.69亿元",
+      "ground_truth_chunk_id": "chunk_33881",
+      "source_file": "消费_伊利股份_同花顺_2.pdf",
+      "page_num": 9,
+      "company": "伊利股份",
+      "indicator": "营业收入"
+    },
+    {
+      "query": "在白酒_泸州老窖 1第2页中，泸州老窖的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "7.32%",
+      "ground_truth_chunk_id": "chunk_49761",
+      "source_file": "白酒_泸州老窖_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "泸州老窖",
+      "indicator": "净资产收益率"
+    },
+    {
+      "query": "在消费_格力电器 1第2页中，格力电器的加权平均净资产收益率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "4.07%",
+      "ground_truth_chunk_id": "chunk_36001",
+      "source_file": "消费_格力电器_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "格力电器",
+      "indicator": "净资产收益率"
+    }
+  ]
+}

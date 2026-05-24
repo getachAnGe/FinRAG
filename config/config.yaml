@@ -1,0 +1,257 @@
+# FinRAG 全局配置文件
+# 金融研报 RAG 系统 - 详细配置
+
+# ==================== 路径配置 ====================
+paths:
+  raw_pdf: "data/raw_pdf"
+  parsed: "data/parsed"
+  chunks: "data/chunks"
+  vector_store: "data/vector_store"
+  logs: "logs"
+  eval_data: "data/eval"
+  badcase: "data/badcase"
+
+# ==================== PDF 解析配置 ====================
+pdf_parser:
+  # 基础设置
+  zoom_factor: 3
+  use_ocr: true
+  use_gpu: false
+  ocr_lang: "ch"
+  enable_garbled_detection: true
+  garbled_threshold: 0.3
+  
+  # PyMuPDF 配置 (文本提取)
+  pymupdf:
+    enable: true
+    extract_images: true
+    multi_column_detection: true
+  
+  # pdfplumber 配置 (表格解析)
+  pdfplumber:
+    enable: true
+    table_settings:
+      vertical_strategy: "lines"
+      horizontal_strategy: "lines"
+      intersection_tolerance: 5
+      snap_tolerance: 3
+      join_tolerance: 3
+  
+  # 版面分析配置 (参考 RAGFlow DeepDoc)
+  layout_analysis:
+    enable: true
+    detect_multi_column: true
+    detect_header_footer: true
+    header_threshold: 0.15
+    footer_threshold: 0.1
+
+# ==================== 切块配置 ====================
+chunker:
+  # 基础切块参数
+  chunk_size: 512
+  chunk_overlap: 100
+  min_chunk_size: 100
+  
+  # 实验配置 - 不同 chunk_size 对比
+  experiments:
+    chunk_sizes: [256, 512, 1024]
+    overlaps: [50, 100, 200]
+  
+  # 表格保护策略
+  table_protection:
+    enable: true
+    table_as_independent_chunk: true
+    preserve_table_structure: true
+  
+  # 语义感知配置
+  semantic:
+    respect_sentence_boundary: true
+    respect_paragraph_boundary: true
+    title_with_content: true
+
+# ==================== 向量化配置 ====================
+embedding:
+  # Embedding 模型配置
+  model_name: "BAAI/bge-m3"
+  device: "cpu"
+  max_batch_size: 32
+  max_length: 512
+  dimension: 1024
+
+  # 备选模型
+  alternative_models:
+    - "BAAI/bge-large-zh-v1.5"
+
+# ==================== FAISS 索引配置 ====================
+faiss:
+  # 索引类型
+  index_type: "Flat"  # Flat / IVF / HNSW
+  
+  # IVF 配置
+  ivf:
+    nlist: 100
+    nprobe: 10
+  
+  # HNSW 配置
+  hnsw:
+    M: 32
+    efConstruction: 200
+    efSearch: 50
+  
+  # 性能对比实验配置
+  experiments:
+    index_types: ["Flat", "IVF", "HNSW"]
+    metrics: ["Recall@10", "latency_ms", "build_time_s", "memory_mb"]
+
+# ==================== 检索配置 ====================
+retriever:
+  # 召回数量
+  top_k: 100
+  rerank_top_k: 5
+  
+  # BM25 参数
+  bm25:
+    k1: 1.5
+    b: 0.75
+  
+  # RRF 融合参数
+  rrf:
+    k: 60
+    vector_weight: 0.5
+    bm25_weight: 0.5
+  
+  # 混合召回配置
+  hybrid:
+    enable: true
+    vector_weight: 0.6
+    bm25_weight: 0.4
+
+# ==================== Reranker 配置 ====================
+reranker:
+  model_name: "models/reranker/BAAI/bge-reranker-base"
+  device: "cuda"
+  use_cross_encoder: true
+  top_k: 5
+  
+  # 实验配置
+  experiments:
+    compare_with_no_rerank: true
+
+# ==================== 生成配置 ====================
+generator:
+  # LLM 配置
+  llm_type: "openai"
+  llm_model: "deepseek-chat"
+  llm_api_base: "https://api.deepseek.com/v1"
+  llm_api_key: "sk-66f4d3e0bf8e421ba3a7e250f9bc3d2c"
+  temperature: 0.1
+  max_tokens: 2048
+  
+  # 备选模型
+  alternative_models:
+    - model: "qwen-turbo"
+      api_base: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+    - model: "deepseek-reasoner"
+      api_base: "https://api.deepseek.com/v1"
+
+# ==================== 生成约束配置 ====================
+generation_constraints:
+  # 引用溯源
+  citation:
+    enable: true
+    format: "[Source {id}]"
+    include_page_num: true
+    include_bbox: true
+  
+  # 拒答机制
+  refusal:
+    enable: true
+    score_threshold: 0.3
+    refusal_message: "根据现有研报信息无法回答该问题。"
+  
+  # 幻觉控制
+  hallucination_control:
+    enable: true
+    require_citation: true
+    verify_answer_in_context: true
+
+# ==================== 评测配置 ====================
+evaluation:
+  # 评测集配置
+  dataset:
+    size: 100  # 80-120 条
+    query_types:
+      - "fact"        # 事实型
+      - "comparison"  # 对比型
+      - "summary"     # 汇总型
+  
+  # 评测指标
+  metrics:
+    - "Recall@3"
+    - "Recall@5"
+    - "Recall@10"
+    - "MRR"
+    - "NDCG"
+  
+  # 召回方案对比
+  retrieval_methods:
+    - "vector_only"
+    - "bm25_only"
+    - "hybrid"
+
+# ==================== Badcase 处理配置 ====================
+badcase:
+  # 空召回处理
+  empty_recall:
+    enable: true
+    query_rewrite: true
+    synonym_expansion: true
+  
+  # 答非所问处理
+  irrelevant_answer:
+    enable: true
+    smaller_chunk: true
+    table_priority: true
+  
+  # 幻觉处理
+  hallucination:
+    enable: true
+    citation_required: true
+    post_verification: true
+  
+  # 延迟优化
+  latency:
+    enable: true
+    cache_enabled: true
+    coarse_to_fine: true
+    max_response_time_ms: 3000
+
+# ==================== 金融术语配置 ====================
+finance_terms:
+  # 同义词映射
+  synonyms:
+    "装机量": ["装车量", "装机容量", "装机规模"]
+    "营收": ["营业收入", "收入", "销售额"]
+    "净利润": ["净利", "盈利", "利润"]
+    "归母净利": ["净利润", "归母净利润", "归属母公司股东的净利润"]
+    "毛利率": ["毛利", "毛利润率", "盈利水平"]
+    "ROE": ["净资产收益率", "股东权益回报率"]
+  
+  # 行业术语
+  industries:
+    - "新能源"
+    - "半导体"
+    - "消费"
+    - "医药"
+    - "金融"
+
+# ==================== Query 改写配置 ====================
+query_rewrite:
+  enable: true
+  strategy: "expand"  # expand: 同义词扩展; replace: 同义词替换
+
+# ==================== 日志配置 ====================
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/finrag.log"

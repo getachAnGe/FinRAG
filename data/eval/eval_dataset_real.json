@@ -1,0 +1,1011 @@
+{
+  "metadata": {
+    "total_samples": 100,
+    "fact_samples": 92,
+    "comparison_samples": 7,
+    "summary_samples": 1,
+    "description": "基于真实研报内容构建的评测集"
+  },
+  "samples": [
+    {
+      "query": "电广传媒的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "24年   | 本年比上年增减 | | 资产负债率               | 32.75%    | 32.67%   | 0.08%",
+      "source": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 8,
+      "company": "电广传媒",
+      "indicator": "资产负债率",
+      "query_id": "q_0001"
+    },
+    {
+      "query": "泸州老窖的ROE水平如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "期利润               | 加权平均净资产收益率 | 每股收益              |                       | |                          |                      | 基本每股收益（元/股） | 稀释每股收益（",
+      "source": "白酒_泸州老窖_同花顺_4.pdf",
+      "page_num": 183,
+      "company": "泸州老窖",
+      "indicator": "净资产收益率",
+      "query_id": "q_0002"
+    },
+    {
+      "query": "AP202602031819685191的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "保健品产业链上中游，2024年收入/归母净利润为10/1.75亿元，",
+      "source": "H3_AP202602031819685191_1.pdf",
+      "page_num": 5,
+      "company": "AP202602031819685191",
+      "indicator": "净利润",
+      "query_id": "q_0003"
+    },
+    {
+      "query": "中国长城的营收情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "产       | 净资产     | 营业收入   | 营业利润   | 净利润     | | 长沙湘计海盾科 | 子公司   | 主要业务为高新产品生产   | 11,541.0988万元人 | 166,803.52   | 36,896.27",
+      "source": "半导体_中国长城_同花顺_4.pdf",
+      "page_num": 27,
+      "company": "中国长城",
+      "indicator": "营业收入",
+      "query_id": "q_0004"
+    },
+    {
+      "query": "华谊兄弟的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "报告期内，品牌授权及实景娱乐板块营业收入16.98万元，较上年同期相比下降91.00%。主要是",
+      "source": "传媒_华谊兄弟_同花顺_6.pdf",
+      "page_num": 21,
+      "company": "华谊兄弟",
+      "indicator": "营业收入",
+      "query_id": "q_0005"
+    },
+    {
+      "query": "AP202604171821286115的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "◼ 2025年公司毛利率35.35%，同比-1.15pct；25Q4毛利率35.91%，同比",
+      "source": "H3_AP202604171821286115_1.pdf",
+      "page_num": 1,
+      "company": "AP202604171821286115",
+      "indicator": "毛利率",
+      "query_id": "q_0006"
+    },
+    {
+      "query": "绝味食品的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "的净利润为：0元。",
+      "source": "消费_绝味食品_同花顺_1.pdf",
+      "page_num": 9,
+      "company": "绝味食品",
+      "indicator": "净利润",
+      "query_id": "q_0007"
+    },
+    {
+      "query": "美的集团的同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "同比增长10.1%、同比增长11.8%、同比下降11.7%。",
+      "source": "消费_美的集团_同花顺_5.pdf",
+      "page_num": 2,
+      "company": "美的集团",
+      "indicator": "同比增长",
+      "query_id": "q_0008"
+    },
+    {
+      "query": "双汇发展的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "并方实现的净利润为：0.00元。",
+      "source": "消费_双汇发展_同花顺_1.pdf",
+      "page_num": 14,
+      "company": "双汇发展",
+      "indicator": "净利润",
+      "query_id": "q_0009"
+    },
+    {
+      "query": "AP202604141821167613和双汇发展的净利润对比如何？",
+      "query_type": "comparison",
+      "ground_truth_answer": "根据研报数据对比：\n- AP202604141821167613: 归母净利润13.59亿元（-8.46%）。其中，Q4营业收入48.22亿元（+19.\n- 双汇发展: 属于上市公司股东的净利润12.92亿元，同比增长13.59%。",
+      "source": "H3_AP202604141821167613_1.pdf, 消费_双汇发展_同花顺_1.pdf",
+      "page_num": "1, 3",
+      "company": "AP202604141821167613, 双汇发展",
+      "indicator": "净利润",
+      "query_id": "q_0010"
+    },
+    {
+      "query": "华策影视的盈利情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "股东的净利润1.91亿元，比上年同期减少21.36%；经营活动产生的现金流量净额3.",
+      "source": "传媒_华策影视_同花顺_7.pdf",
+      "page_num": 10,
+      "company": "华策影视",
+      "indicator": "净利润",
+      "query_id": "q_0011"
+    },
+    {
+      "query": "景嘉微的毛利率水平怎样？",
+      "query_type": "fact",
+      "ground_truth_answer": "| 营业成本       | 毛利率 | 营业收入比上 | 营业成本比上 | 毛利率比上年 | |                  |                |                |        | 年同期增减   | 年同期增减   | 同期增减     | | 分行业  ",
+      "source": "半导体_景嘉微_同花顺_5.pdf",
+      "page_num": 18,
+      "company": "景嘉微",
+      "indicator": "毛利率",
+      "query_id": "q_0012"
+    },
+    {
+      "query": "AP202604131821146309的毛利率水平怎样？",
+      "query_type": "fact",
+      "ground_truth_answer": "续提升，费用管控成效显著。2025年公司毛利率为28.5%，同比增加1.8pct；4Q25",
+      "source": "H3_AP202604131821146309_1.pdf",
+      "page_num": 1,
+      "company": "AP202604131821146309",
+      "indicator": "毛利率",
+      "query_id": "q_0013"
+    },
+    {
+      "query": "华策影视的ROE水平如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "期利润               | 加权平均净资产收益率 | 每股收益              |                       | |                          |                      | 基本每股收益（元/股） | 稀释每股收益（",
+      "source": "传媒_华策影视_同花顺_7.pdf",
+      "page_num": 203,
+      "company": "华策影视",
+      "indicator": "净资产收益率",
+      "query_id": "q_0014"
+    },
+    {
+      "query": "华闻集团的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": ".5507           | | 加权平均净资产收益率       | -113.36%         | -120.08%         |",
+      "source": "传媒_华闻集团_同花顺_3.pdf",
+      "page_num": 3,
+      "company": "华闻集团",
+      "indicator": "净资产收益率",
+      "query_id": "q_0015"
+    },
+    {
+      "query": "华谊兄弟的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "直接或间接为资产负债率超过70%的被担保对象提供",
+      "source": "传媒_华谊兄弟_同花顺_6.pdf",
+      "page_num": 71,
+      "company": "华谊兄弟",
+      "indicator": "资产负债率",
+      "query_id": "q_0016"
+    },
+    {
+      "query": "中国长城的盈利情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "控制下企业合并的，被合并方在合并前实现的净利润为：0.00元，上期被合并方实现",
+      "source": "半导体_中国长城_同花顺_1.pdf",
+      "page_num": 9,
+      "company": "中国长城",
+      "indicator": "净利润",
+      "query_id": "q_0017"
+    },
+    {
+      "query": "AP202604151821231443的盈利情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "归母净利润0.38亿元，同比增长33.57%；销售净利率29.71%，同比增",
+      "source": "H3_AP202604151821231443_1.pdf",
+      "page_num": 1,
+      "company": "AP202604151821231443",
+      "indicator": "净利润",
+      "query_id": "q_0018"
+    },
+    {
+      "query": "北京君正的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "| 上年同期营业收入 | 变动比例 | 毛利率 | | 存储芯片       | 101,786.98 | 66,255.47        | 53.63%   | 38.89% | | 计算芯片       | 4",
+      "source": "半导体_北京君正_同花顺_1.pdf",
+      "page_num": 3,
+      "company": "北京君正",
+      "indicator": "毛利率",
+      "query_id": "q_0019"
+    },
+    {
+      "query": "AP202511011773238480的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "期-3.99亿元。其中，2025Q3实现营收2.99亿元，同比下降-6.31%；",
+      "source": "H3_AP202511011773238480_1.pdf",
+      "page_num": 1,
+      "company": "AP202511011773238480",
+      "indicator": "营业收入",
+      "query_id": "q_0020"
+    },
+    {
+      "query": "士兰微的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "公司可以在上述预计的日常担保总额度内，对资产负债率为70%以下的不",
+      "source": "半导体_士兰微_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "士兰微",
+      "indicator": "资产负债率",
+      "query_id": "q_0021"
+    },
+    {
+      "query": "古井贡酒的毛利率水平怎样？",
+      "query_type": "fact",
+      "ground_truth_answer": "| 营业成本         | 毛利率 |         | 营业收入 |     |         | 营业成本 |      |        | 毛利率比 |      | |          |              |     |                   |    ",
+      "source": "白酒_古井贡酒_同花顺_4.pdf",
+      "page_num": 10,
+      "company": "古井贡酒",
+      "indicator": "毛利率",
+      "query_id": "q_0022"
+    },
+    {
+      "query": "海天味业的同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "实现营业收入90.29亿元，同比增长8.57%，其中调味品主营业务收入86.47亿元，",
+      "source": "消费_海天味业_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "海天味业",
+      "indicator": "同比增长",
+      "query_id": "q_0023"
+    },
+    {
+      "query": "AP202604171821286410的毛利率水平怎样？",
+      "query_type": "fact",
+      "ground_truth_answer": "-13.1%至 313/58 万元/吨，毛利率分别-                                                           |     |     | | 与渠道重构》，2026.3.23                                 ",
+      "source": "H3_AP202604171821286410_1.pdf",
+      "page_num": 1,
+      "company": "AP202604171821286410",
+      "indicator": "毛利率",
+      "query_id": "q_0024"
+    },
+    {
+      "query": "北方华创的同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "年1-3月公司营业收入103.23亿元，同比增长25.80%，主要原因为：公司集成电路装备领域刻蚀、薄膜沉积、",
+      "source": "半导体_北方华创_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "北方华创",
+      "indicator": "同比增长",
+      "query_id": "q_0025"
+    },
+    {
+      "query": "AP202604171821286410的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": ".6%/87.9%。i茅台2025年实现营收130亿元，同比",
+      "source": "H3_AP202604171821286410_1.pdf",
+      "page_num": 1,
+      "company": "AP202604171821286410",
+      "indicator": "营业收入",
+      "query_id": "q_0026"
+    },
+    {
+      "query": "中颖电子的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "4、当公司净资产收益率超过20%，经董事长提出并由公司董事会薪酬与考",
+      "source": "半导体_中颖电子_同花顺_5.pdf",
+      "page_num": 4,
+      "company": "中颖电子",
+      "indicator": "净资产收益率",
+      "query_id": "q_0027"
+    },
+    {
+      "query": "皖新传媒的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "47,652,751.00  | | 归属于上市公司股东的净利润（元）       | 801,120,216.76   | 704,979,773.78 | 935,824,765.34 | | 本年度末母公司报表未分配利润（元）     | 3,615,249,189.14 |         ",
+      "source": "传媒_皖新传媒_同花顺_2.pdf",
+      "page_num": 20,
+      "company": "皖新传媒",
+      "indicator": "净利润",
+      "query_id": "q_0028"
+    },
+    {
+      "query": "电广传媒的盈利情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "收入5.47亿元，实现净利润3.97亿元。",
+      "source": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 10,
+      "company": "电广传媒",
+      "indicator": "净利润",
+      "query_id": "q_0029"
+    },
+    {
+      "query": "紫光国微的毛利率水平怎样？",
+      "query_type": "fact",
+      "ground_truth_answer": "激励业绩考核100%行权的目标。公司综合毛利率为55.56%，",
+      "source": "半导体_紫光国微_同花顺_4.pdf",
+      "page_num": 1,
+      "company": "紫光国微",
+      "indicator": "毛利率",
+      "query_id": "q_0030"
+    },
+    {
+      "query": "亿纬锂能的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "控制下企业合并的，被合并方在合并前实现的净利润为：0.00元，上期被合并方实现的净利润为：0.00元。",
+      "source": "半导体_亿纬锂能_同花顺_4.pdf",
+      "page_num": 10,
+      "company": "亿纬锂能",
+      "indicator": "净利润",
+      "query_id": "q_0031"
+    },
+    {
+      "query": "AP202604161821265455的同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "。2025年公司销售毛利率为27.2%，同比下降1.0pp，毛                               |     | | 180.00 6,000                                                                  ",
+      "source": "H3_AP202604161821265455_1.pdf",
+      "page_num": 1,
+      "company": "AP202604161821265455",
+      "indicator": "同比增长",
+      "query_id": "q_0032"
+    },
+    {
+      "query": "中国长城的营收情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "九）。2025年度，贵公司合并口径营业收入158.09亿元，主要来源于计算产业业务和系统装",
+      "source": "半导体_中国长城_同花顺_4.pdf",
+      "page_num": 76,
+      "company": "中国长城",
+      "indicator": "营业收入",
+      "query_id": "q_0033"
+    },
+    {
+      "query": "山西汾酒和AP202604161821260255的营业收入对比如何？",
+      "query_type": "comparison",
+      "ground_truth_answer": "根据研报数据对比：\n- 山西汾酒: 2025年度山西汾酒营业收入为38,718,257,657.74元，其中主营业务收入为\n- AP202604161821260255: 其中，第四季度公司实现营业收入9.9亿元，同比+18.4%；归母",
+      "source": "白酒_山西汾酒_同花顺_7.pdf, H3_AP202604161821260255_1.pdf",
+      "page_num": "46, 1",
+      "company": "山西汾酒, AP202604161821260255",
+      "indicator": "营业收入",
+      "query_id": "q_0034"
+    },
+    {
+      "query": "天威视讯的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "6%              | | 加权平均净资产收益率  | -1.10%           | -0.44%",
+      "source": "传媒_天威视讯_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "天威视讯",
+      "indicator": "净资产收益率",
+      "query_id": "q_0035"
+    },
+    {
+      "query": "AP202604171821286410的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "2,564 10,544 12,930 资产负债率 17.98% 19.04% 16.42% 16.27% 15.97% 1",
+      "source": "H3_AP202604171821286410_1.pdf",
+      "page_num": 2,
+      "company": "AP202604171821286410",
+      "indicator": "资产负债率",
+      "query_id": "q_0036"
+    },
+    {
+      "query": "AP202604171821286115的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "调整公司2026-2027年归母净利润预测至1.30/1.38亿元（前值2.04/2.32",
+      "source": "H3_AP202604171821286115_1.pdf",
+      "page_num": 1,
+      "company": "AP202604171821286115",
+      "indicator": "净利润",
+      "query_id": "q_0037"
+    },
+    {
+      "query": "中南文化的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "| 营业成本       | 毛利率 |         | 营业收入比 |     |         | 营业成本比 |      |        | 毛利率比上 |      | |          |            |                  |            ",
+      "source": "传媒_中南文化_同花顺_5.pdf",
+      "page_num": 14,
+      "company": "中南文化",
+      "indicator": "毛利率",
+      "query_id": "q_0038"
+    },
+    {
+      "query": "AP202604171821284235的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "|     |     | | ROE(归属母公司)(摊薄) 11.7% 10.3% 10.0% 11.2% 12.9%",
+      "source": "H3_AP202604171821284235_1.pdf",
+      "page_num": 1,
+      "company": "AP202604171821284235",
+      "indicator": "净资产收益率",
+      "query_id": "q_0039"
+    },
+    {
+      "query": "AP202604171821284235的同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "分别为30.1/32.0/35.8亿元，同比分 公司基本情况（人民币）                         |     |     | | 别+3.2%/+6.1%/+12.1%；归母净利润分别为 3.5/4.1/4.9 亿元， 项目 2024 2025 2026E 2027E 2028",
+      "source": "H3_AP202604171821284235_1.pdf",
+      "page_num": 1,
+      "company": "AP202604171821284235",
+      "indicator": "同比增长",
+      "query_id": "q_0040"
+    },
+    {
+      "query": "AP202603141820563085的同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "司2025Q4预计实现营收3.52亿元，同比增长32.47%；",
+      "source": "H3_AP202603141820563085_1.pdf",
+      "page_num": 1,
+      "company": "AP202603141820563085",
+      "indicator": "同比增长",
+      "query_id": "q_0041"
+    },
+    {
+      "query": "AP202604171821286410的营收情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "-35%；25Q4仅实现营收3.4亿元，同比-93.5%，这意味着i茅台",
+      "source": "H3_AP202604171821286410_1.pdf",
+      "page_num": 1,
+      "company": "AP202604171821286410",
+      "indicator": "营业收入",
+      "query_id": "q_0042"
+    },
+    {
+      "query": "伊利股份的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "直接或间接为资产负债率超过70%的被担保对象提供的债务担保金额（D）",
+      "source": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 61,
+      "company": "伊利股份",
+      "indicator": "资产负债率",
+      "query_id": "q_0043"
+    },
+    {
+      "query": "洋河股份的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "实现的净利润为：0元，上期被合并方实现的净利润为：0元。",
+      "source": "消费_洋河股份_同花顺_2.pdf",
+      "page_num": 9,
+      "company": "洋河股份",
+      "indicator": "净利润",
+      "query_id": "q_0044"
+    },
+    {
+      "query": "AP202604151821231443的毛利率水平怎样？",
+      "query_type": "fact",
+      "ground_truth_answer": "营收1.28亿元，yoy+17.57%；毛利率54.90%，同比上升0.47pcts；",
+      "source": "H3_AP202604151821231443_1.pdf",
+      "page_num": 1,
+      "company": "AP202604151821231443",
+      "indicator": "毛利率",
+      "query_id": "q_0045"
+    },
+    {
+      "query": "AP202604161821265859和皖新传媒的同比增长对比如何？",
+      "query_type": "comparison",
+      "ground_truth_answer": "根据研报数据对比：\n- AP202604161821265859: 增长8.02%；归母净利润5.94亿元，同比增长29.00%。\n- 皖新传媒: 为1104亿元，同比下降2.24%；内容电商码洋占比攀升至40.53%，同比增长30.43%，首次超越",
+      "source": "H3_AP202604161821265859_1.pdf, 传媒_皖新传媒_同花顺_5.pdf",
+      "page_num": "1, 3",
+      "company": "AP202604161821265859, 皖新传媒",
+      "indicator": "同比增长",
+      "query_id": "q_0046"
+    },
+    {
+      "query": "歌华有线和欧派家居的营业收入对比如何？",
+      "query_type": "comparison",
+      "ground_truth_answer": "根据研报数据对比：\n- 歌华有线: 2025年，公司实现营业收入221,975.46万元，较上年同期减少9,438.40万元，同比下降4.08%。\n- 欧派家居: 保持前列，2025年实现营业收入172.32亿元，净利润约20亿元。",
+      "source": "传媒_歌华有线_同花顺_4.pdf, 消费_欧派家居_同花顺_5.pdf",
+      "page_num": "17, 8",
+      "company": "歌华有线, 欧派家居",
+      "indicator": "营业收入",
+      "query_id": "q_0047"
+    },
+    {
+      "query": "双汇发展的同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "属于上市公司股东的净利润12.92亿元，同比增长13.59%。",
+      "source": "消费_双汇发展_同花顺_1.pdf",
+      "page_num": 3,
+      "company": "双汇发展",
+      "indicator": "同比增长",
+      "query_id": "q_0048"
+    },
+    {
+      "query": "格力电器的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "| 营业成本           | 毛利率 | 营业收入比 | 营业成本比 | 毛利率比上 | |                    |                    |                    |        | 上年同期增 | 上年同期增 | 年同期增减 | |  ",
+      "source": "消费_格力电器_同花顺_6.pdf",
+      "page_num": 24,
+      "company": "格力电器",
+      "indicator": "毛利率",
+      "query_id": "q_0049"
+    },
+    {
+      "query": "欧派家居的毛利率水平怎样？",
+      "query_type": "fact",
+      "ground_truth_answer": "期毛利率36.24%，同比增加0.33个百分点；本期净利率为11.59%，同比减",
+      "source": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 16,
+      "company": "欧派家居",
+      "indicator": "毛利率",
+      "query_id": "q_0050"
+    },
+    {
+      "query": "AP202604151821231443的研发费用情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "长3.56pcts；研发投入0.29亿元，同比增长4.87%。",
+      "source": "H3_AP202604151821231443_1.pdf",
+      "page_num": 1,
+      "company": "AP202604151821231443",
+      "indicator": "研发投入",
+      "query_id": "q_0051"
+    },
+    {
+      "query": "中颖电子的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "(三)为资产负债率超过70%的担保对象提供的担保；",
+      "source": "半导体_中颖电子_同花顺_8.pdf",
+      "page_num": 6,
+      "company": "中颖电子",
+      "indicator": "资产负债率",
+      "query_id": "q_0052"
+    },
+    {
+      "query": "AP202604161821260255的同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "| 公司功率半导体芯片收入11.9亿元，同比+34.5%；功率半导体器                                                 |     | | 38.00 3,500                                             ",
+      "source": "H3_AP202604161821260255_1.pdf",
+      "page_num": 1,
+      "company": "AP202604161821260255",
+      "indicator": "同比增长",
+      "query_id": "q_0053"
+    },
+    {
+      "query": "AP202603141820563085的同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "报，预计公司实现营业收入11.59亿元，同比增长11.40%；",
+      "source": "H3_AP202603141820563085_1.pdf",
+      "page_num": 1,
+      "company": "AP202603141820563085",
+      "indicator": "同比增长",
+      "query_id": "q_0054"
+    },
+    {
+      "query": "北方华创的同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "属于上市公司股东的净利润16.35亿元，同比增长3.42%，主要原因为：公司继续积极布局多款高",
+      "source": "半导体_北方华创_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "北方华创",
+      "indicator": "同比增长",
+      "query_id": "q_0055"
+    },
+    {
+      "query": "华策影视的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "| 营业成本         | 毛利率 | 营业收入比上 | 营业成本比上 | 毛利率比上 | |              |                  |                  |        | 年同期增减   | 年同期增减   | 年同期增减 | | 分行业    ",
+      "source": "传媒_华策影视_同花顺_7.pdf",
+      "page_num": 22,
+      "company": "华策影视",
+      "indicator": "毛利率",
+      "query_id": "q_0056"
+    },
+    {
+      "query": "紫光国微的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "| | 加权平均净资产收益率               | 2.40%             | 0.96%",
+      "source": "半导体_紫光国微_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "紫光国微",
+      "indicator": "净资产收益率",
+      "query_id": "q_0057"
+    },
+    {
+      "query": "AP202604161821265455的营收情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "量应用和放量。2025Q4公司单季度实现营收13.1亿元，同比",
+      "source": "H3_AP202604161821265455_1.pdf",
+      "page_num": 1,
+      "company": "AP202604161821265455",
+      "indicator": "营业收入",
+      "query_id": "q_0058"
+    },
+    {
+      "query": "华谊兄弟的净资产收益率(ROE)是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "| | 加权平均净资产收益率     | -225.38%         | 5.32%            |",
+      "source": "传媒_华谊兄弟_同花顺_2.pdf",
+      "page_num": 2,
+      "company": "华谊兄弟",
+      "indicator": "净资产收益率",
+      "query_id": "q_0059"
+    },
+    {
+      "query": "AP202604151821234936的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "公司毛利率有所下滑，去年全年毛利率为57.83%，较上年同期降低5.89个",
+      "source": "H3_AP202604151821234936_1.pdf",
+      "page_num": 1,
+      "company": "AP202604151821234936",
+      "indicator": "毛利率",
+      "query_id": "q_0060"
+    },
+    {
+      "query": "AP202604171821287518的ROE水平如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "----| |     | 净资产收益率ROE% |     |     | 37.0% |     |     | 33.6% |     |",
+      "source": "H3_AP202604171821287518_1.pdf",
+      "page_num": 2,
+      "company": "AP202604171821287518",
+      "indicator": "净资产收益率",
+      "query_id": "q_0061"
+    },
+    {
+      "query": "电广传媒的同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "一季度，公司实现营业收入10.76亿元，同比增长16.73%，受二级市场股票价格短期波动",
+      "source": "传媒_电广传媒_同花顺_1.pdf",
+      "page_num": 4,
+      "company": "电广传媒",
+      "indicator": "同比增长",
+      "query_id": "q_0062"
+    },
+    {
+      "query": "AP202603141820563085的盈利情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "归母净利润3899.17万元，同比减少56.34%；扣非归母净利润3674.26万元，同",
+      "source": "H3_AP202603141820563085_1.pdf",
+      "page_num": 1,
+      "company": "AP202603141820563085",
+      "indicator": "净利润",
+      "query_id": "q_0063"
+    },
+    {
+      "query": "AP202604141821167613的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "资产减值损失拖累盈利能力。2025年公司毛利率21.60%（-1.70pct），由",
+      "source": "H3_AP202604141821167613_1.pdf",
+      "page_num": 1,
+      "company": "AP202604141821167613",
+      "indicator": "毛利率",
+      "query_id": "q_0064"
+    },
+    {
+      "query": "立讯精密的营收情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "第四个行权期业绩考核指标为：2024 年营业收入  | | 不低于1,918 亿元。",
+      "source": "消费_立讯精密_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "立讯精密",
+      "indicator": "营业收入",
+      "query_id": "q_0065"
+    },
+    {
+      "query": "AP202604151821231443的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "026-2027年盈利预测，预计实现归母净利润2.8/4.3亿元（前值：2.9/4.7",
+      "source": "H3_AP202604151821231443_1.pdf",
+      "page_num": 1,
+      "company": "AP202604151821231443",
+      "indicator": "净利润",
+      "query_id": "q_0066"
+    },
+    {
+      "query": "中国长城的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "的净利润为：0元。",
+      "source": "半导体_中国长城_同花顺_1.pdf",
+      "page_num": 9,
+      "company": "中国长城",
+      "indicator": "净利润",
+      "query_id": "q_0067"
+    },
+    {
+      "query": "山西汾酒的盈利情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "有限公司（母公司）2025年度实现净利润11,161,306,656.49元，加年初未",
+      "source": "白酒_山西汾酒_同花顺_6.pdf",
+      "page_num": 1,
+      "company": "山西汾酒",
+      "indicator": "净利润",
+      "query_id": "q_0068"
+    },
+    {
+      "query": "老白干酒的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "15%；毛 |        | 0%；毛利率   |                | | 产组）         |            |            |          |        | 利率52.78%-     |        | 55.29%；折现 |",
+      "source": "白酒_老白干酒_同花顺_6.pdf",
+      "page_num": 137,
+      "company": "老白干酒",
+      "indicator": "毛利率",
+      "query_id": "q_0069"
+    },
+    {
+      "query": "AP202511011773238480的营业收入是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "公司2025年前三季度实现营收9.72亿元，同比增长1.29%；归母净利润",
+      "source": "H3_AP202511011773238480_1.pdf",
+      "page_num": 1,
+      "company": "AP202511011773238480",
+      "indicator": "营业收入",
+      "query_id": "q_0070"
+    },
+    {
+      "query": "五粮液的ROE水平如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "| | 加权平均净资产收益率       | 3.26%              | 10.28%",
+      "source": "白酒_五粮液_同花顺_3.pdf",
+      "page_num": 1,
+      "company": "五粮液",
+      "indicator": "净资产收益率",
+      "query_id": "q_0071"
+    },
+    {
+      "query": "洋河股份的毛利率水平怎样？",
+      "query_type": "fact",
+      "ground_truth_answer": "比增减 |      |      | 毛利率 |      |      | 同比增减 |      | |     | 按销售模式 |     |     |                   |     |     |          |     |     |              ",
+      "source": "消费_洋河股份_同花顺_6.pdf",
+      "page_num": 11,
+      "company": "洋河股份",
+      "indicator": "毛利率",
+      "query_id": "q_0072"
+    },
+    {
+      "query": "华闻集团的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "直接或间接为资产负债率超过70%的被担保对象提",
+      "source": "传媒_华闻集团_同花顺_6.pdf",
+      "page_num": 69,
+      "company": "华闻集团",
+      "indicator": "资产负债率",
+      "query_id": "q_0073"
+    },
+    {
+      "query": "中颖电子的同比增长率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "期内，公司实现营业收入32,670万元，同比增长2.42%；归属于上市公司股东的净利润2,048",
+      "source": "半导体_中颖电子_同花顺_2.pdf",
+      "page_num": 5,
+      "company": "中颖电子",
+      "indicator": "同比增长",
+      "query_id": "q_0074"
+    },
+    {
+      "query": "景嘉微的营收情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "报告期内，公司营业收入为72,006.46万元，同比增长54.41%。公司按客户的交付计划履约执行，推进的",
+      "source": "半导体_景嘉微_同花顺_3.pdf",
+      "page_num": 6,
+      "company": "景嘉微",
+      "indicator": "营业收入",
+      "query_id": "q_0075"
+    },
+    {
+      "query": "今世缘的营收情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "-------| | 2025年度今世缘营业收入为      | 在针对收入确认的审计过程中，我们实施了包括但不限定于以下程序：       | | 1,018,069.83万元，其中主营业  | 1.了解和评价管理层与收入确认相关的关键",
+      "source": "消费_今世缘_同花顺_4.pdf",
+      "page_num": 54,
+      "company": "今世缘",
+      "indicator": "营业收入",
+      "query_id": "q_0076"
+    },
+    {
+      "query": "紫光国微的总资产是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "|      | 的总资产   |     |      | 的净资产   |      |      | 的净利润   |      | |                                            |            |                     ",
+      "source": "半导体_紫光国微_同花顺_7.pdf",
+      "page_num": 48,
+      "company": "紫光国微",
+      "indicator": "总资产",
+      "query_id": "q_0077"
+    },
+    {
+      "query": "AP202604151821231443的营收情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "实现营收1.28亿元，yoy+17.57%；毛利率54.90%，同比上升0.47",
+      "source": "H3_AP202604151821231443_1.pdf",
+      "page_num": 1,
+      "company": "AP202604151821231443",
+      "indicator": "营业收入",
+      "query_id": "q_0078"
+    },
+    {
+      "query": "北方华创的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "③2025年公司毛利率由42.93%下降到40.10%，主要原因为公司新产品在客户端验证过程中，",
+      "source": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 11,
+      "company": "北方华创",
+      "indicator": "毛利率",
+      "query_id": "q_0079"
+    },
+    {
+      "query": "伊利股份的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "|      | | 直接或间接为资产负债率超过70%的被担保对象提供的债务担保金额（D） |",
+      "source": "消费_伊利股份_同花顺_4.pdf",
+      "page_num": 61,
+      "company": "伊利股份",
+      "indicator": "资产负债率",
+      "query_id": "q_0080"
+    },
+    {
+      "query": "AP202602271820091864的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "计全年净利润15亿-19亿元，其中四季度减值6.5亿元，或为此前部分项",
+      "source": "H3_AP202602271820091864_1.pdf",
+      "page_num": 1,
+      "company": "AP202602271820091864",
+      "indicator": "净利润",
+      "query_id": "q_0081"
+    },
+    {
+      "query": "华谊兄弟的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "| 营业成本       | 毛利率  | 营业收入比上 | 营业成本比上 | 毛利率比上 | |                    |                |                |         | 年同期增减   | 年同期增减   | 年同期增减 | | 分产品  ",
+      "source": "传媒_华谊兄弟_同花顺_6.pdf",
+      "page_num": 22,
+      "company": "华谊兄弟",
+      "indicator": "毛利率",
+      "query_id": "q_0082"
+    },
+    {
+      "query": "AP202604171821286115和AP202604161821261967的净利润对比如何？",
+      "query_type": "comparison",
+      "ground_truth_answer": "根据研报数据对比：\n- AP202604171821286115: 67%/-7.81%，25Q4收入/归母净利润2.66/0.29亿元，\n- AP202604161821261967: 净利润为-1.27亿元，同比-217.72%；扣非净利润为-1.74亿元，主要系本",
+      "source": "H3_AP202604171821286115_1.pdf, H3_AP202604161821261967_1.pdf",
+      "page_num": "1, 1",
+      "company": "AP202604171821286115, AP202604161821261967",
+      "indicator": "净利润",
+      "query_id": "q_0083"
+    },
+    {
+      "query": "五粮液和天威视讯的净资产收益率对比如何？",
+      "query_type": "comparison",
+      "ground_truth_answer": "根据研报数据对比：\n- 五粮液: | | 加权平均净资产收益率       | 3.26%              | 10.28%\n- 天威视讯: 6%              | | 加权平均净资产收益率  | -1.10%           | -0.44%",
+      "source": "白酒_五粮液_同花顺_3.pdf, 传媒_天威视讯_同花顺_1.pdf",
+      "page_num": "1, 2",
+      "company": "五粮液, 天威视讯",
+      "indicator": "净资产收益率",
+      "query_id": "q_0084"
+    },
+    {
+      "query": "电广传媒的营收情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "营态势向好。2025年公司实现营业收入43.37亿元，同比增长11.15%，实现归属于上市公司的净利润",
+      "source": "传媒_电广传媒_同花顺_2.pdf",
+      "page_num": 8,
+      "company": "电广传媒",
+      "indicator": "营业收入",
+      "query_id": "q_0085"
+    },
+    {
+      "query": "北方华创的经营活动现金流情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "2026年1-3月公司经营活动产生的现金流量净额7.48亿元,同比增长143.27%，主要原因为：公司营业收入增加，销",
+      "source": "半导体_北方华创_同花顺_1.pdf",
+      "page_num": 2,
+      "company": "北方华创",
+      "indicator": "经营活动现金流",
+      "query_id": "q_0086"
+    },
+    {
+      "query": "传媒行业的竞争格局分析",
+      "query_type": "summary",
+      "ground_truth_answer": "东方明珠: 同比增长8.6%。其中实物商品网上零售额13万亿元，同比增长5.2%，占全国\n中南文化: |     | |     | 加权平均净资产收益率             |     | 1.16%            | 2.18%\n华录百纳: |      | |     | 加权平均净资产收益率     |     | 0.66%            |            |",
+      "source": "传媒_东方明珠_同花顺_6.pdf, 传媒_东方明珠_同花顺_4.pdf, 传媒_东方明珠_同花顺_3.pdf, 传媒_中南文化_同花顺_5.pdf, 传媒_华录百纳_同花顺_8.pdf",
+      "page_num": "",
+      "company": "传媒",
+      "indicator": "行业分析",
+      "query_id": "q_0087"
+    },
+    {
+      "query": "华策影视的ROE水平如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "| | 加权平均净资产收益率     | 1.11%             | 1.28%",
+      "source": "传媒_华策影视_同花顺_4.pdf",
+      "page_num": 2,
+      "company": "华策影视",
+      "indicator": "净资产收益率",
+      "query_id": "q_0088"
+    },
+    {
+      "query": "北方华创的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "③2025年公司毛利率由42.93%下降到40.10%，主要原因为公司新产品在客户端验证过程中，",
+      "source": "半导体_北方华创_同花顺_5.pdf",
+      "page_num": 11,
+      "company": "北方华创",
+      "indicator": "毛利率",
+      "query_id": "q_0089"
+    },
+    {
+      "query": "欧派家居的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "直接或间接为资产负债率超过70%的被担",
+      "source": "消费_欧派家居_同花顺_7.pdf",
+      "page_num": 79,
+      "company": "欧派家居",
+      "indicator": "资产负债率",
+      "query_id": "q_0090"
+    },
+    {
+      "query": "AP202604161821261967的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "净利润为-1.27亿元，同比-217.72%；扣非净利润为-1.74亿元，主要系本",
+      "source": "H3_AP202604161821261967_1.pdf",
+      "page_num": 1,
+      "company": "AP202604161821261967",
+      "indicator": "净利润",
+      "query_id": "q_0091"
+    },
+    {
+      "query": "中国长城和华谊兄弟的营业收入对比如何？",
+      "query_type": "comparison",
+      "ground_truth_answer": "根据研报数据对比：\n- 中国长城: 产       | 净资产     | 营业收入   | 营业利润   | 净利润     | | 长沙湘计海盾科 | 子公司   | 主要业务为高新产品生产   | 11,541.0988万元人 | 166,803.52   | 36,896.27\n- 华谊兄弟: 报告期内，品牌授权及实景娱乐板块营业收入16.98万元，较上年同期相比下降91.00%。主要是",
+      "source": "半导体_中国长城_同花顺_4.pdf, 传媒_华谊兄弟_同花顺_3.pdf",
+      "page_num": "27, 7",
+      "company": "中国长城, 华谊兄弟",
+      "indicator": "营业收入",
+      "query_id": "q_0092"
+    },
+    {
+      "query": "景嘉微的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "| 营业成本       | 毛利率 | 营业收入比上 | 营业成本比上 | 毛利率比上年 | |                  |                |                |        | 年同期增减   | 年同期增减   | 同期增减     | | 分行业  ",
+      "source": "半导体_景嘉微_同花顺_5.pdf",
+      "page_num": 18,
+      "company": "景嘉微",
+      "indicator": "毛利率",
+      "query_id": "q_0093"
+    },
+    {
+      "query": "AP202604141821167613的净利润是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "归母净利润13.59亿元（-8.46%）。其中，Q4营业收入48.22亿元（+19.",
+      "source": "H3_AP202604141821167613_1.pdf",
+      "page_num": 1,
+      "company": "AP202604141821167613",
+      "indicator": "净利润",
+      "query_id": "q_0094"
+    },
+    {
+      "query": "AP202604161821266092的盈利情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "预计2025-2027年银河微电归母净利润分别为0.80、1.01、1.29亿元，同比分",
+      "source": "H3_AP202604161821266092_1.pdf",
+      "page_num": 2,
+      "company": "AP202604161821266092",
+      "indicator": "净利润",
+      "query_id": "q_0095"
+    },
+    {
+      "query": "AP202604161821265859的研发费用情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "入大幅成长，占比增加至12%。2025年研发投入6.91亿元，同比",
+      "source": "H3_AP202604161821265859_1.pdf",
+      "page_num": 1,
+      "company": "AP202604161821265859",
+      "indicator": "研发投入",
+      "query_id": "q_0096"
+    },
+    {
+      "query": "洋河股份的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "比增减 |      |      | 毛利率 |      |      | 同比增减 |      | |     | 按销售模式 |     |     |                   |     |     |          |     |     |              ",
+      "source": "消费_洋河股份_同花顺_6.pdf",
+      "page_num": 11,
+      "company": "洋河股份",
+      "indicator": "毛利率",
+      "query_id": "q_0097"
+    },
+    {
+      "query": "AP202604161821260255的资产负债率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "32 -353 162 154 440 资产负债率 43.07% 25.96% 26.96% 27.72% 27.73% 2",
+      "source": "H3_AP202604161821260255_1.pdf",
+      "page_num": 2,
+      "company": "AP202604161821260255",
+      "indicator": "资产负债率",
+      "query_id": "q_0098"
+    },
+    {
+      "query": "中国长城的毛利率是多少？",
+      "query_type": "fact",
+      "ground_truth_answer": "| 营业成本          | 毛利率 | 营业收入比上 | 营业成本比上 | 毛利率比上 | |                |                   |                   |        | 年同期增减   | 年同期增减   | 年同期增减 | | 分行",
+      "source": "半导体_中国长城_同花顺_4.pdf",
+      "page_num": 16,
+      "company": "中国长城",
+      "indicator": "毛利率",
+      "query_id": "q_0099"
+    },
+    {
+      "query": "欧派家居的盈利情况如何？",
+      "query_type": "fact",
+      "ground_truth_answer": "2025年实现营业收入172.32亿元，净利润约20亿元。",
+      "source": "消费_欧派家居_同花顺_5.pdf",
+      "page_num": 8,
+      "company": "欧派家居",
+      "indicator": "净利润",
+      "query_id": "q_0100"
+    }
+  ]
+}

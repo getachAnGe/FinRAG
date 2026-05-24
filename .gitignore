@@ -1,0 +1,66 @@
+# ─── Python ───
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ─── 环境 ───
+.env
+.venv
+venv/
+env/
+
+# ─── IDE ───
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─── 大文件：模型权重 ───
+models/
+!models/.gitkeep
+
+# ─── 大文件：FAISS 索引 ───
+data/vector_store/
+
+# ─── 大文件：切块结果 ───
+data/chunks/*.json
+
+# ─── 大文件：解析结果 ───
+data/parsed/
+data/processed/
+
+# ─── 原始 PDF ───
+data/raw_pdf/
+
+# ─── 评测数据（图片等） ───
+data/eval/__pycache__/
+
+# ─── 日志 ───
+logs/
+*.log
+
+# ─── 缓存 ───
+.cache/
+huggingface/
+~/.cache/
+
+
+echo "# 忽略大文件、模型、缓存、向量库
+__pycache__/
+*.pyc
+models/
+chroma/
+faiss/
+data/temp/
+*.pdf
+*.zip
+*.bin
+*.pth
+*.h5
+*.log
+logs/" > .gitignore
